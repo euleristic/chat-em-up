@@ -1,0 +1,691 @@
+fileFormatVersion: 2
+guid: 914141dbea5b3a945be348d08b32fc9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4310375766578065206
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_0
+  - first:
+      213: -5493141417877364802
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_1
+  - first:
+      213: 4881047316062402705
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_2
+  - first:
+      213: 572259814505312966
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_3
+  - first:
+      213: -1620868271579803390
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_4
+  - first:
+      213: 9034151052757496291
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_5
+  - first:
+      213: -5302112344790594233
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_6
+  - first:
+      213: -423158583353809396
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_7
+  - first:
+      213: 6998387283774336736
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_8
+  - first:
+      213: -370246953443350315
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_9
+  - first:
+      213: -1737632751102672495
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_10
+  - first:
+      213: -1794340023820385728
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_11
+  - first:
+      213: 7867198964210905380
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_12
+  - first:
+      213: -9143852373917366387
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_13
+  - first:
+      213: 5767485311442570685
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_14
+  - first:
+      213: 1099116768872091092
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_15
+  - first:
+      213: -6575280748183327250
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_16
+  - first:
+      213: -3705060542353096868
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_17
+  - first:
+      213: -8018748092500417549
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_18
+  - first:
+      213: -3084719992253014392
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_19
+  - first:
+      213: 8965289290609250380
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_20
+  - first:
+      213: 2051662188261685697
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_21
+  - first:
+      213: -8848786898429315553
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_22
+  - first:
+      213: -8816849495780832589
+    second: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 110
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 11
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf82043aa4d8aa4f98f67ef94947109
+      internalID: 4310375766578065206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 11
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7136da04a0a784b42ba70570b52a2c87
+      internalID: -5493141417877364802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee076123921f6a4fad369d5862e1b33
+      internalID: 4881047316062402705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_3
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51a0411dd842144d88ccde883bae1b5
+      internalID: 572259814505312966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_4
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dd2b85898e4544bbdd4040d5182e09
+      internalID: -1620868271579803390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_5
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834bece4f574c2145968cb02a62be0c8
+      internalID: 9034151052757496291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_6
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afa15e4bf4af36499223bd1d7f3b0cd
+      internalID: -5302112344790594233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_7
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88dd30224c6ccf4599a6170f6ef6201
+      internalID: -423158583353809396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_8
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c8ca066cdbc2b4194d4c8a2384e1c2
+      internalID: 6998387283774336736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_9
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053b4ea3c12bcca4f93326112d2a59a3
+      internalID: -370246953443350315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_10
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 11
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b6b195b5c0c8a4a86d6826f22de357
+      internalID: -1737632751102672495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_11
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 11
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec30a6238ae07c04085d8c761259cf83
+      internalID: -1794340023820385728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_12
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 11
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df152395a0c9644f85b6f585b499f6c
+      internalID: 7867198964210905380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_13
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b432fb96f4c5464f8725d3b32b7527b
+      internalID: -9143852373917366387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_14
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d58395773e7314dab3ca2d0df3acc4
+      internalID: 5767485311442570685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_15
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab9249c20e6bea4386f5cb239a3b480
+      internalID: 1099116768872091092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_16
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b099103eb104484995bc4f58c507d0f
+      internalID: -6575280748183327250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_17
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b79b6194e309a4dae449845ae33db2
+      internalID: -3705060542353096868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_18
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c377436f184ea01419fc6ff7374a3e7d
+      internalID: -8018748092500417549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_19
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1b072c56d115942af8042bcdcd7149
+      internalID: -3084719992253014392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_20
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 13
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0202db5c25c244086e15cc5d464cc9
+      internalID: 8965289290609250380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_21
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 11
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698a6ceff5e478a4fac9bd3625cd1631
+      internalID: 2051662188261685697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_22
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 11
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678efcbefe4e4934f9ecb0316fbb7a94
+      internalID: -8848786898429315553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss1ShadedWithoutSideTentaclesAnimation_IA 1_23
+      rect:
+        serializedVersion: 2
+        x: 2533
+        y: 11
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ed2a7b2072e2440b8bc22b7a1fc9bb
+      internalID: -8816849495780832589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1ebeb250ce68651499eec75c4a74b5a1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
