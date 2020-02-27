@@ -26,5 +26,12 @@ public class Parallax : MonoBehaviour
         transform.position = new Vector3(transform.position.x, startpos+dist, transform.position.z);
 
         
+        /*if (transform.position.y > -1.9921f * 1.5f)
+        {
+            transform.localPosition += new Vector3(0f, 3.9031f, 0f);
+            Debug.Log(this);
+            Debug.Log("Jumped");
+        }*/
+
     }
 }

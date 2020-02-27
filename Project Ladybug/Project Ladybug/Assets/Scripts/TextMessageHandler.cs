@@ -10,6 +10,7 @@ public class TextMessageHandler : MonoBehaviour
     [SerializeField] private UnityEvent _messageOut;
     [SerializeField] private GameObject Yes;
     [SerializeField] private GameObject No;
+    [SerializeField] private int YesHP, NoHP;
 
     float counter;
     private bool waitingToHide;
