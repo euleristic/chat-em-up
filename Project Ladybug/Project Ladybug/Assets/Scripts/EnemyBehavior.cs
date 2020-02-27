@@ -7,7 +7,7 @@ public class EnemyBehavior : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] GameObject Bullet;
     [SerializeField] private int hp;
-    public Vector3 deadPos;
+    private Vector3 deadPos;
     public int enemyType;
     public Vector2 spawnRange;
     private Vector3 startPos;

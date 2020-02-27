@@ -376,7 +376,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &51008108
@@ -1287,7 +1286,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &100290126
@@ -1417,7 +1415,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &101562153
@@ -1622,7 +1619,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &125347325
@@ -1752,7 +1748,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &132348357
@@ -1972,7 +1967,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &156117509
@@ -2143,7 +2137,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &197810130
@@ -2273,7 +2266,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &198312665
@@ -2403,7 +2395,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &209045841
@@ -2533,7 +2524,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &220952960
@@ -3044,7 +3034,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &264701124
@@ -3290,7 +3279,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &271729073
@@ -3557,7 +3545,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &315133434
@@ -3908,7 +3895,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &384868430
@@ -4210,7 +4196,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &408413164
@@ -4489,7 +4474,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &416777101
@@ -4618,8 +4602,6 @@ MonoBehaviour:
         m_CallState: 2
   Yes: {fileID: 1376621188}
   No: {fileID: 1831452399}
-  YesHP: 0
-  NoHP: 0
   _senderTextBox: {fileID: 243818731}
   _messageTextBox: {fileID: 1578475129}
   visible: 0
@@ -4761,7 +4743,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &440570017
@@ -5146,7 +5127,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &463506925
@@ -5276,7 +5256,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &475785687
@@ -5627,7 +5606,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &529491104
@@ -5937,7 +5915,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &535573962
@@ -6108,7 +6085,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &555980046
@@ -6193,12 +6169,10 @@ MonoBehaviour:
   Boss: {fileID: 414909756}
   handler: {fileID: 419376396}
   enemyCountWave0: 20
-  needToKill0: 15
   spawnRange0: {x: 16, y: 50}
   enemyCountWave2: 20
-  needToKill2: 15
   spawnRange2: {x: 16, y: 50}
-  currentWave: 1
+  currentWave: 0
   dishSprite: {fileID: 21300000, guid: a4ec158e8a49885499604a7fb3c2add0, type: 3}
   forkSprite: {fileID: 21300000, guid: 02b4f56c702f8cc479585bab225954e3, type: 3}
   stdEnemyBullet: {fileID: 21300000, guid: a1e620c7cbcc3f341a2cf7f6b785f134, type: 3}
@@ -6480,7 +6454,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &571969713
@@ -6749,7 +6722,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &587575022
@@ -6920,7 +6892,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &598161968
@@ -7050,7 +7021,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &604698918
@@ -7658,7 +7628,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &636735926
@@ -7927,7 +7896,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &654686541
@@ -8057,7 +8025,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &657620642
@@ -8319,7 +8286,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -8866,7 +8833,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &717301780
@@ -8996,7 +8962,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &726215294
@@ -9208,7 +9173,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &735458419
@@ -9338,7 +9302,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &744391760
@@ -9509,7 +9472,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &747528743
@@ -9771,7 +9733,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &788822929
@@ -10528,7 +10489,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &927167221
@@ -10658,7 +10618,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &938128616
@@ -11081,7 +11040,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &960282917
@@ -11211,7 +11169,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &990043508
@@ -11431,7 +11388,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &993514639
@@ -11651,7 +11607,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1019307564
@@ -11767,7 +11722,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1021668095
@@ -11992,7 +11946,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -12212,7 +12166,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1030126326
@@ -12850,7 +12803,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1078579390
@@ -12980,7 +12932,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1078954669
@@ -13110,7 +13061,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1085151362
@@ -13405,7 +13355,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1128835406
@@ -13535,7 +13484,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1133166995
@@ -13665,7 +13613,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1143547639
@@ -13891,7 +13838,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1150539771
@@ -14021,7 +13967,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1169098988
@@ -14192,7 +14137,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1194999808
@@ -14349,7 +14293,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1204821517
@@ -14493,7 +14436,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1222561009
@@ -14614,7 +14556,7 @@ MonoBehaviour:
   gravity: 0
   rotationAmount: 50
   rotationSpeed: 10
-  hp: 500
+  hp: 5
 --- !u!212 &1223961434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14992,7 +14934,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1248039316
@@ -15122,7 +15063,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1248392139
@@ -15342,7 +15282,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1261250232
@@ -15472,7 +15411,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1282619079
@@ -15692,7 +15630,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1285208285
@@ -16010,7 +15947,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1321819202
@@ -16140,7 +16076,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1333269654
@@ -16276,7 +16211,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1339795830
@@ -17245,7 +17179,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1464328923
@@ -17658,7 +17591,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1487717888
@@ -17788,7 +17720,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1489120528
@@ -17918,7 +17849,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1493172781
@@ -18242,7 +18172,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1517456798
@@ -18372,7 +18301,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1522534596
@@ -18502,7 +18430,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1531352954
@@ -18632,7 +18559,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1557315551
@@ -19280,7 +19206,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1606696826
@@ -20451,7 +20376,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1694232929
@@ -20581,7 +20505,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1707777382
@@ -20711,7 +20634,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1713663955
@@ -20841,7 +20763,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1739654133
@@ -21067,7 +20988,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1750498835
@@ -21279,7 +21199,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1783547681
@@ -21450,7 +21369,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1795094349
@@ -21760,7 +21678,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1803868923
@@ -21890,7 +21807,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1804990794
@@ -22020,7 +21936,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1805162380
@@ -22150,7 +22065,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1816972941
@@ -22884,7 +22798,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1860666260
@@ -23055,7 +22968,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1864579289
@@ -23281,7 +23193,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1893619260
@@ -23411,7 +23322,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1896476210
@@ -23541,7 +23451,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1897792554
@@ -23851,7 +23760,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1910041340
@@ -23981,7 +23889,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1913976128
@@ -24111,7 +24018,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1935107586
@@ -24367,7 +24273,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1944223476
@@ -24497,7 +24402,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1950669816
@@ -24813,7 +24717,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1961264214
@@ -25025,7 +24928,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &1983520311
@@ -25335,7 +25237,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &2012758968
@@ -25465,7 +25366,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &2033605308
@@ -25595,7 +25495,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &2041052551
@@ -25725,7 +25624,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &2043933821
@@ -25986,7 +25884,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &2056646992
@@ -26157,7 +26054,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &2064946473
@@ -26287,7 +26183,6 @@ MonoBehaviour:
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
 --- !u!212 &2079450217
@@ -26584,7 +26479,6 @@ MonoBehaviour:
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
-  deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
   spawnRange: {x: 0, y: 0}
 --- !u!212 &2141737654
