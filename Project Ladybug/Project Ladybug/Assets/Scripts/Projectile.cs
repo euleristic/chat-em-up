@@ -24,8 +24,7 @@ public class Projectile : MonoBehaviour
     {
         if (other.transform.CompareTag("Yes") || other.transform.CompareTag("No"))
         {
-            GameObject.FindObjectOfType<WaveSystem>().AnswerHit(other.transform.tag);
-            
+            GameObject.FindObjectOfType<TextMessageHandler>().takeDamage(other.tag);
             transform.position = deadPos;
             tag = "WaitingToSpawn";
         }

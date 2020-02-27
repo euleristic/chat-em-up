@@ -10,7 +10,9 @@ public class TextMessageHandler : MonoBehaviour
     [SerializeField] private UnityEvent _messageOut;
     [SerializeField] private GameObject Yes;
     [SerializeField] private GameObject No;
-    [SerializeField] private int YesHP, NoHP;
+    [SerializeField] private int YesMax, NoMax;
+    private int YesHP, NoHP;
+    [SerializeField] private SpriteRenderer YesSprite, NoSprite;
 
     float counter;
     private bool waitingToHide;
@@ -31,6 +33,8 @@ public class TextMessageHandler : MonoBehaviour
         _messageOut.Invoke();
         counter = 0f;
         waitingToHide = false;
+        YesHP = YesMax;
+        NoHP = NoMax;
     }
 
     
@@ -62,8 +66,27 @@ public class TextMessageHandler : MonoBehaviour
         _messageOut.Invoke();
     }
 
+    public void takeDamage(string tag)
+    {
+        if (tag == "Yes")
+            YesHP--;
+        else
+            NoHP--;
+        if (YesHP <= 0)
+        {
+            GameObject.FindObjectOfType<WaveSystem>().AnswerHit("Yes");
+            YesHP = YesMax;
+        }
+        else if (NoHP <= 0)
+        {
+            GameObject.FindObjectOfType<WaveSystem>().AnswerHit("No");
+            NoHP = NoMax;
+        }
+    }
     private void Update()
     {
+        Yes.transform.localScale = new Vector3(2f / YesMax * YesHP, 2f / YesMax * YesHP, 1);
+        No.transform.localScale = new Vector3(2f / NoMax * NoHP, 2f / NoMax * NoHP, 1);
         if (waitingToHide)
         {
             counter += Time.deltaTime;

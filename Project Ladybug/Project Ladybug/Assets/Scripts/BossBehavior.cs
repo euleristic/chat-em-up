@@ -6,6 +6,11 @@ public class BossBehavior : MonoBehaviour
 {
     [SerializeField] private Vector3 startPosition;
     [SerializeField] private Vector3 endPosition;
+    [SerializeField] private float shootRange;
+    [SerializeField] private int numOfShots;
+    [SerializeField] private float randRange;
+    [SerializeField] private float attackSpeed;
+    private float attackCD;
     private bool inFight;
     private float counter;
     public int hp;
@@ -14,16 +19,18 @@ public class BossBehavior : MonoBehaviour
         transform.localPosition = startPosition;
         hp = 50;
         inFight = false;
+        attackCD = 1 / attackSpeed;
     }
 
     void Update()
     {
         counter += Time.deltaTime;
-        if (inFight && counter > 2f)
+        if (inFight && counter > attackCD)
         {
-            for (int i = 0; i < 7; i++)
+            float randOffSet = Random.Range(-randRange / 2f, randRange / 2);
+            for (int i = 0; i < numOfShots; i++)
             {
-                Shoot(Quaternion.Euler(0f, 0f, Random.Range(-50f, 50f)));
+                Shoot(Quaternion.Euler(0f, 0f, randOffSet - (shootRange / 2) + i * (shootRange / numOfShots)));
             }
             counter = 0f;
         }

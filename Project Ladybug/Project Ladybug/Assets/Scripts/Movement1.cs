@@ -11,6 +11,7 @@ public class Movement1 : MonoBehaviour
     public float gravity;
     [SerializeField] private float rotationAmount;
     [SerializeField] private float rotationSpeed;
+    [SerializeField] private float airRes;
 
     [SerializeField] private int hp;
     void Start()
@@ -24,9 +25,11 @@ public class Movement1 : MonoBehaviour
         input.x = Input.GetAxis("Horizontal");
         input.y = Input.GetAxis("Vertical");
 
-        rb.AddForce(input.x * snappiness, input.y * snappiness, 0f);
+        rb.velocity += new Vector3(input.x * snappiness, input.y * snappiness, 0f);
         if (rb.velocity.magnitude > speed)
             rb.velocity = rb.velocity.normalized * speed;
+        if (input.x == 0f && input.y == 0f)
+            rb.velocity /= airRes;
 
         float rotation = 0f;
 

@@ -4381,7 +4381,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPosition: {x: 0, y: 20, z: 10}
   endPosition: {x: 0, y: 2.25, z: 10}
-  hp: 0
+  shootRange: 100
+  numOfShots: 5
+  randRange: 0
+  attackSpeed: 0.5
+  hp: 50
 --- !u!65 &414909757
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4618,8 +4622,10 @@ MonoBehaviour:
         m_CallState: 2
   Yes: {fileID: 1376621188}
   No: {fileID: 1831452399}
-  YesHP: 0
-  NoHP: 0
+  YesMax: 3
+  NoMax: 3
+  YesSprite: {fileID: 1376621190}
+  NoSprite: {fileID: 1831452401}
   _senderTextBox: {fileID: 243818731}
   _messageTextBox: {fileID: 1578475129}
   visible: 0
@@ -6198,7 +6204,7 @@ MonoBehaviour:
   enemyCountWave2: 20
   needToKill2: 15
   spawnRange2: {x: 16, y: 50}
-  currentWave: 1
+  currentWave: 3
   dishSprite: {fileID: 21300000, guid: a4ec158e8a49885499604a7fb3c2add0, type: 3}
   forkSprite: {fileID: 21300000, guid: 02b4f56c702f8cc479585bab225954e3, type: 3}
   stdEnemyBullet: {fileID: 21300000, guid: a1e620c7cbcc3f341a2cf7f6b785f134, type: 3}
@@ -14610,10 +14616,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  snappiness: 20
+  snappiness: 0.75
   gravity: 0
   rotationAmount: 50
   rotationSpeed: 10
+  airRes: 1.1
   hp: 500
 --- !u!212 &1223961434
 SpriteRenderer:
@@ -16679,8 +16686,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.8333333, z: 5}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.833333, z: 5}
+  m_Center: {x: -0.4, y: 0, z: 0}
 --- !u!54 &1376621192
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22485,7 +22492,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &1831452403
 BoxCollider:
@@ -22499,7 +22506,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8333333, z: 5}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0.4, y: 0, z: 0}
 --- !u!1001 &1835197897
 PrefabInstance:
   m_ObjectHideFlags: 0
