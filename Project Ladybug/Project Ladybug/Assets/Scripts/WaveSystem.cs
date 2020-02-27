@@ -7,13 +7,16 @@ public class WaveSystem : MonoBehaviour
     [SerializeField] private BossBehavior Boss;
     [SerializeField] private TextMessageHandler handler;
     [SerializeField] private int enemyCountWave0;
+    [SerializeField] private int needToKill0;
     [SerializeField] private Vector2 spawnRange0;
     [SerializeField] private int enemyCountWave2;
+    [SerializeField] private int needToKill2;
     [SerializeField] private Vector2 spawnRange2;
     [SerializeField] private int currentWave;
     [SerializeField] private Sprite dishSprite;
     [SerializeField] private Sprite forkSprite;
     [SerializeField] private Sprite stdEnemyBullet;
+    private GameObject[] enemiesFound;
     private Projectile[] bullets;
     private Vector3 spawnPos;
     private Quaternion nullQuaternion;
@@ -26,8 +29,25 @@ public class WaveSystem : MonoBehaviour
 
     void Update()
     {
-        if (!handler.visible && GameObject.FindGameObjectsWithTag("AliveEnemy").Length == 0)
+        enemiesFound = GameObject.FindGameObjectsWithTag("AliveEnemy");
+
+        if (!handler.visible && currentWave == 0 && enemiesFound.Length == enemyCountWave0 - needToKill0)
         {
+            foreach (var enemy in enemiesFound)
+            {
+                enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                enemy.transform.tag = "WaitingToSpawn";
+            }
+            currentWave++;
+            SpawnWave();
+        }
+        else if (!handler.visible && currentWave == 2 && enemiesFound.Length == enemyCountWave2 - needToKill2)
+        {
+            foreach (var enemy in enemiesFound)
+            {
+                enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                enemy.transform.tag = "WaitingToSpawn";
+            }
             currentWave++;
             SpawnWave();
         }
