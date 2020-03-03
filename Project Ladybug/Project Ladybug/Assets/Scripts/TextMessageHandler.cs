@@ -11,6 +11,7 @@ public class TextMessageHandler : MonoBehaviour
     [SerializeField] private GameObject Yes;
     [SerializeField] private GameObject No;
     [SerializeField] private int YesMax, NoMax;
+    private float scale;
     private int YesHP, NoHP;
     [SerializeField] private SpriteRenderer YesSprite, NoSprite;
 
@@ -28,6 +29,8 @@ public class TextMessageHandler : MonoBehaviour
 
     private void Start()
     {
+        scale = Yes.transform.localScale.x;
+        print(scale);
         SetVisible(false);
         _animator = GetComponent<Animator>();
         _messageOut.Invoke();
@@ -85,8 +88,8 @@ public class TextMessageHandler : MonoBehaviour
     }
     private void Update()
     {
-        Yes.transform.localScale = new Vector3(2f / YesMax * YesHP, 2f / YesMax * YesHP, 1);
-        No.transform.localScale = new Vector3(2f / NoMax * NoHP, 2f / NoMax * NoHP, 1);
+        Yes.transform.localScale = new Vector3(scale / YesMax * YesHP, scale / YesMax * YesHP, 1f);
+        No.transform.localScale = new Vector3(scale / NoMax * NoHP, scale / NoMax * NoHP, 1f);
         if (waitingToHide)
         {
             counter += Time.deltaTime;
