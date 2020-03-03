@@ -10,12 +10,14 @@ public class BossBehavior : MonoBehaviour
     [SerializeField] private int numOfShots;
     [SerializeField] private float randRange;
     [SerializeField] private float attackSpeed;
+    private AudioSource oufer;
     private float attackCD;
     private bool inFight;
     private float counter;
     public int hp;
     void Start()
     {
+        oufer = GetComponent<AudioSource>();
         transform.localPosition = startPosition;
         hp = 50;
         inFight = false;
@@ -59,6 +61,7 @@ public class BossBehavior : MonoBehaviour
     private void Shoot(Quaternion bulletDirection)
     {
         Projectile[] bullets = FindObjectsOfType<Projectile>();
+        //oufer.Play();
         for (int i = 0; i < bullets.Length; i++)
         {
             if (bullets[i].CompareTag("WaitingToSpawn") && bullets[i].speed < 0f)

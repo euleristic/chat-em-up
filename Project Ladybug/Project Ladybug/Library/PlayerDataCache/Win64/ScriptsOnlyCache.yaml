@@ -74,49 +74,49 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9694}
+      Script: {instanceID: 9696}
     - Class: 114
-      Script: {instanceID: 9698}
+      Script: {instanceID: 9700}
     - Class: 114
-      Script: {instanceID: 9818}
+      Script: {instanceID: 9820}
     - Class: 114
-      Script: {instanceID: 9848}
+      Script: {instanceID: 9850}
     - Class: 114
-      Script: {instanceID: 9900}
+      Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 9998}
+      Script: {instanceID: 10000}
     - Class: 114
-      Script: {instanceID: 10280}
+      Script: {instanceID: 10282}
     - Class: 114
-      Script: {instanceID: 10300}
+      Script: {instanceID: 10302}
     - Class: 114
-      Script: {instanceID: 10392}
+      Script: {instanceID: 10394}
     - Class: 114
-      Script: {instanceID: 10470}
+      Script: {instanceID: 10472}
     - Class: 114
-      Script: {instanceID: 10848}
+      Script: {instanceID: 10850}
     - Class: 114
-      Script: {instanceID: 10862}
+      Script: {instanceID: 10864}
     - Class: 114
-      Script: {instanceID: 10976}
+      Script: {instanceID: 10978}
     - Class: 114
-      Script: {instanceID: 11036}
+      Script: {instanceID: 10988}
     - Class: 114
-      Script: {instanceID: 11094}
+      Script: {instanceID: 11040}
     - Class: 114
-      Script: {instanceID: 11224}
+      Script: {instanceID: 11098}
     - Class: 114
-      Script: {instanceID: 11252}
+      Script: {instanceID: 11228}
     - Class: 114
-      Script: {instanceID: 11290}
+      Script: {instanceID: 11256}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11294}
     - Class: 114
-      Script: {instanceID: 11376}
+      Script: {instanceID: 11356}
     - Class: 114
-      Script: {instanceID: 11450}
+      Script: {instanceID: 11380}
     - Class: 114
-      Script: {instanceID: 15272}
+      Script: {instanceID: 11454}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -157,19 +157,19 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9698}
+      Script: {instanceID: 9700}
     - Class: 114
-      Script: {instanceID: 9746}
+      Script: {instanceID: 9748}
     - Class: 114
-      Script: {instanceID: 10280}
+      Script: {instanceID: 10282}
     - Class: 114
-      Script: {instanceID: 10848}
+      Script: {instanceID: 10850}
     - Class: 114
-      Script: {instanceID: 11036}
+      Script: {instanceID: 11040}
     - Class: 114
-      Script: {instanceID: 11094}
+      Script: {instanceID: 11098}
     - Class: 114
-      Script: {instanceID: 11450}
+      Script: {instanceID: 11454}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -202,17 +202,17 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9698}
+      Script: {instanceID: 9700}
     - Class: 114
-      Script: {instanceID: 10280}
+      Script: {instanceID: 10282}
     - Class: 114
-      Script: {instanceID: 10848}
+      Script: {instanceID: 10850}
     - Class: 114
-      Script: {instanceID: 11036}
+      Script: {instanceID: 11040}
     - Class: 114
-      Script: {instanceID: 11094}
+      Script: {instanceID: 11098}
     - Class: 114
-      Script: {instanceID: 11450}
+      Script: {instanceID: 11454}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -270,7 +270,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 0ba043b48de2be4e4fa0ff6fd2eb6a06
+      Hash: cc2e71724c05ad6f93f8bb9d79b0d98f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyBehavior
@@ -288,7 +288,7 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: 642670a5edaed4c2c549311ec80eeff7
+      Hash: 0a7b49c2e470729a2d685409c5a9f460
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Movement1
@@ -456,7 +456,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 4351ce1bca8d330f9904d55bb4227084
+      Hash: f5591442e24d5c2568e94092e64330a4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BossBehavior
@@ -558,6 +558,12 @@ ScriptsOnlyBuild:
     className: CamMove
   - hash:
       serializedVersion: 2
+      Hash: 0104259a21097477b87d1c04a5f2fc4a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyPathing
+  - hash:
+      serializedVersion: 2
       Hash: 3b760e6526e13f7504f59e210145899a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -582,7 +588,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 1e327c0e8b8705954d846512afe19cef
+      Hash: d108fc29165eef6f138a9df503ec0c09
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TextMessageHandler
@@ -618,7 +624,7 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: 4786cbdb4cfc5d037ebe16b4403aa232
+      Hash: 3f92f64ec192f5979edd0c1239588de9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WaveSystem
@@ -700,15 +706,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 0104259a21097477b87d1c04a5f2fc4a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemyPathing
   platform: 19
   scenePathNames:
   - Assets/Scenes/Game.unity
   - Assets/Scenes/LostScene.unity
   - Assets/Scenes/WonScene.unity
-  playerPath: C:/Users/valte/OneDrive/Documents/Alpha/Project Ladybug.exe
+  playerPath: C:/Users/valte/OneDrive/Documents/Bruh/Project Ladybug.exe

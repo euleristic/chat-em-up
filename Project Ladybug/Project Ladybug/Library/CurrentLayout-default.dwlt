@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 638
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 19
+  controlID: 81
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 20
+  controlID: 82
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 21
+  controlID: 83
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,8 +210,8 @@ MonoBehaviour:
     y: 0
     width: 611
     height: 276
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -320,7 +320,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -373,17 +373,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 72.66667
+    x: -21333.334
+    y: -21303.334
     width: 387
     height: 257
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 832}
-      m_SelectedIDs: e0340000
-      m_LastClickedID: 13536
-      m_ExpandedIDs: f0faffff1e360000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 70ceffffa4ceffff34cfffff3ecfffff4ccffffff2f6ffff1af7ffff2ef8ffff68f8ffffa4f8ffffe4f8ffff28f9ffff70fbffff2a540000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -428,8 +428,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 387.33334
-    y: 72.66667
+    x: -20946
+    y: -21303.334
     width: 609
     height: 257
   m_ViewDataDictionary: {fileID: 0}
@@ -443,9 +443,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 13.360558, y: 3.2242725, z: -2.8244736}
+    m_Target: {x: 36.28325, y: -2.588313, z: -5.2734375}
     speed: 2
-    m_Value: {x: 13.360558, y: 3.2242725, z: -2.8244736}
+    m_Value: {x: 36.28325, y: -2.588313, z: -5.2734375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -478,9 +478,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 34.005985
+    m_Target: 3.4019186
     speed: 2
-    m_Value: 34.005985
+    m_Value: 3.5622184
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -527,8 +527,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 348.6667
+    x: -21333.334
+    y: -21027.334
     width: 998
     height: 293
   m_ViewDataDictionary: {fileID: 0}
@@ -545,21 +545,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Sounds/SFX
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Sounds/SFX
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\valte\OneDrive\Documents\GitHub\chat-em-up\Project Ladybug\Project
     Ladybug
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 15}
-    m_SelectedIDs: 22300000
-    m_LastClickedID: 12322
-    m_ExpandedIDs: 000000003c2d000000ca9a3b
+    scrollPos: {x: 0, y: 143}
+    m_SelectedIDs: 4e310000
+    m_LastClickedID: 12622
+    m_ExpandedIDs: 000000001c2d0000a62d0000162e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -587,7 +587,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c2d0000
+    m_ExpandedIDs: 000000001c2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -615,7 +615,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000000000000443901006ced0000
+    m_ExpandedInstanceIDs: c623000000000000443901006ced0000e82f0000742e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
