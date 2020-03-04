@@ -58,3 +58,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+*.json
+Project Ladybug/Project Ladybug/Library/shadercompiler-UnityShaderCompiler.exe1.log
+Project Ladybug/Project Ladybug/Library/shadercompiler-UnityShaderCompiler.exe2.log
+Project Ladybug/Project Ladybug/Library/shadercompiler-UnityShaderCompiler.exe3.log
+Project Ladybug/Project Ladybug/Library/shadercompiler-UnityShaderCompiler.exe4.log
