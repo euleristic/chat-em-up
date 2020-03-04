@@ -17726,7 +17726,7 @@ MonoBehaviour:
   sr: {fileID: 1156003621}
   hitFadeIn: 0.1
   hitFadeOut: 0.05
-  snappiness: 0.75
+  snappiness: 0.1
   rotationAmount: 50
   rotationSpeed: 10
   airRes: 1.1
