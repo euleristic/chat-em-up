@@ -61,7 +61,7 @@ public class BossBehavior : MonoBehaviour
     private void Shoot(Quaternion bulletDirection)
     {
         Projectile[] bullets = FindObjectsOfType<Projectile>();
-        //oufer.Play();
+        oufer.Play();
         for (int i = 0; i < bullets.Length; i++)
         {
             if (bullets[i].CompareTag("WaitingToSpawn") && bullets[i].speed < 0f)

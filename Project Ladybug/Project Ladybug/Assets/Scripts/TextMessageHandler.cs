@@ -30,7 +30,6 @@ public class TextMessageHandler : MonoBehaviour
     private void Start()
     {
         scale = Yes.transform.localScale.x;
-        print(scale);
         SetVisible(false);
         _animator = GetComponent<Animator>();
         _messageOut.Invoke();
