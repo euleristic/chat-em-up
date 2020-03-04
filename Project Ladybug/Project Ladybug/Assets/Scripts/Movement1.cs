@@ -46,18 +46,23 @@ public class Movement1 : MonoBehaviour
 
         print(sr.color);
         //hitflash
-        if (invincible && (Color.white - sr.color).a < 0.1)
+        if (invincible)
         {
-            sr.color = Color.white;
+            sr.color = Color.Lerp(sr.color, Color.white, hitFadeIn);
+            if ((Color.white - sr.color).a < 0.1)
+            {
+                sr.color = Color.white;
+                invincible = false;
+            }
         }
-        if (sr.color != Color.clear)
+        else if (sr.color != Color.clear)
+        {
             sr.color = Color.Lerp(sr.color, Color.clear, hitFadeOut);
-        if (invincible && (sr.color - Color.clear).a < 0.1)
-        {
-            sr.color = Color.clear;
-            invincible = false;
+            if (!invincible && (sr.color - Color.clear).a < 0.1)
+            {
+                sr.color = Color.clear;
+            }
         }
-        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -66,7 +71,6 @@ public class Movement1 : MonoBehaviour
         {
             hp--;
             invincible = true;
-            sr.color = Color.white;
         }
         if (hp <= 0)
             SceneScript.LoseState();
