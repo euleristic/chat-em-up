@@ -17724,7 +17724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   sr: {fileID: 1156003621}
-  hitFadeIn: 0.1
+  hitFadeIn: 0.8
   hitFadeOut: 0.05
   snappiness: 0.75
   rotationAmount: 50
