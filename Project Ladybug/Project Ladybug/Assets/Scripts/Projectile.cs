@@ -7,11 +7,15 @@ public class Projectile : MonoBehaviour
 {
     public float speed;
     public Vector3 deadPos;
+    //public bool timetolive = false;
+    //public float time = 1;
 
 
     void Start()
     {
-        deadPos = transform.position;
+        //deadPos = transform.position;
+        //if(timetolive)
+        //Destroy(this.gameObject, time);
     }
     void FixedUpdate()
     {

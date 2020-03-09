@@ -375,6 +375,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &16320320
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -652,6 +654,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &53385016
@@ -731,6 +738,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &53385021
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -877,6 +886,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -1134,6 +1148,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &70675495
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1260,6 +1276,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &72606228
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1407,6 +1425,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &84327789 stripped
@@ -1527,6 +1550,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &86560299
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1694,6 +1719,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &93640366
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2176,6 +2203,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &118901056
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2562,6 +2591,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &140322732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2688,6 +2719,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &148509614
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2834,6 +2867,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -3626,6 +3664,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &224935230
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3752,6 +3792,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &225940586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4536,6 +4578,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &275921952
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4662,6 +4706,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &289748801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4849,6 +4895,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -5533,6 +5584,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -6288,6 +6344,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &426892026
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6414,6 +6472,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &435845767
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6799,6 +6859,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &456699861
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7227,6 +7289,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &494976613
@@ -7306,6 +7373,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &494976618
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7432,6 +7501,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &507760666
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7619,6 +7690,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -7850,6 +7926,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1001 &533016498
@@ -7949,6 +8030,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -8221,6 +8307,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &555284497
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8649,6 +8737,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -9492,6 +9585,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1001 &606872603
@@ -9592,6 +9690,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1001 &615000573
@@ -9691,6 +9794,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -9812,6 +9920,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &630400870
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10550,6 +10660,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &664352030
@@ -10629,6 +10744,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &664352035
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10976,6 +11093,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &673877192
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11189,6 +11308,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &687121662
@@ -11268,6 +11392,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &687121667
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11414,6 +11540,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -12564,6 +12695,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &769576382
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13004,6 +13137,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &822239672 stripped
@@ -13200,6 +13338,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &861227904
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13350,6 +13490,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &876716148
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13497,6 +13639,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1001 &902166235
@@ -13597,6 +13744,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &905463404
@@ -13676,6 +13828,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &905463409
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14103,6 +14257,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &950270708
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14229,6 +14385,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &956023867
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14678,6 +14836,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &993514634
@@ -14928,6 +15091,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -15720,6 +15888,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1050621713
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15846,6 +16016,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1052011461
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15972,6 +16144,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1059269560
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16806,6 +16980,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -17779,6 +17958,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1158219533
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18875,6 +19056,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &1248039311
@@ -19277,6 +19463,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &1261250227
@@ -19637,6 +19828,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &1285208280
@@ -19887,6 +20083,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -20544,6 +20745,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1361818136
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20690,6 +20893,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -20923,6 +21131,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1382830952
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21193,6 +21403,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1001 &1463161862
@@ -21292,6 +21507,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -21647,6 +21867,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1001 &1487095885
@@ -21746,6 +21971,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -22452,6 +22682,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1508021692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23373,6 +23605,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1585224634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23520,6 +23754,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1001 &1600244881
@@ -23619,6 +23858,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -23931,6 +24175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1620431084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24098,6 +24344,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1622994402
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24320,6 +24568,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1001 &1646226329
@@ -24419,6 +24672,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -24520,6 +24778,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &1665674252
@@ -24599,6 +24862,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1665674257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24746,6 +25011,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &1668671702
@@ -24825,6 +25095,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1668671707
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25113,6 +25385,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -25604,6 +25881,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1717179482
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25901,6 +26180,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -26542,6 +26826,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1001 &1803545169
@@ -26641,6 +26930,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -27400,6 +27694,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &1831452399
@@ -27591,6 +27890,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1834692643
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27738,6 +28039,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1001 &1838979536
@@ -27838,6 +28144,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &1855803875
@@ -27917,6 +28228,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1855803880
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28365,6 +28678,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1869783345
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29019,6 +29334,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1001 &1907914727
@@ -29118,6 +29438,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -29458,6 +29783,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1929823276
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29584,6 +29911,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1930835850
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29861,6 +30190,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &1936713010
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30566,6 +30897,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1 &1961264209
@@ -31050,6 +31386,11 @@ PrefabInstance:
       propertyPath: speed
       value: 0.26
       objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
 --- !u!1001 &2000900001
@@ -31149,6 +31490,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -31812,6 +32158,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &2044160894
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31958,6 +32306,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: timetolive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
@@ -32552,6 +32905,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!212 &2090287940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32969,6 +33324,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  timetolive: 0
+  time: 1
 --- !u!1001 &5989002932001713584
 PrefabInstance:
   m_ObjectHideFlags: 0
