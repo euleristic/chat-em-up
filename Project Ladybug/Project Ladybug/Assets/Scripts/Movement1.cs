@@ -15,6 +15,8 @@ public class Movement1 : MonoBehaviour
     [SerializeField] private float rotationAmount;
     [SerializeField] private float rotationSpeed;
     [SerializeField] private float airRes;
+    [SerializeField] private Sprite heartSprite;
+    [SerializeField] SpriteRenderer[] hearts = new SpriteRenderer[4];
     public float gravity;
 
     [SerializeField] private int hp;
@@ -73,6 +75,13 @@ public class Movement1 : MonoBehaviour
         }
         if (hp <= 0)
             SceneScript.LoseState();
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < hp)
+                hearts[i].sprite = heartSprite;
+            else
+                hearts[i].sprite = null;
+        }
     }
 
     private void OnTriggerStay(Collider other)
