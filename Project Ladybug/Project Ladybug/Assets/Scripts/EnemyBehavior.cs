@@ -7,6 +7,7 @@ public class EnemyBehavior : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] GameObject Bullet;
     [SerializeField] private int hp;
+    [SerializeField] private float shootProbability;
     public Vector3 deadPos;
     public int enemyType;
     public Vector2 spawnRange;
@@ -27,7 +28,7 @@ public class EnemyBehavior : MonoBehaviour
                     break;
                 case 1:
                     transform.position += new Vector3(Mathf.Sin(Time.time * 2) * 0.02f, Time.deltaTime * -speed, 0f);
-                    if (Random.Range(0f, 1000f) < 1f) Shoot();
+                    if (Random.Range(0f, 1f) < shootProbability) Shoot();
                     break;
                 default:
                     print("No enemytype");
