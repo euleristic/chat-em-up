@@ -27,15 +27,14 @@ public class Movement1 : MonoBehaviour
     
     void Update()
     {
-        input.x = Input.GetAxisRaw("Horizontal");
-        input.y = Input.GetAxisRaw("Vertical");
+        input.x = Input.GetAxis("Horizontal");
+        input.y = Input.GetAxis("Vertical");
 
-        if (input.x != 0f || input.y != 0f)
-            rb.velocity = Vector3.Lerp(rb.velocity, new Vector3(input.x * speed, input.y * speed, 0f), snappiness);
-        else if (input.x == 0f && input.y == 0f)
+        rb.velocity += new Vector3(input.x * snappiness, input.y * snappiness, 0f);
+        if (rb.velocity.magnitude > speed)
+            rb.velocity = rb.velocity.normalized * speed;
+        if (input.x == 0f && input.y == 0f)
             rb.velocity /= airRes;
-        /*if (rb.velocity.magnitude > speed)
-            rb.velocity = rb.velocity.normalized * speed;*/
 
         float rotation = 0f;
 
@@ -78,8 +77,8 @@ public class Movement1 : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("EnemyBullet") || other.CompareTag("AliveEnemy") && invincible)
-            sr.color = Color.Lerp(sr.color, Color.white, hitFadeIn);
+        if (other.CompareTag("EnemyBullet") || other.CompareTag("AliveEnemy") && invincible) ;
+            
 
     }
 }
