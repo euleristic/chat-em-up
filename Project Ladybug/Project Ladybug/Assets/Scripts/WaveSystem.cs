@@ -111,6 +111,10 @@ public class WaveSystem : MonoBehaviour
                 }
                 break;
             case 3:
+                handler.GetMessage("Mom", "Pick up brother");
+                handler.visible = true;
+                break;
+            case 4:
                 Boss.Spawn();
                 bullets = FindObjectsOfType<Projectile>();
                 for (int i = 0; i < bullets.Length; i++)

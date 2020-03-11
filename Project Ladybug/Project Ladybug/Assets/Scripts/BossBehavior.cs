@@ -10,18 +10,24 @@ public class BossBehavior : MonoBehaviour
     [SerializeField] private int numOfShots;
     [SerializeField] private float randRange;
     [SerializeField] private float attackSpeed;
+    [SerializeField] private SpriteRenderer otherThing;
+    [SerializeField] private int MaxHp;
+    [SerializeField] private Transform thing;
     private AudioSource oufer;
     private float attackCD;
     private bool inFight;
     private float counter;
-    public int hp;
+    private int hp;
+    private float startScale, startPos;
     void Start()
     {
         oufer = GetComponent<AudioSource>();
         transform.localPosition = startPosition;
-        hp = 50;
+        hp = MaxHp;
         inFight = false;
         attackCD = 1 / attackSpeed;
+        startScale = otherThing.transform.localScale.x;
+        startPos = otherThing.transform.localPosition.x;
     }
 
     void Update()
@@ -56,6 +62,10 @@ public class BossBehavior : MonoBehaviour
         }
         if (hp <= 0)
             SceneScript.WinState();
+        /*otherThing.transform.localPosition = new Vector3(startPos - thing.position.x * hp / MaxHp,
+            otherThing.transform.localPosition.y, otherThing.transform.localPosition.z);*/
+        otherThing.transform.localScale = new Vector3(startScale * hp/ MaxHp,
+            otherThing.transform.localScale.y, otherThing.transform.localScale.z);
     }
 
     private void Shoot(Quaternion bulletDirection)
