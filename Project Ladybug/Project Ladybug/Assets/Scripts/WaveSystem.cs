@@ -12,11 +12,25 @@ public class WaveSystem : MonoBehaviour
     [SerializeField] private int enemyCountWave2;
     [SerializeField] private int needToKill2;
     [SerializeField] private Vector2 spawnRange2;
+    [SerializeField] private int enemyCountWave4;
+    [SerializeField] private int needToKill4;
+    [SerializeField] private Vector2 spawnRange4;
+    [SerializeField] private int enemyCountWave6;
+    [SerializeField] private int needToKill6;
+    [SerializeField] private Vector2 spawnRange6;
     [SerializeField] private int currentWave;
     [SerializeField] private Sprite dishSprite;
     [SerializeField] private Sprite forkSprite;
+    [SerializeField] private Sprite knifeSprite;
     [SerializeField] private Sprite stdEnemyBullet;
+    [SerializeField] private Sprite EnemyCalamari;
+    [SerializeField] private Sprite EnemyUmbrella;
+    [SerializeField] private Sprite waterDropSprite;
+    [SerializeField] private Sprite EnemyRay;
+    [SerializeField] private Sprite EnemySyringe;
+    [SerializeField] private PlayerMod playerMod;
     private GameObject[] enemiesFound;
+    private int enemyCount;
     private Projectile[] bullets;
     private Vector3 spawnPos;
     private Quaternion nullQuaternion;
@@ -29,28 +43,64 @@ public class WaveSystem : MonoBehaviour
 
     void Update()
     {
-        enemiesFound = GameObject.FindGameObjectsWithTag("AliveEnemy");
+        //enemiesFound = GameObject.FindGameObjectsWithTag("AliveEnemy");
+        enemyCount = 0;
+        foreach (var enemy in enemiesFound)
+            if (enemy.CompareTag("AliveEnemy"))
+                enemyCount++;
+        switch (currentWave)
+        {
+            case 0:
+                if (!handler.visible && enemyCount == enemyCountWave0 - needToKill0)
+                {
+                    foreach (var enemy in enemiesFound)
+                    {
+                        enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                        enemy.transform.tag = "WaitingToSpawn";
+                    }
+                    currentWave++;
+                    SpawnWave();
+                }
+                break;
+            case 2:
+                if (!handler.visible && enemyCount == enemyCountWave2 - needToKill2)
+                {
+                    foreach (var enemy in enemiesFound)
+                    {
+                        enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                        enemy.transform.tag = "WaitingToSpawn";
+                    }
+                    currentWave++;
+                    SpawnWave();
+                }
+                break;
+            case 4:
+                if (!handler.visible && enemyCount == enemyCountWave4 - needToKill4)
+                {
+                    foreach (var enemy in enemiesFound)
+                    {
+                        enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                        enemy.transform.tag = "WaitingToSpawn";
+                    }
+                    currentWave++;
+                    SpawnWave();
+                }
+                break;
+            case 6:
+                if (!handler.visible && enemyCount == enemyCountWave6 - needToKill6)
+                {
+                    foreach (var enemy in enemiesFound)
+                    {
+                        enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                        enemy.transform.tag = "WaitingToSpawn";
+                    }
+                    currentWave++;
+                    SpawnWave();
+                }
+                break;
+        }
+        
 
-        if (!handler.visible && currentWave == 0 && enemiesFound.Length == enemyCountWave0 - needToKill0)
-        {
-            foreach (var enemy in enemiesFound)
-            {
-                enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
-                enemy.transform.tag = "WaitingToSpawn";
-            }
-            currentWave++;
-            SpawnWave();
-        }
-        else if (!handler.visible && currentWave == 2 && enemiesFound.Length == enemyCountWave2 - needToKill2)
-        {
-            foreach (var enemy in enemiesFound)
-            {
-                enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
-                enemy.transform.tag = "WaitingToSpawn";
-            }
-            currentWave++;
-            SpawnWave();
-        }
     }
 
     private void SpawnWave()
@@ -75,6 +125,7 @@ public class WaveSystem : MonoBehaviour
                 }
                 break;
             case 1:
+
                 handler.GetMessage("Mom", "Do the dishes");
                 handler.visible = true;
                 break;
@@ -114,7 +165,91 @@ public class WaveSystem : MonoBehaviour
                 handler.GetMessage("Mom", "Pick up brother");
                 handler.visible = true;
                 break;
+
             case 4:
+                enemies = FindObjectsOfType<EnemyBehavior>();
+                count = 0;
+                for (int i = 0; i < enemies.Length; i++)
+                {
+                    if (enemies[i].transform.CompareTag("WaitingToSpawn") && enemies[i].enemyType == 1)
+                    {
+                        spawnPos = new Vector3(Random.Range(-8f, -8f + spawnRange0.x), Random.Range(10f, 10f + spawnRange0.y), 1.8f);
+                        enemies[i].transform.tag = "AliveEnemy";
+                        enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
+                        enemies[i].transform.position = spawnPos;
+
+                        if (answer)
+                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyCalamari;
+                        else
+                        {
+                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyUmbrella;
+                        }
+                        count++;
+                    }
+                    if (count == enemyCountWave4)
+                        break;
+                }
+                if (!answer)
+                {
+                    bullets = FindObjectsOfType<Projectile>();
+                    for (int i = 0; i < bullets.Length; i++)
+                    {
+                        if (bullets[i].speed < 0f)
+                        {
+                            bullets[i].GetComponent<SpriteRenderer>().sprite = waterDropSprite;
+                        }
+                    }
+                }
+                break;
+
+            case 5:
+
+                handler.GetMessage("Mom", "Take the dog to the vet");
+                handler.visible = true;
+                break;
+
+            case 6:
+                enemies = FindObjectsOfType<EnemyBehavior>();
+                count = 0;
+                for (int i = 0; i < enemies.Length; i++)
+                {
+                    if (enemies[i].transform.CompareTag("WaitingToSpawn") && enemies[i].enemyType == 1)
+                    {
+                        spawnPos = new Vector3(Random.Range(-8f, -8f + spawnRange0.x), Random.Range(10f, 10f + spawnRange0.y), 1.8f);
+                        enemies[i].transform.tag = "AliveEnemy";
+                        enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
+                        enemies[i].transform.position = spawnPos;
+                        if (answer)
+                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyRay;
+                        else
+                        {
+                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemySyringe;
+                        }
+                        count++;
+                    }
+                    if (count == enemyCountWave6)
+                        break;
+                }
+                if (!answer)
+                {
+                   /* bullets = FindObjectsOfType<Projectile>();
+                    for (int i = 0; i < bullets.Length; i++)
+                    {
+                        if (bullets[i].speed < 0f)
+                        {
+                            bullets[i].GetComponent<SpriteRenderer>().sprite = ;
+                        }
+                    }*/
+                }
+                break;
+
+            case 7:
+
+                handler.GetMessage("Mom", "Attend your Uncle's funurel");
+                handler.visible = true;
+                break;
+
+            case 8:
                 Boss.Spawn();
                 bullets = FindObjectsOfType<Projectile>();
                 for (int i = 0; i < bullets.Length; i++)
@@ -128,7 +263,7 @@ public class WaveSystem : MonoBehaviour
             default:
                 break;
         }
-
+        enemiesFound = GameObject.FindGameObjectsWithTag("AliveEnemy");
     }
 
     public void AnswerHit(string answer_in)
@@ -142,7 +277,30 @@ public class WaveSystem : MonoBehaviour
             Debug.Log("Error: wrong");
         handler.HideMessage();
         handler.visible = false;
+
+        switch (currentWave)
+        {
+            case 1:
+                break;
+            case 3:
+                break;
+            case 5:
+                break;
+            case 7:
+                break;
+            default:
+                break;
+        }
+
         currentWave++;
+        bullets = FindObjectsOfType<Projectile>();
+        for (int i = 0; i < bullets.Length; i++)
+        {
+            if (bullets[i].speed < 0f)
+            {
+                bullets[i].GetComponent<SpriteRenderer>().sprite = stdEnemyBullet;
+            }
+        }
         SpawnWave();
     }
 }

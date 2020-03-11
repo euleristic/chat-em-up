@@ -78,44 +78,44 @@ public class TextMessageHandler : MonoBehaviour
         if (YesHP <= 0)
         {
             GameObject.FindObjectOfType<WaveSystem>().AnswerHit("Yes");
-            YesHP = YesMax;
+            waitingToHide = true;
         }
         else if (NoHP <= 0)
         {
             GameObject.FindObjectOfType<WaveSystem>().AnswerHit("No");
-            NoHP = NoMax;
+            waitingToHide = true;
         }
     }
     private void Update()
     {
         switch (YesHP)
         {
-            case 0:
-                YesSprite.sprite = null;
-                break;
             case 1:
                 YesSprite.sprite = YesCrack;
                 break;
             case 2:
                 YesSprite.sprite = YesHalfCrack;
                 break;
-            default:
+            case 3:
                 YesSprite.sprite = YesWhole;
+                break;
+            default:
+                YesSprite.sprite = null;
                 break;
         }
         switch (NoHP)
         {
-            case 0:
-                NoSprite.sprite = null;
-                break;
             case 1:
                 NoSprite.sprite = NoCrack;
                 break;
             case 2:
                 NoSprite.sprite = NoHalfCrack;
                 break;
-            default:
+            case 3:
                 NoSprite.sprite = NoWhole;
+                break;
+            default:
+                NoSprite.sprite = null;
                 break;
         }
         if (waitingToHide)
@@ -126,6 +126,8 @@ public class TextMessageHandler : MonoBehaviour
             {
                 Yes.SetActive(true);
                 No.SetActive(true);
+                YesHP = YesMax;
+                NoHP = NoMax;
                 waitingToHide = false;
                 counter = 0f;
             }

@@ -6,11 +6,6 @@ using UnityEngine.SceneManagement;
 public class SceneScript : MonoBehaviour
 {
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         if (Input.GetKey(KeyCode.G) || Input.GetKey(KeyCode.R)) LoadGame();
@@ -26,7 +21,7 @@ public class SceneScript : MonoBehaviour
 
     static public void LoadMenu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MenuMockUp");
     }
 
     static public void WinState()
