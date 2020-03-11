@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: e2b4cd6cb9f68f44980b4c17b9fdf0a4
+guid: 7d2d7ed782429eb4a89d64c193991c88
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4331091800619860742
-    second: Bullet_1-sheet_0
+      213: 7811314103989777844
+    second: Projectile_RedRocket_01-Sheet_0
   - first:
-      213: 1154939840997838614
-    second: Bullet_1-sheet_1
+      213: 7552443190764576519
+    second: Projectile_RedRocket_01-Sheet_1
   - first:
-      213: -3606726929112684553
-    second: Bullet_1-sheet_2
+      213: -789604199427723071
+    second: Projectile_RedRocket_01-Sheet_2
   - first:
-      213: 8159010098248472612
-    second: Bullet_1-sheet_3
-  - first:
-      213: -6663948604342589025
-    second: Bullet_1-sheet_4
-  - first:
-      213: -1257671591469178435
-    second: Bullet_1-sheet_5
+      213: 3880728715636982949
+    second: Projectile_RedRocket_01-Sheet_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -49,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -78,10 +72,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -90,22 +84,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bullet_1-sheet_0
+      name: Projectile_RedRocket_01-Sheet_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 4
-        width: 8
-        height: 8
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c4d30374870efb4689efd98f94ba929
-      internalID: 4331091800619860742
+      spriteID: 1b18094bc2add2c49a0a5992150c3ae8
+      internalID: 7811314103989777844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_1-sheet_1
+      name: Projectile_RedRocket_01-Sheet_1
       rect:
         serializedVersion: 2
-        x: 20
-        y: 4
-        width: 8
-        height: 8
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec2a288a41905b14d89f9538fab359ea
-      internalID: 1154939840997838614
+      spriteID: 5461dd577002f094f8ca8174259376b2
+      internalID: 7552443190764576519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_1-sheet_2
+      name: Projectile_RedRocket_01-Sheet_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 4
-        width: 8
-        height: 8
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ebf91ce69a591c4bbc29b2b0657740c
-      internalID: -3606726929112684553
+      spriteID: 20d62499aae256147b07d0294409e6ad
+      internalID: -789604199427723071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_1-sheet_3
+      name: Projectile_RedRocket_01-Sheet_3
       rect:
         serializedVersion: 2
-        x: 52
-        y: 4
-        width: 8
-        height: 8
+        x: 48
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,50 +175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f40f15fe2524594dad57182c4aa42eb
-      internalID: 8159010098248472612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bullet_1-sheet_4
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 4
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16e0616f58ac76d4fa7fc90e0b1aa893
-      internalID: -6663948604342589025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bullet_1-sheet_5
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 4
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9e7c16e232e3ae46ba2c98930d0b238
-      internalID: -1257671591469178435
+      spriteID: d5eb848e527670e498604bae97725bde
+      internalID: 3880728715636982949
       vertices: []
       indices: 
       edges: []
@@ -244,7 +184,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 27555062bca7c4a4abbea54290c7fa93
     internalID: 0
     vertices: []
     indices: 
