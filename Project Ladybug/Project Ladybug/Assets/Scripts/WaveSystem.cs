@@ -281,7 +281,11 @@ public class WaveSystem : MonoBehaviour
         switch (currentWave)
         {
             case 1:
-                break;
+                if (answer)
+                    ;
+                else
+                    ;
+                    break;
             case 3:
                 break;
             case 5:

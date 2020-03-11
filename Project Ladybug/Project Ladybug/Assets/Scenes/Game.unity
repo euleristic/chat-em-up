@@ -7493,8 +7493,8 @@ MonoBehaviour:
   YesHalfCrack: {fileID: 21300000, guid: 99df2114dcf15724fa58c328c4138420, type: 3}
   YesCrack: {fileID: 21300000, guid: 99df2114dcf15724fa58c328c4138420, type: 3}
   NoWhole: {fileID: 21300000, guid: af8755d7373669c47ac319b5f5b5a6af, type: 3}
-  NoHalfCrack: {fileID: 21300000, guid: af8755d7373669c47ac319b5f5b5a6af, type: 3}
-  NoCrack: {fileID: 21300000, guid: af8755d7373669c47ac319b5f5b5a6af, type: 3}
+  NoHalfCrack: {fileID: 21300000, guid: 6a117937d5e7e6646979ffcc48230091, type: 3}
+  NoCrack: {fileID: 21300000, guid: f22a44c962122064f87143c46d912f1d, type: 3}
   _senderTextBox: {fileID: 243818731}
   _messageTextBox: {fileID: 1578475129}
   visible: 0
@@ -10084,7 +10084,7 @@ MonoBehaviour:
   enemyCountWave6: 20
   needToKill6: 15
   spawnRange6: {x: 16, y: 50}
-  currentWave: 3
+  currentWave: 0
   dishSprite: {fileID: 21300000, guid: a4ec158e8a49885499604a7fb3c2add0, type: 3}
   forkSprite: {fileID: 21300000, guid: 75b6ea42dc9b20e40a1aab22d4bb1021, type: 3}
   knifeSprite: {fileID: 21300000, guid: 26aecc5048180ca4cb4dc47a684f13be, type: 3}
@@ -10093,6 +10093,7 @@ MonoBehaviour:
   EnemySkull: {fileID: 21300000, guid: 391e187fcb86a3d4ca20125943e71fc9, type: 3}
   EnemyRay: {fileID: 21300000, guid: 3538113ee099e5d4ca00c0a4075c0682, type: 3}
   EnemyCasket: {fileID: 21300000, guid: ec2b6c765ecb28a47b596f19d3bba384, type: 3}
+  playerMod: {fileID: 1223961440}
 --- !u!4 &559054640
 Transform:
   m_ObjectHideFlags: 0
@@ -21623,6 +21624,7 @@ GameObject:
   - component: {fileID: 1223961437}
   - component: {fileID: 1223961438}
   - component: {fileID: 1223961439}
+  - component: {fileID: 1223961440}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -21901,6 +21903,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.939934, z: 0.2}
   m_Center: {x: 0, y: -0.030032992, z: 0}
+--- !u!114 &1223961440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223961430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786ed1353255ecd41b910e1ab8a97858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWeapon: 0
+  healthy: 0
+  twinShot: 0
+  tripleShot: 0
+  bigShot: 0
+  shortFuse: 0
+  wet: 0
+  rest: 0
+  maxHPadded: 0
+  twinAngleOffSet: 0
+  tripleAngleOffSet: 0
 --- !u!1001 &1237431897
 PrefabInstance:
   m_ObjectHideFlags: 0

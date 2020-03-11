@@ -78,12 +78,12 @@ public class TextMessageHandler : MonoBehaviour
         if (YesHP <= 0)
         {
             GameObject.FindObjectOfType<WaveSystem>().AnswerHit("Yes");
-            YesHP = YesMax;
+            waitingToHide = true;
         }
         else if (NoHP <= 0)
         {
             GameObject.FindObjectOfType<WaveSystem>().AnswerHit("No");
-            NoHP = NoMax;
+            waitingToHide = true;
         }
     }
     private void Update()
@@ -126,6 +126,8 @@ public class TextMessageHandler : MonoBehaviour
             {
                 Yes.SetActive(true);
                 No.SetActive(true);
+                YesHP = YesMax;
+                NoHP = NoMax;
                 waitingToHide = false;
                 counter = 0f;
             }
