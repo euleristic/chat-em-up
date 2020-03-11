@@ -12,6 +12,12 @@ public class WaveSystem : MonoBehaviour
     [SerializeField] private int enemyCountWave2;
     [SerializeField] private int needToKill2;
     [SerializeField] private Vector2 spawnRange2;
+    [SerializeField] private int enemyCountWave4;
+    [SerializeField] private int needToKill4;
+    [SerializeField] private Vector2 spawnRange4;
+    [SerializeField] private int enemyCountWave6;
+    [SerializeField] private int needToKill6;
+    [SerializeField] private Vector2 spawnRange6;
     [SerializeField] private int currentWave;
     [SerializeField] private Sprite dishSprite;
     [SerializeField] private Sprite forkSprite;
@@ -22,6 +28,7 @@ public class WaveSystem : MonoBehaviour
     [SerializeField] private Sprite EnemyRay;
     [SerializeField] private Sprite EnemyCasket;
     private GameObject[] enemiesFound;
+    private int enemyCount;
     private Projectile[] bullets;
     private Vector3 spawnPos;
     private Quaternion nullQuaternion;
@@ -34,28 +41,64 @@ public class WaveSystem : MonoBehaviour
 
     void Update()
     {
-        enemiesFound = GameObject.FindGameObjectsWithTag("AliveEnemy");
+        //enemiesFound = GameObject.FindGameObjectsWithTag("AliveEnemy");
+        enemyCount = 0;
+        foreach (var enemy in enemiesFound)
+            if (enemy.CompareTag("AliveEnemy"))
+                enemyCount++;
+        switch (currentWave)
+        {
+            case 0:
+                if (!handler.visible && enemyCount == enemyCountWave0 - needToKill0)
+                {
+                    foreach (var enemy in enemiesFound)
+                    {
+                        enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                        enemy.transform.tag = "WaitingToSpawn";
+                    }
+                    currentWave++;
+                    SpawnWave();
+                }
+                break;
+            case 2:
+                if (!handler.visible && enemyCount == enemyCountWave2 - needToKill2)
+                {
+                    foreach (var enemy in enemiesFound)
+                    {
+                        enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                        enemy.transform.tag = "WaitingToSpawn";
+                    }
+                    currentWave++;
+                    SpawnWave();
+                }
+                break;
+            case 4:
+                if (!handler.visible && enemyCount == enemyCountWave4 - needToKill4)
+                {
+                    foreach (var enemy in enemiesFound)
+                    {
+                        enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                        enemy.transform.tag = "WaitingToSpawn";
+                    }
+                    currentWave++;
+                    SpawnWave();
+                }
+                break;
+            case 6:
+                if (!handler.visible && enemyCount == enemyCountWave6 - needToKill6)
+                {
+                    foreach (var enemy in enemiesFound)
+                    {
+                        enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                        enemy.transform.tag = "WaitingToSpawn";
+                    }
+                    currentWave++;
+                    SpawnWave();
+                }
+                break;
+        }
+        
 
-        if (!handler.visible && currentWave == 0 && enemiesFound.Length == enemyCountWave0 - needToKill0)
-        {
-            foreach (var enemy in enemiesFound)
-            {
-                enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
-                enemy.transform.tag = "WaitingToSpawn";
-            }
-            currentWave++;
-            SpawnWave();
-        }
-        else if (!handler.visible && currentWave == 2 && enemiesFound.Length == enemyCountWave2 - needToKill2)
-        {
-            foreach (var enemy in enemiesFound)
-            {
-                enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
-                enemy.transform.tag = "WaitingToSpawn";
-            }
-            currentWave++;
-            SpawnWave();
-        }
     }
 
     private void SpawnWave()
@@ -118,7 +161,6 @@ public class WaveSystem : MonoBehaviour
                 }
                 break;
             case 3:
-
                 handler.GetMessage("Mom", "Pick up brother");
                 handler.visible = true;
                 break;
@@ -134,7 +176,10 @@ public class WaveSystem : MonoBehaviour
                         enemies[i].transform.tag = "AliveEnemy";
                         enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
                         enemies[i].transform.position = spawnPos;
-                        if (!answer)
+
+                        if (answer)
+                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyCalamari;
+                        else
                         {
                             enemies[i].GetComponent<SpriteRenderer>().sprite = EnemySkull;
                         }
@@ -173,9 +218,11 @@ public class WaveSystem : MonoBehaviour
                         enemies[i].transform.tag = "AliveEnemy";
                         enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
                         enemies[i].transform.position = spawnPos;
-                        if (!answer)
-                        {
+                        if (answer)
                             enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyRay;
+                        else
+                        {
+                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyCasket;
                         }
                         count++;
                     }
@@ -215,7 +262,7 @@ public class WaveSystem : MonoBehaviour
             default:
                 break;
         }
-
+        enemiesFound = GameObject.FindGameObjectsWithTag("AliveEnemy");
     }
 
     public void AnswerHit(string answer_in)
