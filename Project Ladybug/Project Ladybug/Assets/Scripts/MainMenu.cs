@@ -11,6 +11,18 @@ public class MainMenu : MonoBehaviour
 
     }
 
+    public void LoadCotrolls()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
+
+    }
+
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+
+    }
+
     public void QuitGame() 
     {
         Debug.Log ("Quit");
