@@ -8,6 +8,10 @@ public class Movement1 : MonoBehaviour
     private Vector2 input;
     private Rigidbody rb;
     private bool invincible;
+    [SerializeField] private float thrusterLow;
+    [SerializeField] private float thrusterHigh;
+    [SerializeField] private float thrusterLerp;
+    [SerializeField] private AudioSource thruster;
     [SerializeField] private SpriteRenderer sr;
     [SerializeField] private float hitFadeIn;
     [SerializeField] private float hitFadeOut;
@@ -45,8 +49,12 @@ public class Movement1 : MonoBehaviour
             rotation = rotationAmount * -Mathf.Sign(Input.GetAxisRaw("Horizontal"));
         transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0f,0f, rotation), rotationSpeed * Time.deltaTime);
 
+        
+        if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
+            thruster.volume += (thrusterHigh - thruster.volume) * thrusterLerp;
+        else
+            thruster.volume += (thrusterLow - thruster.volume) * thrusterLerp;
 
-        print(sr.color);
         //hitflash
         if (invincible)
         {
