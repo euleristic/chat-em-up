@@ -62,8 +62,6 @@ public class BossBehavior : MonoBehaviour
         }
         if (hp <= 0)
             SceneScript.WinState();
-        /*otherThing.transform.localPosition = new Vector3(startPos - thing.position.x * hp / MaxHp,
-            otherThing.transform.localPosition.y, otherThing.transform.localPosition.z);*/
         otherThing.transform.localScale = new Vector3(startScale * hp/ MaxHp,
             otherThing.transform.localScale.y, otherThing.transform.localScale.z);
     }
