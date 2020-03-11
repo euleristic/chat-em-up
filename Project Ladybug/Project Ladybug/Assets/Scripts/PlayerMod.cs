@@ -15,6 +15,4 @@ public class PlayerMod : MonoBehaviour
         currentWeapon = Weapon.Standard;
         healthy = twinShot = tripleShot = bigShot = shortFuse = wet = rest = false;
     }
-
-    
 }
