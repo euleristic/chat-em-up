@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
        public void PLayGame ()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
 }
