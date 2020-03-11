@@ -24,6 +24,7 @@ public class Movement1 : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         invincible = false;
+        hearts[3].sprite = null;
     }
 
     
