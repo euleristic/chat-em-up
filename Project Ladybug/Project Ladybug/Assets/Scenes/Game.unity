@@ -10081,8 +10081,7 @@ MonoBehaviour:
   currentWave: 0
   dishSprite: {fileID: 21300000, guid: a4ec158e8a49885499604a7fb3c2add0, type: 3}
   forkSprite: {fileID: 21300000, guid: 75b6ea42dc9b20e40a1aab22d4bb1021, type: 3}
-  stdEnemyBullet: {fileID: 5444679719765094938, guid: 0371c80db3985db4884481d9bb1c71bb,
-    type: 3}
+  stdEnemyBullet: {fileID: 21300000, guid: a1e620c7cbcc3f341a2cf7f6b785f134, type: 3}
 --- !u!4 &559054640
 Transform:
   m_ObjectHideFlags: 0
@@ -10655,7 +10654,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145278863}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3500004, y: 0, z: 0}
+  m_LocalPosition: {x: 2.3500004, y: 3.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1620127136}
@@ -23692,7 +23691,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361818131}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.164, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 796587700}

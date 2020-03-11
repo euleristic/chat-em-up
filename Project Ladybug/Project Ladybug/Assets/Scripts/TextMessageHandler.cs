@@ -118,7 +118,6 @@ public class TextMessageHandler : MonoBehaviour
                 NoSprite.sprite = NoWhole;
                 break;
         }
-        No.transform.localScale = new Vector3(scale / NoMax * NoHP, scale / NoMax * NoHP, 1f);
         if (waitingToHide)
         {
             counter += Time.deltaTime;
