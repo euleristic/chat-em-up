@@ -27,6 +27,7 @@ public class WaveSystem : MonoBehaviour
     [SerializeField] private Sprite EnemySkull;
     [SerializeField] private Sprite EnemyRay;
     [SerializeField] private Sprite EnemyCasket;
+    [SerializeField] private PlayerMod playerMod;
     private GameObject[] enemiesFound;
     private int enemyCount;
     private Projectile[] bullets;
@@ -244,7 +245,7 @@ public class WaveSystem : MonoBehaviour
 
             case 7:
 
-                handler.GetMessage("Mom", "Attend yours Uncles funurel");
+                handler.GetMessage("Mom", "Attend your Uncle's funurel");
                 handler.visible = true;
                 break;
 
@@ -276,6 +277,19 @@ public class WaveSystem : MonoBehaviour
             Debug.Log("Error: wrong");
         handler.HideMessage();
         handler.visible = false;
+
+        switch (currentWave)
+        {
+            case 1:
+                break;
+            case 3:
+                break;
+            case 5:
+                break;
+            case 7:
+                break;
+        }
+
         currentWave++;
         SpawnWave();
     }
