@@ -21,7 +21,7 @@ public class SceneScript : MonoBehaviour
 
     static public void LoadMenu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MenuMockUp");
     }
 
     static public void WinState()

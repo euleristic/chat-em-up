@@ -24,9 +24,10 @@ public class WaveSystem : MonoBehaviour
     [SerializeField] private Sprite knifeSprite;
     [SerializeField] private Sprite stdEnemyBullet;
     [SerializeField] private Sprite EnemyCalamari;
-    [SerializeField] private Sprite EnemySkull;
+    [SerializeField] private Sprite EnemyUmbrella;
+    [SerializeField] private Sprite waterDropSprite;
     [SerializeField] private Sprite EnemyRay;
-    [SerializeField] private Sprite EnemyCasket;
+    [SerializeField] private Sprite EnemySyringe;
     [SerializeField] private PlayerMod playerMod;
     private GameObject[] enemiesFound;
     private int enemyCount;
@@ -129,7 +130,6 @@ public class WaveSystem : MonoBehaviour
                 handler.visible = true;
                 break;
             case 2:
-
                 enemies = FindObjectsOfType<EnemyBehavior>();
                 count = 0;
                 for (int i = 0; i < enemies.Length; i++)
@@ -182,11 +182,11 @@ public class WaveSystem : MonoBehaviour
                             enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyCalamari;
                         else
                         {
-                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemySkull;
+                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyUmbrella;
                         }
                         count++;
                     }
-                    if (count == enemyCountWave2)
+                    if (count == enemyCountWave4)
                         break;
                 }
                 if (!answer)
@@ -196,7 +196,7 @@ public class WaveSystem : MonoBehaviour
                     {
                         if (bullets[i].speed < 0f)
                         {
-                            bullets[i].GetComponent<SpriteRenderer>().sprite = knifeSprite;
+                            bullets[i].GetComponent<SpriteRenderer>().sprite = waterDropSprite;
                         }
                     }
                 }
@@ -223,23 +223,23 @@ public class WaveSystem : MonoBehaviour
                             enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyRay;
                         else
                         {
-                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyCasket;
+                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemySyringe;
                         }
                         count++;
                     }
-                    if (count == enemyCountWave2)
+                    if (count == enemyCountWave6)
                         break;
                 }
                 if (!answer)
                 {
-                    bullets = FindObjectsOfType<Projectile>();
+                   /* bullets = FindObjectsOfType<Projectile>();
                     for (int i = 0; i < bullets.Length; i++)
                     {
                         if (bullets[i].speed < 0f)
                         {
-                            bullets[i].GetComponent<SpriteRenderer>().sprite = EnemyCasket;
+                            bullets[i].GetComponent<SpriteRenderer>().sprite = ;
                         }
-                    }
+                    }*/
                 }
                 break;
 
@@ -281,20 +281,26 @@ public class WaveSystem : MonoBehaviour
         switch (currentWave)
         {
             case 1:
-                if (answer)
-                    ;
-                else
-                    ;
-                    break;
+                break;
             case 3:
                 break;
             case 5:
                 break;
             case 7:
                 break;
+            default:
+                break;
         }
 
         currentWave++;
+        bullets = FindObjectsOfType<Projectile>();
+        for (int i = 0; i < bullets.Length; i++)
+        {
+            if (bullets[i].speed < 0f)
+            {
+                bullets[i].GetComponent<SpriteRenderer>().sprite = stdEnemyBullet;
+            }
+        }
         SpawnWave();
     }
 }

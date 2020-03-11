@@ -90,32 +90,32 @@ public class TextMessageHandler : MonoBehaviour
     {
         switch (YesHP)
         {
-            case 0:
-                YesSprite.sprite = null;
-                break;
             case 1:
                 YesSprite.sprite = YesCrack;
                 break;
             case 2:
                 YesSprite.sprite = YesHalfCrack;
                 break;
-            default:
+            case 3:
                 YesSprite.sprite = YesWhole;
+                break;
+            default:
+                YesSprite.sprite = null;
                 break;
         }
         switch (NoHP)
         {
-            case 0:
-                NoSprite.sprite = null;
-                break;
             case 1:
                 NoSprite.sprite = NoCrack;
                 break;
             case 2:
                 NoSprite.sprite = NoHalfCrack;
                 break;
-            default:
+            case 3:
                 NoSprite.sprite = NoWhole;
+                break;
+            default:
+                NoSprite.sprite = null;
                 break;
         }
         if (waitingToHide)
