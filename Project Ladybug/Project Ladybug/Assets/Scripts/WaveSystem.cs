@@ -15,7 +15,12 @@ public class WaveSystem : MonoBehaviour
     [SerializeField] private int currentWave;
     [SerializeField] private Sprite dishSprite;
     [SerializeField] private Sprite forkSprite;
+    [SerializeField] private Sprite knifeSprite;
     [SerializeField] private Sprite stdEnemyBullet;
+    [SerializeField] private Sprite EnemyCalamari;
+    [SerializeField] private Sprite EnemySkull;
+    [SerializeField] private Sprite EnemyRay;
+    [SerializeField] private Sprite EnemyCasket;
     private GameObject[] enemiesFound;
     private Projectile[] bullets;
     private Vector3 spawnPos;
@@ -75,10 +80,12 @@ public class WaveSystem : MonoBehaviour
                 }
                 break;
             case 1:
+
                 handler.GetMessage("Mom", "Do the dishes");
                 handler.visible = true;
                 break;
             case 2:
+
                 enemies = FindObjectsOfType<EnemyBehavior>();
                 count = 0;
                 for (int i = 0; i < enemies.Length; i++)
@@ -111,10 +118,90 @@ public class WaveSystem : MonoBehaviour
                 }
                 break;
             case 3:
+
                 handler.GetMessage("Mom", "Pick up brother");
                 handler.visible = true;
                 break;
+
             case 4:
+                enemies = FindObjectsOfType<EnemyBehavior>();
+                count = 0;
+                for (int i = 0; i < enemies.Length; i++)
+                {
+                    if (enemies[i].transform.CompareTag("WaitingToSpawn") && enemies[i].enemyType == 1)
+                    {
+                        spawnPos = new Vector3(Random.Range(-8f, -8f + spawnRange0.x), Random.Range(10f, 10f + spawnRange0.y), 1.8f);
+                        enemies[i].transform.tag = "AliveEnemy";
+                        enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
+                        enemies[i].transform.position = spawnPos;
+                        if (!answer)
+                        {
+                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemySkull;
+                        }
+                        count++;
+                    }
+                    if (count == enemyCountWave2)
+                        break;
+                }
+                if (!answer)
+                {
+                    bullets = FindObjectsOfType<Projectile>();
+                    for (int i = 0; i < bullets.Length; i++)
+                    {
+                        if (bullets[i].speed < 0f)
+                        {
+                            bullets[i].GetComponent<SpriteRenderer>().sprite = knifeSprite;
+                        }
+                    }
+                }
+                break;
+
+            case 5:
+
+                handler.GetMessage("Mom", "Take the dog to the vet");
+                handler.visible = true;
+                break;
+
+            case 6:
+                enemies = FindObjectsOfType<EnemyBehavior>();
+                count = 0;
+                for (int i = 0; i < enemies.Length; i++)
+                {
+                    if (enemies[i].transform.CompareTag("WaitingToSpawn") && enemies[i].enemyType == 1)
+                    {
+                        spawnPos = new Vector3(Random.Range(-8f, -8f + spawnRange0.x), Random.Range(10f, 10f + spawnRange0.y), 1.8f);
+                        enemies[i].transform.tag = "AliveEnemy";
+                        enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
+                        enemies[i].transform.position = spawnPos;
+                        if (!answer)
+                        {
+                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyRay;
+                        }
+                        count++;
+                    }
+                    if (count == enemyCountWave2)
+                        break;
+                }
+                if (!answer)
+                {
+                    bullets = FindObjectsOfType<Projectile>();
+                    for (int i = 0; i < bullets.Length; i++)
+                    {
+                        if (bullets[i].speed < 0f)
+                        {
+                            bullets[i].GetComponent<SpriteRenderer>().sprite = EnemyCasket;
+                        }
+                    }
+                }
+                break;
+
+            case 7:
+
+                handler.GetMessage("Mom", "Attend yours Uncles funurel");
+                handler.visible = true;
+                break;
+
+            case 8:
                 Boss.Spawn();
                 bullets = FindObjectsOfType<Projectile>();
                 for (int i = 0; i < bullets.Length; i++)
