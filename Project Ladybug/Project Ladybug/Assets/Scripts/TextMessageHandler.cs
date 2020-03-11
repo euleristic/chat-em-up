@@ -14,6 +14,7 @@ public class TextMessageHandler : MonoBehaviour
     private float scale;
     private int YesHP, NoHP;
     [SerializeField] private SpriteRenderer YesSprite, NoSprite;
+    [SerializeField] private Sprite YesWhole, YesHalfCrack, YesCrack, NoWhole, NoHalfCrack, NoCrack;
 
     float counter;
     private bool waitingToHide;
@@ -87,7 +88,36 @@ public class TextMessageHandler : MonoBehaviour
     }
     private void Update()
     {
-        Yes.transform.localScale = new Vector3(scale / YesMax * YesHP, scale / YesMax * YesHP, 1f);
+        switch (YesHP)
+        {
+            case 0:
+                YesSprite.sprite = null;
+                break;
+            case 1:
+                YesSprite.sprite = YesCrack;
+                break;
+            case 2:
+                YesSprite.sprite = YesHalfCrack;
+                break;
+            default:
+                YesSprite.sprite = YesWhole;
+                break;
+        }
+        switch (NoHP)
+        {
+            case 0:
+                NoSprite.sprite = null;
+                break;
+            case 1:
+                NoSprite.sprite = NoCrack;
+                break;
+            case 2:
+                NoSprite.sprite = NoHalfCrack;
+                break;
+            default:
+                NoSprite.sprite = NoWhole;
+                break;
+        }
         No.transform.localScale = new Vector3(scale / NoMax * NoHP, scale / NoMax * NoHP, 1f);
         if (waitingToHide)
         {
