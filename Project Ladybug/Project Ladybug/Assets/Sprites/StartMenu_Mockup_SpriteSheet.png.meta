@@ -109,16 +109,16 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 196.33333
+        width: 196
         height: 295
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f2ca079a1cc6594fb9f568428873136
+      spriteID: 4db1668dc4ba1a24c8e17c31c55d1add
       internalID: -428399190676382095
       vertices: []
       indices: 
@@ -130,16 +130,16 @@ TextureImporter:
         serializedVersion: 2
         x: 196
         y: 0
-        width: 196.33333
+        width: 196
         height: 295
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2801a8a2feca0e64fadc20d31ff7e485
+      spriteID: 1fede9c4a6b3f794da4365fe9673c502
       internalID: 2421931540030976946
       vertices: []
       indices: 
@@ -151,16 +151,16 @@ TextureImporter:
         serializedVersion: 2
         x: 392
         y: 0
-        width: 196.33333
+        width: 197
         height: 295
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bf62c2e43cf528419a0bb080b3a79ea
+      spriteID: fd11ebde5bba04f4285d7bf439f0c767
       internalID: 673047933898594855
       vertices: []
       indices: 
@@ -170,18 +170,18 @@ TextureImporter:
       name: StartMenu_Mockup_SpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 588
+        x: 589
         y: 0
-        width: 196.33333
+        width: 196
         height: 295
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3024a32411c0bec46bf7cfd469ec1619
+      spriteID: 58c4f9ae2ea203740a18569e30e5dca0
       internalID: 2793242436341647002
       vertices: []
       indices: 
@@ -191,18 +191,18 @@ TextureImporter:
       name: StartMenu_Mockup_SpriteSheet_4
       rect:
         serializedVersion: 2
-        x: 784
+        x: 785
         y: 0
-        width: 196.33333
+        width: 197
         height: 295
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e37a832dbbbd974fa30d6b24f7656f0
+      spriteID: e18089182e4352f4f8b1402310155338
       internalID: -371956014226283596
       vertices: []
       indices: 
@@ -212,18 +212,18 @@ TextureImporter:
       name: StartMenu_Mockup_SpriteSheet_5
       rect:
         serializedVersion: 2
-        x: 980
+        x: 982
         y: 0
-        width: 196.33333
+        width: 196
         height: 295
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29f58e72dbfe0a54f9764d9e84244085
+      spriteID: 8c48c9f30af792f44b6e0a6c777531b3
       internalID: -2558894012731549862
       vertices: []
       indices: 
