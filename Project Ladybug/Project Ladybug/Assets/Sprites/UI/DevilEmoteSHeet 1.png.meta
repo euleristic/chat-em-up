@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: f429d3e65de6fe04abbcdb5069c01b45
+guid: 1edafc29a79db3349b6fa9d3a2f28241
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3983737281293634833
-    second: DevilEmoteSHeet_0
+      213: 68533002251665657
+    second: DevilEmoteSHeet 1_0
   - first:
-      213: 3353497332914481340
-    second: DevilEmoteSHeet_1
+      213: -2612666616936022261
+    second: DevilEmoteSHeet 1_1
   - first:
-      213: -4522040262661737656
-    second: DevilEmoteSHeet_2
+      213: 6494110224538198394
+    second: DevilEmoteSHeet 1_2
   - first:
-      213: -1083866036590157704
-    second: DevilEmoteSHeet_3
+      213: -3183441302659759853
+    second: DevilEmoteSHeet 1_3
   - first:
-      213: 8444447816264852832
-    second: DevilEmoteSHeet_4
+      213: -8734571424708852279
+    second: DevilEmoteSHeet 1_4
   - first:
-      213: -3102459721356442953
-    second: DevilEmoteSHeet_5
+      213: -883013227665399533
+    second: DevilEmoteSHeet 1_5
   - first:
-      213: -8976800327647427659
-    second: DevilEmoteSHeet_6
+      213: 6420695294914784928
+    second: DevilEmoteSHeet 1_6
   - first:
-      213: 912312957715459049
-    second: DevilEmoteSHeet_7
+      213: -6587462597042242413
+    second: DevilEmoteSHeet 1_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,36 +84,36 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -122,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DevilEmoteSHeet_0
+      name: DevilEmoteSHeet 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 76
-        height: 48
+        width: 19
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +136,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e54e66937604e948bb491c730e3ccf6
-      internalID: 3983737281293634833
+      spriteID: 4c8a646b95ffd834fa0a7e421e01cb2f
+      internalID: 68533002251665657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DevilEmoteSHeet_1
+      name: DevilEmoteSHeet 1_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf180de0004d37429ac671ce8a22e33
+      internalID: -2612666616936022261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevilEmoteSHeet 1_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07c14682d2ff2d42b6be6c2487ae3fa
+      internalID: 6494110224538198394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevilEmoteSHeet 1_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5395c3116050645ae17389a5370630
+      internalID: -3183441302659759853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevilEmoteSHeet 1_4
       rect:
         serializedVersion: 2
         x: 76
         y: 0
-        width: 76
-        height: 48
+        width: 19
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffd8dbe6c4a547b478cab41e5a046882
-      internalID: 3353497332914481340
+      spriteID: ae98c078cf0efcd44bab090cdea80831
+      internalID: -8734571424708852279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DevilEmoteSHeet_2
+      name: DevilEmoteSHeet 1_5
       rect:
         serializedVersion: 2
-        x: 152
+        x: 95
         y: 0
-        width: 76
-        height: 48
+        width: 19
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7687f8fbd4bb6fa499bc30ed2440faab
-      internalID: -4522040262661737656
+      spriteID: 3f8355091d471e941a294298e17961f1
+      internalID: -883013227665399533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DevilEmoteSHeet_3
+      name: DevilEmoteSHeet 1_6
       rect:
         serializedVersion: 2
-        x: 228
+        x: 114
         y: 0
-        width: 76
-        height: 48
+        width: 19
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4618475d4a67e04c8d882796c0c73c5
-      internalID: -1083866036590157704
+      spriteID: 918fb5db713b83e47977d5675b877fc4
+      internalID: 6420695294914784928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DevilEmoteSHeet_4
+      name: DevilEmoteSHeet 1_7
       rect:
         serializedVersion: 2
-        x: 304
+        x: 133
         y: 0
-        width: 76
-        height: 48
+        width: 19
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,71 +283,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3a6cd0edd4cef047ab9c95e908c2fc6
-      internalID: 8444447816264852832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DevilEmoteSHeet_5
-      rect:
-        serializedVersion: 2
-        x: 380
-        y: 0
-        width: 76
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c06f274d0b4b4540ae3e62abe656a8a
-      internalID: -3102459721356442953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DevilEmoteSHeet_6
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 0
-        width: 76
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8dc2ed5fae930f418b1cdb16ec51e98
-      internalID: -8976800327647427659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DevilEmoteSHeet_7
-      rect:
-        serializedVersion: 2
-        x: 532
-        y: 0
-        width: 76
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32407da7090529640a55346a7a9307ac
-      internalID: 912312957715459049
+      spriteID: 7d7091ec3b9bd3141a6567a2922570c0
+      internalID: -6587462597042242413
       vertices: []
       indices: 
       edges: []

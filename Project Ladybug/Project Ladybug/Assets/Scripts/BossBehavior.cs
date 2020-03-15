@@ -6,6 +6,7 @@ public class BossBehavior : MonoBehaviour
 {
     [SerializeField] private Vector3 startPosition;
     [SerializeField] private Vector3 endPosition;
+    [SerializeField] private float lerpSpeed;
     [SerializeField] private float shootRange;
     [SerializeField] private int numOfShots;
     [SerializeField] private float randRange;
@@ -19,8 +20,11 @@ public class BossBehavior : MonoBehaviour
     private float counter;
     private int hp;
     private float startScale, startPos;
+
+    private Collider collider;
     void Start()
     {
+        collider = GetComponent<Collider>();
         oufer = GetComponent<AudioSource>();
         transform.localPosition = startPosition;
         hp = MaxHp;
@@ -32,6 +36,14 @@ public class BossBehavior : MonoBehaviour
 
     void Update()
     {
+        if (!inFight) return;
+        transform.position = Vector2.Lerp(transform.position, endPosition, lerpSpeed * Time.deltaTime);
+        
+        bool closeEnough = (((Vector2)transform.position - (Vector2)endPosition).magnitude < 1f);
+        collider.enabled = closeEnough;
+
+        if (!closeEnough) return;
+
         counter += Time.deltaTime;
         if (inFight && counter > attackCD)
         {
@@ -47,7 +59,7 @@ public class BossBehavior : MonoBehaviour
     public void Spawn()
     {
         print("Spawned Boss");
-        transform.localPosition = endPosition;
+        transform.localPosition = startPosition;
         inFight = true;
     }
 

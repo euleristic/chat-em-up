@@ -7260,6 +7260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPosition: {x: 0, y: 20, z: 10}
   endPosition: {x: 0, y: 2.25, z: 10}
+  lerpSpeed: 1
   shootRange: 100
   numOfShots: 5
   randRange: 10
@@ -38953,12 +38954,12 @@ PrefabInstance:
     - target: {fileID: 3460356301436025398, guid: 13bf7a6f86ecde64fa84a6607d313ae2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.49
+      value: 11.9
       objectReference: {fileID: 0}
     - target: {fileID: 3460356301436025398, guid: 13bf7a6f86ecde64fa84a6607d313ae2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.18
       objectReference: {fileID: 0}
     - target: {fileID: 3460356301436025398, guid: 13bf7a6f86ecde64fa84a6607d313ae2,
         type: 3}
