@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4622687655334493319}
   - component: {fileID: 2159352562615994377}
+  - component: {fileID: -1137166035033785931}
   m_Layer: 0
   m_Name: Enemy_Calamari_01
   m_TagString: Untagged
@@ -80,3 +81,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-1137166035033785931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7253424808818286503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c778d48bb64233c449bb77227ae1211d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Waypoint:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  movespeed: 0

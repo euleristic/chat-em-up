@@ -25,7 +25,7 @@ public class WaveSystem : MonoBehaviour
     [SerializeField] private Sprite stdEnemyBullet;
     [SerializeField] private Sprite EnemyCalamari;
     [SerializeField] private Sprite EnemySkull;
-    [SerializeField] private Sprite EnemyRay;
+    [SerializeField] private GameObject EnemyRay;
     [SerializeField] private Sprite EnemyCasket;
     private GameObject[] enemiesFound;
     private int enemyCount;
@@ -219,7 +219,7 @@ public class WaveSystem : MonoBehaviour
                         enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
                         enemies[i].transform.position = spawnPos;
                         if (answer)
-                            enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyRay;
+                            enemies[i].gameObject.GetComponent("EnemyRay");
                         else
                         {
                             enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyCasket;
