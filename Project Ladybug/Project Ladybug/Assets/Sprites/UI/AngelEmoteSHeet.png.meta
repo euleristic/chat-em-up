@@ -125,10 +125,10 @@ TextureImporter:
       name: AngelEmoteSHeet_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 9
-        width: 11
-        height: 15
+        x: 0
+        y: 0
+        width: 76
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,7 +136,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f0f19e8f14f3ec499e8286a8040d103
+      spriteID: bebed598732fbd645b87dbb31cf87f13
       internalID: 8604417064419278638
       vertices: []
       indices: 
@@ -146,10 +146,10 @@ TextureImporter:
       name: AngelEmoteSHeet_1
       rect:
         serializedVersion: 2
-        x: 115
-        y: 9
-        width: 11
-        height: 15
+        x: 76
+        y: 0
+        width: 76
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,7 +157,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c465894ef761240ab8d9872be3f05c
+      spriteID: 1783d08ba7bc5654cbee11bf81ddb463
       internalID: -3712511567966032942
       vertices: []
       indices: 
@@ -167,10 +167,10 @@ TextureImporter:
       name: AngelEmoteSHeet_2
       rect:
         serializedVersion: 2
-        x: 191
-        y: 9
-        width: 11
-        height: 15
+        x: 152
+        y: 0
+        width: 76
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,7 +178,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e8e974bb940ab341abd24c0c8a48f30
+      spriteID: bc396f0815bcac04c938481f1898403f
       internalID: 2973586426098893841
       vertices: []
       indices: 
@@ -188,10 +188,10 @@ TextureImporter:
       name: AngelEmoteSHeet_3
       rect:
         serializedVersion: 2
-        x: 267
-        y: 9
-        width: 11
-        height: 15
+        x: 228
+        y: 0
+        width: 76
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,7 +199,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5106c7b7e26cc844ea15a766ef894fbb
+      spriteID: 3458377ee60ab9948bc91d8732fb0b42
       internalID: -8010746102140737957
       vertices: []
       indices: 
@@ -209,10 +209,10 @@ TextureImporter:
       name: AngelEmoteSHeet_4
       rect:
         serializedVersion: 2
-        x: 343
-        y: 9
-        width: 11
-        height: 15
+        x: 304
+        y: 0
+        width: 76
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,7 +220,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e604113f7e4f5a947ac10554264ea8d6
+      spriteID: 1bc4aaa9075e5d24d854ae349387e11e
       internalID: 3451189632558228127
       vertices: []
       indices: 
@@ -230,10 +230,10 @@ TextureImporter:
       name: AngelEmoteSHeet_5
       rect:
         serializedVersion: 2
-        x: 419
-        y: 9
-        width: 11
-        height: 15
+        x: 380
+        y: 0
+        width: 76
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,7 +241,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2a35f70110dec442904dc4a1c39a704
+      spriteID: c2bd797144165494d8954b0288d34d9a
       internalID: 4882296231332172315
       vertices: []
       indices: 
@@ -251,10 +251,10 @@ TextureImporter:
       name: AngelEmoteSHeet_6
       rect:
         serializedVersion: 2
-        x: 495
-        y: 9
-        width: 13
-        height: 15
+        x: 456
+        y: 0
+        width: 76
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,7 +262,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8805b42c9b7a1704baadf91254f331b2
+      spriteID: 5ceb890dc0d2b064298ae425e3e7e7b4
       internalID: 5457709825854165085
       vertices: []
       indices: 
@@ -272,10 +272,10 @@ TextureImporter:
       name: AngelEmoteSHeet_7
       rect:
         serializedVersion: 2
-        x: 571
-        y: 9
-        width: 13
-        height: 15
+        x: 532
+        y: 0
+        width: 76
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,7 +283,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 049aff54c79afca4aa61c9c1ff624233
+      spriteID: 97bfd01ba24d9394cb5781fd7edee427
       internalID: -1089519349406633073
       vertices: []
       indices: 

@@ -35,8 +35,12 @@ public class WaveSystem : MonoBehaviour
     private Vector3 spawnPos;
     private Quaternion nullQuaternion;
     private bool answer;
+
+    [SerializeField] private AudioClip bossmusic;
+    private AudioSource audioSource;
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         nullQuaternion = new Quaternion(0, 0, 0, 0);
         SpawnWave();
     }
@@ -251,6 +255,15 @@ public class WaveSystem : MonoBehaviour
 
             case 8:
                 Boss.Spawn();
+
+                //hack
+                if (bossmusic != null & audioSource != null)
+
+                {
+                    audioSource.clip = bossmusic;
+                    audioSource.Play();
+                }
+
                 bullets = FindObjectsOfType<Projectile>();
                 for (int i = 0; i < bullets.Length; i++)
                 {
