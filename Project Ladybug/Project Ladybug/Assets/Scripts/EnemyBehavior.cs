@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour
 {
+    public AudioClip dieSound;
+
     [SerializeField] float speed;
     [SerializeField] GameObject Bullet;
     [SerializeField] private int hp;
@@ -12,6 +14,18 @@ public class EnemyBehavior : MonoBehaviour
     public int enemyType;
     public Vector2 spawnRange;
     private Vector3 startPos;
+
+
+    public static AudioSource audioSource;
+
+    private void PlayDeathSound()
+    {
+        print("OOF");
+        if(audioSource != null && dieSound != null)
+        {
+            audioSource.PlayOneShot(dieSound, 1f);
+        }
+    }
 
     void Start()
     {
@@ -52,6 +66,7 @@ public class EnemyBehavior : MonoBehaviour
             {
                 transform.position = deadPos;
                 transform.tag = "WaitingToSpawn";
+                PlayDeathSound();
             }
         }
         else if (other.transform.CompareTag("Floor"))

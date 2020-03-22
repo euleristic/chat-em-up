@@ -29,6 +29,8 @@ public class WaveSystem : MonoBehaviour
     [SerializeField] private Sprite EnemyRay;
     [SerializeField] private Sprite EnemySyringe;
     [SerializeField] private PlayerMod playerMod;
+
+
     private GameObject[] enemiesFound;
     private int enemyCount;
     private Projectile[] bullets;
@@ -36,13 +38,37 @@ public class WaveSystem : MonoBehaviour
     private Quaternion nullQuaternion;
     private bool answer;
 
+    private EnemyBehavior[] enemyBehaviors;
+
+    [Header("Sounds")]
+    [SerializeField] private AudioClip OOF;
+    [SerializeField] private AudioClip firstGuyDeathSound;
+    [SerializeField] private AudioClip dishyDeathSound;
+    [SerializeField] private AudioClip umbrellaDeathSound;
+    [SerializeField] private AudioClip syringeDeathSound;
+
     [SerializeField] private AudioClip bossmusic;
     private AudioSource audioSource;
+
     void Start()
     {
+        EnemyBehavior.audioSource = GetComponent<AudioSource>();
+
         audioSource = GetComponent<AudioSource>();
         nullQuaternion = new Quaternion(0, 0, 0, 0);
         SpawnWave();
+    }
+
+    private void SetEnemySound(AudioClip sound, EnemyBehavior eb)
+    {
+        AudioClip sfx;
+        if (sound != null)
+        {
+            sfx = sound;
+        }
+        else 
+            sfx = OOF;
+        eb.dieSound = sfx;         
     }
 
     void Update()
@@ -61,6 +87,7 @@ public class WaveSystem : MonoBehaviour
                     {
                         enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
                         enemy.transform.tag = "WaitingToSpawn";
+                        
                     }
                     currentWave++;
                     SpawnWave();
@@ -123,6 +150,7 @@ public class WaveSystem : MonoBehaviour
                         enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
                         enemies[i].transform.position = spawnPos;
                         count++;
+                        SetEnemySound(firstGuyDeathSound, enemies[i]);
                     }
                     if (count == enemyCountWave0)
                         break;
@@ -144,9 +172,16 @@ public class WaveSystem : MonoBehaviour
                         enemies[i].transform.tag = "AliveEnemy";
                         enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
                         enemies[i].transform.position = spawnPos;
+
+
                         if (!answer)
                         {
                             enemies[i].GetComponent<SpriteRenderer>().sprite = dishSprite;
+                            SetEnemySound(dishyDeathSound, enemies[i]);
+                        }
+                        else
+                        {
+                            SetEnemySound(firstGuyDeathSound, enemies[i]);
                         }
                         count++;
                     }
@@ -183,10 +218,14 @@ public class WaveSystem : MonoBehaviour
                         enemies[i].transform.position = spawnPos;
 
                         if (answer)
+                        {
                             enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyCalamari;
+                            SetEnemySound(firstGuyDeathSound, enemies[i]);
+                        }
                         else
                         {
                             enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyUmbrella;
+                            SetEnemySound(umbrellaDeathSound, enemies[i]);
                         }
                         count++;
                     }
@@ -224,10 +263,14 @@ public class WaveSystem : MonoBehaviour
                         enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
                         enemies[i].transform.position = spawnPos;
                         if (answer)
+                        {
                             enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyRay;
+                            SetEnemySound(firstGuyDeathSound, enemies[i]);
+                        }
                         else
                         {
                             enemies[i].GetComponent<SpriteRenderer>().sprite = EnemySyringe;
+                            SetEnemySound(syringeDeathSound, enemies[i]);
                         }
                         count++;
                     }

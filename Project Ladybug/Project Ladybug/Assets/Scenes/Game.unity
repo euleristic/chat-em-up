@@ -143,8 +143,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4273514
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -159,7 +159,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &11844499 stripped
 GameObject:
@@ -184,8 +184,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &11844502
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -200,7 +200,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &16079238
 GameObject:
@@ -343,8 +343,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &16320318
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -359,7 +359,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &16320319
 MonoBehaviour:
@@ -499,6 +499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -695,8 +696,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &53385019
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -711,7 +712,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &53385020
 MonoBehaviour:
@@ -1124,8 +1125,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &70675493
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1140,7 +1141,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &70675494
 MonoBehaviour:
@@ -1250,8 +1251,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &72606226
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1266,7 +1267,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &72606227
 MonoBehaviour:
@@ -1449,8 +1450,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &84327792
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1465,7 +1466,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &84989317
 GameObject:
@@ -1592,8 +1593,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &86560297
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1608,7 +1609,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &86560298
 MonoBehaviour:
@@ -1696,8 +1697,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &90986085
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1712,7 +1713,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &93640361
 GameObject:
@@ -1759,8 +1760,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &93640364
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1775,7 +1776,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &93640365
 MonoBehaviour:
@@ -1915,6 +1916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -2047,6 +2049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -2223,8 +2226,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &118901054
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2239,7 +2242,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &118901055
 MonoBehaviour:
@@ -2379,6 +2382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -2510,6 +2514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -2611,8 +2616,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &140322730
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2627,7 +2632,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &140322731
 MonoBehaviour:
@@ -2737,8 +2742,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &148509612
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2753,7 +2758,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &148509613
 MonoBehaviour:
@@ -2988,6 +2993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -3147,8 +3153,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &174181525
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3163,7 +3169,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &197810125
 GameObject:
@@ -3240,6 +3246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -3371,6 +3378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -3502,6 +3510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -3634,6 +3643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -3735,8 +3745,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &224935228
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3751,7 +3761,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &224935229
 MonoBehaviour:
@@ -3861,8 +3871,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &225940584
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3877,7 +3887,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &225940585
 MonoBehaviour:
@@ -3965,8 +3975,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &226475825
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3981,7 +3991,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &227334082 stripped
 GameObject:
@@ -4006,8 +4016,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &227334085
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4022,7 +4032,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &243818728
 GameObject:
@@ -4272,6 +4282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -4352,8 +4363,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &268512009
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4368,7 +4379,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &271558160
 GameObject:
@@ -4520,6 +4531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -4627,8 +4639,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &275921950
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4643,7 +4655,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &275921951
 MonoBehaviour:
@@ -4753,8 +4765,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &289748799
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4769,7 +4781,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &289748800
 MonoBehaviour:
@@ -4857,8 +4869,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &301857655
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4873,7 +4885,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &305156189
 GameObject:
@@ -4950,6 +4962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -5177,6 +5190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -5473,8 +5487,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &375556308
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5489,7 +5503,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &384868425
 GameObject:
@@ -5566,6 +5580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -5645,8 +5660,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &390417642
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5661,7 +5676,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &392813642 stripped
 GameObject:
@@ -5686,8 +5701,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &392813645
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5702,7 +5717,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &398177314
 GameObject:
@@ -5908,6 +5923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -6293,6 +6309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -6482,8 +6499,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &422735573
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6498,7 +6515,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &426892021
 GameObject:
@@ -6545,8 +6562,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &426892024
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6561,7 +6578,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &426892025
 MonoBehaviour:
@@ -6671,8 +6688,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &435845765
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6687,7 +6704,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &435845766
 MonoBehaviour:
@@ -6827,6 +6844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -7057,8 +7075,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &456699859
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7073,7 +7091,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &456699860
 MonoBehaviour:
@@ -7213,6 +7231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -7345,6 +7364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -7541,8 +7561,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &494976616
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7557,7 +7577,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &494976617
 MonoBehaviour:
@@ -7667,8 +7687,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &507760664
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7683,7 +7703,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &507760665
 MonoBehaviour:
@@ -7867,8 +7887,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &508069473
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7883,7 +7903,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1001 &512819716
 PrefabInstance:
@@ -8055,6 +8075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -8376,6 +8397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -8456,8 +8478,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &538487533
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8472,7 +8494,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &555284492
 GameObject:
@@ -8519,8 +8541,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &555284495
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8535,7 +8557,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &555284496
 MonoBehaviour:
@@ -8675,6 +8697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -8855,7 +8878,7 @@ MonoBehaviour:
   enemyCountWave6: 20
   needToKill6: 15
   spawnRange6: {x: 16, y: 50}
-  currentWave: 7
+  currentWave: 1
   dishSprite: {fileID: 21300000, guid: a4ec158e8a49885499604a7fb3c2add0, type: 3}
   forkSprite: {fileID: 21300000, guid: 02b4f56c702f8cc479585bab225954e3, type: 3}
   knifeSprite: {fileID: 21300000, guid: 26aecc5048180ca4cb4dc47a684f13be, type: 3}
@@ -8867,6 +8890,11 @@ MonoBehaviour:
   EnemySyringe: {fileID: -7646541537595109293, guid: 04e22494b30dbd944af379226897543d,
     type: 3}
   playerMod: {fileID: 1223961440}
+  OOF: {fileID: 8300000, guid: c0b172bb7a06bd44b9d11b5c7eafd427, type: 3}
+  firstGuyDeathSound: {fileID: 8300000, guid: 5a3887cb9a868ea428cef002cc570dd1, type: 3}
+  dishyDeathSound: {fileID: 8300000, guid: 5fdaf91ce15ead44eb2ea9d4376c3646, type: 3}
+  umbrellaDeathSound: {fileID: 8300000, guid: 65e28116494c2a3498e45fbba1cb0785, type: 3}
+  syringeDeathSound: {fileID: 8300000, guid: ba5aeac844d7da740b7e91c3e3b031ee, type: 3}
   bossmusic: {fileID: 8300000, guid: 0a929c47190055640bab7539168e25ba, type: 3}
 --- !u!4 &559054640
 Transform:
@@ -9229,6 +9257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -9409,8 +9438,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &581403464
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9425,7 +9454,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!65 &587575019
 BoxCollider:
@@ -9611,8 +9640,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &596933185
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9627,7 +9656,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &598161963
 GameObject:
@@ -9704,6 +9733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -9835,6 +9865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -10200,8 +10231,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &616136845
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10216,7 +10247,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &630400865
 GameObject:
@@ -10263,8 +10294,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &630400868
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10279,7 +10310,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &630400869
 MonoBehaviour:
@@ -10367,8 +10398,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &635831243
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10383,7 +10414,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &636735921
 GameObject:
@@ -10460,6 +10491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -10539,8 +10571,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &641522569
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10555,7 +10587,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &654602596
 GameObject:
@@ -10734,6 +10766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -10866,6 +10899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -11062,8 +11096,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &664352033
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11078,7 +11112,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &664352034
 MonoBehaviour:
@@ -11409,8 +11443,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &673877190
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11425,7 +11459,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &673877191
 MonoBehaviour:
@@ -11696,8 +11730,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &687121665
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11712,7 +11746,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &687121666
 MonoBehaviour:
@@ -11976,8 +12010,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &703335298
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11992,7 +12026,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &717301775
 GameObject:
@@ -12069,6 +12103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -12201,6 +12236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -12281,8 +12317,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &730702909
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12297,7 +12333,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &731007416 stripped
 GameObject:
@@ -12322,8 +12358,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &731007419
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12338,7 +12374,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &735458414
 GameObject:
@@ -12415,6 +12451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -12643,6 +12680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -12723,8 +12761,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &746752688
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12739,7 +12777,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &747528738
 GameObject:
@@ -12816,6 +12854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -13008,8 +13047,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &769576380
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13024,7 +13063,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &769576381
 MonoBehaviour:
@@ -13208,8 +13247,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &787988883
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13224,7 +13263,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &788822924
 GameObject:
@@ -13301,6 +13340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -13461,8 +13501,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &798982973
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13477,7 +13517,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1001 &809879547
 PrefabInstance:
@@ -13597,8 +13637,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &822239675
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13613,7 +13653,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!4 &839552323 stripped
 Transform:
@@ -13644,8 +13684,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &842110800
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13660,7 +13700,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!65 &848452278
 BoxCollider:
@@ -13673,8 +13713,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &848452279
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13689,7 +13729,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &861227899
 GameObject:
@@ -13736,8 +13776,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &861227902
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13752,7 +13792,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &861227903
 MonoBehaviour:
@@ -13886,8 +13926,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &876716146
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13902,7 +13942,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &876716147
 MonoBehaviour:
@@ -14202,8 +14242,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &905463407
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14218,7 +14258,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &905463408
 MonoBehaviour:
@@ -14358,6 +14398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -14489,6 +14530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -14568,8 +14610,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &942577339
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14584,7 +14626,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &950270703
 GameObject:
@@ -14631,8 +14673,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &950270706
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14647,7 +14689,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &950270707
 MonoBehaviour:
@@ -14757,8 +14799,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &956023865
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14773,7 +14815,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &956023866
 MonoBehaviour:
@@ -14913,6 +14955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -15045,6 +15088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -15272,6 +15316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -15499,6 +15544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -15616,6 +15662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -15710,8 +15757,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1023476333
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15726,7 +15773,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1026488214
 GameObject:
@@ -15970,8 +16017,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1027540903
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15986,7 +16033,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1030126321
 GameObject:
@@ -16063,6 +16110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -16164,8 +16212,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1050621711
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16180,7 +16228,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1050621712
 MonoBehaviour:
@@ -16290,8 +16338,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1052011459
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16306,7 +16354,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1052011460
 MonoBehaviour:
@@ -16416,8 +16464,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1059269558
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16432,7 +16480,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1059269559
 MonoBehaviour:
@@ -16520,8 +16568,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1069736760
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16536,7 +16584,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1073521582
 GameObject:
@@ -16828,6 +16876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -16960,6 +17009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -17091,6 +17141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -17489,6 +17540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -17621,6 +17673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -17752,6 +17805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -17979,6 +18033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -18191,8 +18246,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1158219531
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18207,7 +18262,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1158219532
 MonoBehaviour:
@@ -18347,6 +18402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -18457,8 +18513,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1186573525
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18473,7 +18529,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1189565636
 GameObject:
@@ -18646,6 +18702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -18726,8 +18783,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1197805809
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18742,7 +18799,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1204821513
 GameObject:
@@ -18805,6 +18862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -19030,6 +19088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -19672,6 +19731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -19804,6 +19864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -20111,6 +20172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -20338,6 +20400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -20564,6 +20627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -20892,6 +20956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -21024,6 +21089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -21257,6 +21323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -21337,8 +21404,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1359184101
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21353,7 +21420,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1361818131
 GameObject:
@@ -21400,8 +21467,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: -0.0000009536743, y: 0, z: 0}
 --- !u!54 &1361818134
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21416,7 +21483,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1361818135
 MonoBehaviour:
@@ -21711,8 +21778,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1376781089
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21727,7 +21794,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1382830947
 GameObject:
@@ -21774,8 +21841,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1382830950
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21790,7 +21857,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1382830951
 MonoBehaviour:
@@ -21878,8 +21945,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1384142504
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21894,7 +21961,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1392760002 stripped
 GameObject:
@@ -21919,8 +21986,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1392760005
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21935,7 +22002,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1399095244
 GameObject:
@@ -21991,8 +22058,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1413069958
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22007,7 +22074,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1001 &1413457660
 PrefabInstance:
@@ -22274,6 +22341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -22700,6 +22768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -22832,6 +22901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -22964,6 +23034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -23358,8 +23429,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1508021690
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23374,7 +23445,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1508021691
 MonoBehaviour:
@@ -23514,6 +23585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -23646,6 +23718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -23778,6 +23851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -23909,6 +23983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -23989,8 +24064,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1564711861
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24005,7 +24080,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1578475126
 GameObject:
@@ -24223,8 +24298,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1585224632
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24239,7 +24314,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1585224633
 MonoBehaviour:
@@ -24665,6 +24740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -24848,8 +24924,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1620431082
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24864,7 +24940,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1620431083
 MonoBehaviour:
@@ -24952,8 +25028,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1622529678
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24968,7 +25044,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1622994397
 GameObject:
@@ -25015,8 +25091,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1622994400
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25031,7 +25107,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1622994401
 MonoBehaviour:
@@ -25501,8 +25577,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1665674255
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25517,7 +25593,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1665674256
 MonoBehaviour:
@@ -25722,8 +25798,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1668671705
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25738,7 +25814,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1668671706
 MonoBehaviour:
@@ -26028,8 +26104,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1686817666
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26044,7 +26120,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1001 &1687249866
 PrefabInstance:
@@ -26216,6 +26292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -26347,6 +26424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -26606,6 +26684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -26707,8 +26786,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1717179480
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26723,7 +26802,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1717179481
 MonoBehaviour:
@@ -26863,6 +26942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -27096,6 +27176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -27175,8 +27256,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1751653617
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27191,7 +27272,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1764782610
 GameObject:
@@ -27312,8 +27393,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1766979880
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27328,7 +27409,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1783547676
 GameObject:
@@ -27405,6 +27486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -27484,8 +27566,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1790568531
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27500,7 +27582,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1795094344
 GameObject:
@@ -27577,6 +27659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -27899,6 +27982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -28031,6 +28115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -28162,6 +28247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -28293,6 +28379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -28698,8 +28785,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1834692641
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28714,7 +28801,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1834692642
 MonoBehaviour:
@@ -29014,8 +29101,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1855803878
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29030,7 +29117,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1855803879
 MonoBehaviour:
@@ -29170,6 +29257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -29250,8 +29338,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1863018341
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29266,7 +29354,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1864579284
 GameObject:
@@ -29343,6 +29431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -29444,8 +29533,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1869783343
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29460,7 +29549,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1869783344
 MonoBehaviour:
@@ -29696,6 +29785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -29827,6 +29917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -29958,6 +30049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -30280,6 +30372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -30411,6 +30504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -30608,8 +30702,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1929823274
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30624,7 +30718,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1929823275
 MonoBehaviour:
@@ -30734,8 +30828,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1930835848
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30750,7 +30844,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1930835849
 MonoBehaviour:
@@ -30890,6 +30984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -30992,8 +31087,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1936713008
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31008,7 +31103,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &1936713009
 MonoBehaviour:
@@ -31148,6 +31243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -31279,6 +31375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -31601,6 +31698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -31681,8 +31779,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1961389768
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31697,7 +31795,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1961537902 stripped
 GameObject:
@@ -31722,8 +31820,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1961537905
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31738,7 +31836,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &1983520306
 GameObject:
@@ -31815,6 +31913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -32137,6 +32236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -32269,6 +32369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -32401,6 +32502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -32533,6 +32635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -32634,8 +32737,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2044160892
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32650,7 +32753,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &2044160893
 MonoBehaviour:
@@ -32833,8 +32936,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2050243983
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32849,7 +32952,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &2056646987
 GameObject:
@@ -32926,6 +33029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1
@@ -33005,8 +33109,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2058210279
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33021,7 +33125,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &2064946468
 GameObject:
@@ -33098,6 +33202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -33310,6 +33415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
@@ -33412,8 +33518,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2090287938
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33428,7 +33534,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!114 &2090287939
 MonoBehaviour:
@@ -33516,8 +33622,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: -0.125, z: 0}
+  m_Size: {x: 0.16, y: 0.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2118592370
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33532,7 +33638,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!1 &2141737649
 GameObject:
@@ -33609,6 +33715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7454da4136b75164ca1da31ae6341968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 0}
   speed: 5
   Bullet: {fileID: 0}
   hp: 1

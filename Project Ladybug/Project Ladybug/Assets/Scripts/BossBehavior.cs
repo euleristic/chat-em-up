@@ -60,6 +60,7 @@ public class BossBehavior : MonoBehaviour
     {
         print("Spawned Boss");
         transform.localPosition = startPosition;
+
         inFight = true;
     }
 
