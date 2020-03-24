@@ -213,6 +213,7 @@ public class Shooty : MonoBehaviour
                     {
                         bullets[i].currentWeapon = currentWeapon;
                         bullets[i].GetComponent<SpriteRenderer>().sprite = orbBullet;
+                        bullets[i].speed = playerMod.orbSpeed;
                         bullets[i].transform.localScale = new Vector3(playerMod.orbMinSize, playerMod.orbMinSize);
                         bullets[i].tag = "WaitingToSpawn";
                     }
@@ -228,6 +229,7 @@ public class Shooty : MonoBehaviour
                         bullets[i].currentWeapon = currentWeapon;
                         bullets[i].GetComponent<SpriteRenderer>().sprite = boomerangBullet;
                         bullets[i].player = gameObject;
+                        bullets[i].speed = playerMod.boomerangSpeed;
                         bullets[i].transform.localScale = new Vector3(playerMod.boomerangSize, playerMod.boomerangSize);
                         bullets[i].tag = "WaitingToSpawn";
                     }
@@ -245,6 +247,7 @@ public class Shooty : MonoBehaviour
                         bullets[i].burstAOEBase = playerMod.burstAOEBase;
                         bullets[i].burstAOEFactor = playerMod.burstAOEFactor;
                         bullets[i].burstSpeedFactor = playerMod.burstSpeedFactor;
+                        bullets[i].speed = playerMod.burstSpeed;
                         bullets[i].transform.localScale = new Vector3(playerMod.burstSize, playerMod.burstSize);
                         bullets[i].tag = "WaitingToSpawn";
                     }
@@ -260,6 +263,7 @@ public class Shooty : MonoBehaviour
                     {
                         bullets[i].currentWeapon = currentWeapon;
                         bullets[i].GetComponent<SpriteRenderer>().sprite = arrowBullet;
+                        bullets[i].speed = playerMod.arrowSpeed;
                         bullets[i].transform.localScale = new Vector3(playerMod.arrowSize, playerMod.arrowSize);
                         bullets[i].tag = "WaitingToSpawn";
                     }
@@ -277,6 +281,7 @@ public class Shooty : MonoBehaviour
                         bullets[i].homingAngle = playerMod.homingAngle;
                         bullets[i].homingRotationSpeed = playerMod.homingRotationSpeed;
                         bullets[i].homingDistance = playerMod.homingDistance;
+                        bullets[i].speed = playerMod.homingSpeed;
                         bullets[i].transform.localScale = new Vector3(playerMod.homingSize, playerMod.homingSize);
                         bullets[i].tag = "WaitingToSpawn";
                     }
