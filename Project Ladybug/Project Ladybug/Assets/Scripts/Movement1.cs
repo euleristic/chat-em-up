@@ -8,6 +8,7 @@ public class Movement1 : MonoBehaviour
     private Vector2 input;
     private Rigidbody rb;
     private bool invincible;
+    
     [SerializeField] private float thrusterLow;
     [SerializeField] private float thrusterHigh;
     [SerializeField] private float thrusterLerp;
@@ -22,18 +23,51 @@ public class Movement1 : MonoBehaviour
     [SerializeField] private Sprite heartSprite;
     [SerializeField] SpriteRenderer[] hearts = new SpriteRenderer[4];
     public float gravity;
+    private bool healthy;
+    private bool wet;
+    private bool rest;
+    [SerializeField] private PlayerMod playerMod;
 
+    [SerializeField] private int maxHP;
     [SerializeField] private int hp;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         invincible = false;
         hearts[3].sprite = null;
+        healthy = wet = rest = false;
     }
 
     
     void Update()
     {
+        if (!healthy && playerMod.healthy)
+        {
+            maxHP += playerMod.maxHPadded;
+            hp += playerMod.maxHPadded;
+            healthy = true;
+        }
+
+        if (!wet && playerMod.wet)
+        {
+            speed = playerMod.movementSpeed;
+            snappiness = playerMod.turningSpeed;
+            airRes = playerMod.airResistance;
+            wet = true;
+        }
+
+        if (!rest && playerMod.rest)
+        {
+            if (playerMod.allHP)
+                hp = maxHP;
+            else
+                hp += playerMod.HPrestored;
+            if (hp > maxHP)
+                hp = maxHP;
+            rest = true;
+        }
+
         input.x = Input.GetAxis("Horizontal");
         input.y = Input.GetAxis("Vertical");
 

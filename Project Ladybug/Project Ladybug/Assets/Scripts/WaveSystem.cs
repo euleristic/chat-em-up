@@ -336,13 +336,35 @@ public class WaveSystem : MonoBehaviour
 
         switch (currentWave)
         {
+            case -1:
+                if (answer)
+                    playerMod.healthy = true;
+                else
+                    playerMod.currentWeapon = PlayerMod.Weapon.Orb;
+                break;
             case 1:
+                if (answer)
+                    playerMod.currentWeapon = PlayerMod.Weapon.Boomerang;
+                else
+                    playerMod.wet = true;
                 break;
             case 3:
+                if (answer)
+                    playerMod.twinShot = true;
+                else
+                    playerMod.currentWeapon = PlayerMod.Weapon.Homing;
                 break;
             case 5:
+                if (answer)
+                    playerMod.currentWeapon = PlayerMod.Weapon.Starburst;
+                else
+                    playerMod.tripleShot = true;
                 break;
             case 7:
+                if (answer)
+                    playerMod.rest = true;
+                else
+                    playerMod.currentWeapon = PlayerMod.Weapon.Arrow;
                 break;
             default:
                 break;

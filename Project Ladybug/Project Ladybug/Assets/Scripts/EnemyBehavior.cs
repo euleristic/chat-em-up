@@ -20,7 +20,6 @@ public class EnemyBehavior : MonoBehaviour
 
     private void PlayDeathSound()
     {
-        print("OOF");
         if(audioSource != null && dieSound != null)
         {
             audioSource.PlayOneShot(dieSound, 1f);
@@ -61,7 +60,7 @@ public class EnemyBehavior : MonoBehaviour
                 other.transform.position = other.GetComponent<Projectile>().deadPos;
                 other.tag = "WaitingToSpawn";
             }
-            hp--;
+            hp -= other.GetComponent<Projectile>().damage;
             if (hp <= 0)
             {
                 transform.position = deadPos;

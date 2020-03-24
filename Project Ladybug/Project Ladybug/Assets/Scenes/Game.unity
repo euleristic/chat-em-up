@@ -375,6 +375,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &16320320
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -728,6 +731,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &53385021
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1157,6 +1163,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &70675495
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1283,6 +1292,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &72606228
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1625,6 +1637,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &86560299
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1792,6 +1807,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &93640366
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2258,6 +2276,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &118901056
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2648,6 +2669,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &140322732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2774,6 +2798,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &148509614
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3777,6 +3804,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &224935230
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3903,6 +3933,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &225940586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4671,6 +4704,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &275921952
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4797,6 +4833,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &289748801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6594,6 +6633,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &426892026
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6720,6 +6762,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &435845767
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7107,6 +7152,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &456699861
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7593,6 +7641,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &494976618
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7719,6 +7770,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &507760666
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8573,6 +8627,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &555284497
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8878,7 +8935,7 @@ MonoBehaviour:
   enemyCountWave6: 20
   needToKill6: 15
   spawnRange6: {x: 16, y: 50}
-  currentWave: 1
+  currentWave: 0
   dishSprite: {fileID: 21300000, guid: a4ec158e8a49885499604a7fb3c2add0, type: 3}
   forkSprite: {fileID: 21300000, guid: 02b4f56c702f8cc479585bab225954e3, type: 3}
   knifeSprite: {fileID: 21300000, guid: 26aecc5048180ca4cb4dc47a684f13be, type: 3}
@@ -10326,6 +10383,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &630400870
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11128,6 +11188,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &664352035
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11297,7 +11360,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -11475,6 +11538,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &673877192
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11762,6 +11828,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &687121667
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13079,6 +13148,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &769576382
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13808,6 +13880,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &861227904
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13958,6 +14033,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &876716148
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14274,6 +14352,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &905463409
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14705,6 +14786,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &950270708
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14831,6 +14915,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &956023867
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15893,7 +15980,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -16244,6 +16331,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1050621713
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16370,6 +16460,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1052011461
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16496,6 +16589,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1059269560
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18278,6 +18374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1158219533
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19185,6 +19284,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 390417637}
   source: {fileID: 0}
+  playerMod: {fileID: 1223961440}
+  standardBullet: {fileID: 21300000, guid: 7b53a5e07e22dcb4088806cb7f2ab0ba, type: 3}
+  orbBullet: {fileID: 21300000, guid: a1e620c7cbcc3f341a2cf7f6b785f134, type: 3}
+  boomerangBullet: {fileID: 21300000, guid: 303fc5114b8a11a40ac1101c1be2e95d, type: 3}
+  starburstBullet: {fileID: 21300000, guid: a11c46d9c00c29146a80103eda4f3c8f, type: 3}
+  arrowBullet: {fileID: 21300000, guid: 02e9906a14a8baf40be487beb96ee7c6, type: 3}
+  homingBullet: {fileID: 7811314103989777844, guid: 7d2d7ed782429eb4a89d64c193991c88,
+    type: 3}
   shoodspeed: 0.18
 --- !u!65 &1223961432
 BoxCollider:
@@ -19230,6 +19337,8 @@ MonoBehaviour:
   - {fileID: 84989319}
   - {fileID: 1256810744}
   gravity: 0
+  playerMod: {fileID: 1223961440}
+  maxHP: 3
   hp: 3
 --- !u!212 &1223961434
 SpriteRenderer:
@@ -19462,9 +19571,21 @@ MonoBehaviour:
   shortFuse: 0
   wet: 0
   rest: 0
-  maxHPadded: 0
-  twinAngleOffSet: 0
-  tripleAngleOffSet: 0
+  maxHPadded: 1
+  twinAngleOffSet: 30
+  tripleAngleOffSet: 30
+  projectileSize: 0
+  bigProjectileSpeed: 0
+  damage: 0
+  attackSpeedReduction: 0
+  attackSpeed: 0
+  fuse: 0
+  shortProjectileSpeed: 0
+  movementSpeed: 0
+  turningSpeed: 0
+  airResistance: 0
+  HPrestored: 0
+  allHP: 0
 --- !u!1001 &1237431897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21499,6 +21620,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1361818136
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21873,6 +21997,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1382830952
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23461,6 +23588,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1508021692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24330,6 +24460,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1585224634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24956,6 +25089,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1620431084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25123,6 +25259,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1622994402
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25609,6 +25748,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1665674257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25830,6 +25972,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1668671707
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26818,6 +26963,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1717179482
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28817,6 +28965,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1834692643
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29133,6 +29284,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1855803880
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29565,6 +29719,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1869783345
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30734,6 +30891,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1929823276
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30860,6 +31020,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1930835850
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31119,6 +31282,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &1936713010
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32769,6 +32935,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &2044160894
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33550,6 +33719,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!212 &2090287940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34112,6 +34284,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -0.2
   deadPos: {x: 0, y: 0, z: 0}
+  shortFuse: 0
+  damage: 0
+  fuse: 0
 --- !u!1001 &5989002932001713584
 PrefabInstance:
   m_ObjectHideFlags: 0
