@@ -19970,47 +19970,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 786ed1353255ecd41b910e1ab8a97858, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentWeapon: 0
-  healthy: 0
-  twinShot: 0
-  tripleShot: 0
-  bigShot: 0
-  shortFuse: 0
-  wet: 0
-  rest: 0
+  currentWeapon: 3
+  healthy: 1
+  twinShot: 1
+  tripleShot: 1
+  bigShot: 1
+  shortFuse: 1
+  wet: 1
+  rest: 1
   maxHPadded: 1
   twinAngleOffSet: 30
   tripleAngleOffSet: 30
-  projectileSize: 0
-  bigProjectileSpeed: 0
-  damage: 0
-  attackSpeedReduction: 0
-  attackSpeed: 0
-  fuse: 0
-  shortProjectileSpeed: 0
-  movementSpeed: 0
-  turningSpeed: 0
-  airResistance: 0
-  HPrestored: 0
+  projectileSize: 1.09
+  bigProjectileSpeed: 1.29
+  damage: 47
+  attackSpeedReduction: 1.47
+  attackSpeed: 0.3
+  fuse: 0.52
+  shortProjectileSpeed: 0.67
+  movementSpeed: 0.77
+  turningSpeed: 0.88
+  airResistance: 0.49
+  HPrestored: 6
   allHP: 0
-  standardProjectileSpeed: 0
-  standardAttackRate: 0
-  standardProjectileSize: 0
-  standardDamage: 0
-  orbChargeSpeed: 0
-  orbMaxChargeDuration: 0
-  orbDamageAddedPerSecond: 0
-  orbBaselineDamage: 0
-  orbFinalSize: 0
-  bommerangRange: 0
-  boomerangRotationSpeed: 0
-  boomerangAcceleration: 0
-  burstAOEBase: 0
-  burstAOEFactor: 0
-  burstSpeedFactor: 0
-  arrowAttackSpeed: 0
-  arrowBulletsPerBurst: 0
-  arrowDelta: 0
+  standardProjectileSpeed: 4.6
+  standardAttackRate: 5.85
+  standardProjectileSize: 5.82
+  standardDamage: 1
+  orbChargeSpeed: 1.96
+  orbMaxChargeDuration: 0.84
+  orbDamageAddedPerSecond: 49
+  orbBaselineDamage: 102
+  orbFinalSize: 3.6
+  bommerangRange: 3.38
+  boomerangRotationSpeed: 1.8
+  boomerangAcceleration: 2.59
+  burstAOEBase: 2.58
+  burstAOEFactor: 1.92
+  burstSpeedFactor: 1.38
+  arrowAttackSpeed: 1.18
+  arrowBulletsPerBurst: 35
+  arrowDelta: 2.2
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
