@@ -378,6 +378,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &16320320
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -734,6 +745,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &53385021
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1166,6 +1188,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &70675495
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1295,6 +1328,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &72606228
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1640,6 +1684,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &86560299
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1810,6 +1865,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &93640366
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2279,6 +2345,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &118901056
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2672,6 +2749,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &140322732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2801,6 +2889,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &148509614
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3807,6 +3906,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &224935230
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3936,6 +4046,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &225940586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4707,6 +4828,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &275921952
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4836,6 +4968,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &289748801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6636,6 +6779,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &426892026
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6765,6 +6919,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &435845767
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7155,6 +7320,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &456699861
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7644,6 +7820,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &494976618
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7773,6 +7960,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &507760666
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8630,6 +8828,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &555284497
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10386,6 +10595,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &630400870
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11191,6 +11411,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &664352035
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11541,6 +11772,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &673877192
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11831,6 +12073,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &687121667
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13151,6 +13404,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &769576382
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13883,6 +14147,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &861227904
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14036,6 +14311,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &876716148
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14355,6 +14641,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &905463409
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14789,6 +15086,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &950270708
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14918,6 +15226,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &956023867
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14967,6 +15286,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &956983566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956983568}
+  - component: {fileID: 956983567}
+  m_Layer: 0
+  m_Name: Explosion
+  m_TagString: Bullet
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &956983567
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956983566}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &956983568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956983566}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 27.85, y: 1.53, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &960282912
 GameObject:
   m_ObjectHideFlags: 0
@@ -16334,6 +16697,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1050621713
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16463,6 +16837,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1052011461
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16592,6 +16977,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1059269560
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18377,6 +18773,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1158219533
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19586,6 +19993,27 @@ MonoBehaviour:
   airResistance: 0
   HPrestored: 0
   allHP: 0
+  standardProjectileSpeed: 0
+  standardAttackRate: 0
+  standardProjectileSize: 0
+  standardDamage: 0
+  orbChargeSpeed: 0
+  orbMaxChargeDuration: 0
+  orbDamageAddedPerSecond: 0
+  orbBaselineDamage: 0
+  orbFinalSize: 0
+  bommerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  arrowAttackSpeed: 0
+  arrowBulletsPerBurst: 0
+  arrowDelta: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!1001 &1237431897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21623,6 +22051,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1361818136
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22000,6 +22439,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1382830952
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23591,6 +24041,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1508021692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24463,6 +24924,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1585224634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25092,6 +25564,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1620431084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25262,6 +25745,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1622994402
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25751,6 +26245,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1665674257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25975,6 +26480,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1668671707
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26966,6 +27482,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1717179482
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28968,6 +29495,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1834692643
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29287,6 +29825,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1855803880
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29722,6 +30271,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1869783345
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30894,6 +31454,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1929823276
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31023,6 +31594,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1930835850
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31285,6 +31867,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &1936713010
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32938,6 +33531,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &2044160894
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33722,6 +34326,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!212 &2090287940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34287,6 +34902,17 @@ MonoBehaviour:
   shortFuse: 0
   damage: 0
   fuse: 0
+  currentWeapon: 0
+  player: {fileID: 0}
+  boomerangRange: 0
+  boomerangRotationSpeed: 0
+  boomerangAcceleration: 0
+  burstAOEBase: 0
+  burstAOEFactor: 0
+  burstSpeedFactor: 0
+  homingAngle: 0
+  homingRotationSpeed: 0
+  homingDistance: 0
 --- !u!1001 &5989002932001713584
 PrefabInstance:
   m_ObjectHideFlags: 0
