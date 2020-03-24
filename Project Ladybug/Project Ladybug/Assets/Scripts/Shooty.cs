@@ -27,8 +27,8 @@ public class Shooty : MonoBehaviour
     private float arrowClock;
     void Start()
     {
-        ChangeWeapon(playerMod.currentWeapon);
         bullets = FindObjectsOfType<Projectile>();
+        ChangeWeapon(playerMod.currentWeapon);
         source = GetComponent<AudioSource>();
         bigShot = shortFuse = false;
         boomerangShot = false;
@@ -157,6 +157,7 @@ public class Shooty : MonoBehaviour
 
     void FireBullet(Quaternion rotation)
     {
+        print(bullets);
         if (currentWeapon == PlayerMod.Weapon.Orb)
             for (int i = 0; i < bullets.Length; i++)
             {
