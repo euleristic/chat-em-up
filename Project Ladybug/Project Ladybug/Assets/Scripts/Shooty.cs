@@ -39,6 +39,7 @@ public class Shooty : MonoBehaviour
     
     void Update()
     {
+        print(currentWeapon + " " + boomerangShot);
         if (currentWeapon != playerMod.currentWeapon)
         {
             ChangeWeapon(playerMod.currentWeapon);
@@ -157,7 +158,6 @@ public class Shooty : MonoBehaviour
 
     void FireBullet(Quaternion rotation)
     {
-        print(bullets);
         if (currentWeapon == PlayerMod.Weapon.Orb)
             for (int i = 0; i < bullets.Length; i++)
             {
@@ -166,10 +166,11 @@ public class Shooty : MonoBehaviour
                     bullets[i].transform.position = transform.position;
                     bullets[i].transform.rotation = rotation;
                     bullets[i].damage = (int)orbClock * playerMod.orbDamageAddedPerSecond + playerMod.orbBaselineDamage;
-                    bullets[i].transform.localScale = new Vector3(playerMod.orbFinalSize, playerMod.orbFinalSize);
+                    bullets[i].transform.localScale = new Vector3(playerMod.orbFinalSize, playerMod.orbFinalSize) * 
+                        (orbClock / playerMod.orbMaxChargeDuration > playerMod.orbMinSize ? orbClock / playerMod.orbMaxChargeDuration : playerMod.orbMinSize);
                     bullets[i].tag = "Bullet";
+                    return;
                 }
-                return;
             }
         for (int i = 0; i < bullets.Length; i++)
         {
@@ -178,8 +179,8 @@ public class Shooty : MonoBehaviour
                 bullets[i].transform.position = transform.position;
                 bullets[i].transform.rotation = rotation;
                 bullets[i].tag = "Bullet";
+                return;
             }
-            return;
         }
     }
 
@@ -196,7 +197,7 @@ public class Shooty : MonoBehaviour
                         bullets[i].currentWeapon = currentWeapon;
                         bullets[i].GetComponent<SpriteRenderer>().sprite = standardBullet;
                         bullets[i].speed = playerMod.standardProjectileSpeed;
-                        bullets[i].transform.localScale *= playerMod.standardProjectileSize;
+                        bullets[i].transform.localScale = new Vector3(playerMod.standardProjectileSize, playerMod.standardProjectileSize);
                         bullets[i].damage = playerMod.standardDamage;
                         bullets[i].tag = "WaitingToSpawn";
                     }
@@ -212,6 +213,7 @@ public class Shooty : MonoBehaviour
                     {
                         bullets[i].currentWeapon = currentWeapon;
                         bullets[i].GetComponent<SpriteRenderer>().sprite = orbBullet;
+                        bullets[i].transform.localScale = new Vector3(playerMod.orbMinSize, playerMod.orbMinSize);
                         bullets[i].tag = "WaitingToSpawn";
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
@@ -226,6 +228,7 @@ public class Shooty : MonoBehaviour
                         bullets[i].currentWeapon = currentWeapon;
                         bullets[i].GetComponent<SpriteRenderer>().sprite = boomerangBullet;
                         bullets[i].player = gameObject;
+                        bullets[i].transform.localScale = new Vector3(playerMod.boomerangSize, playerMod.boomerangSize);
                         bullets[i].tag = "WaitingToSpawn";
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
@@ -242,6 +245,7 @@ public class Shooty : MonoBehaviour
                         bullets[i].burstAOEBase = playerMod.burstAOEBase;
                         bullets[i].burstAOEFactor = playerMod.burstAOEFactor;
                         bullets[i].burstSpeedFactor = playerMod.burstSpeedFactor;
+                        bullets[i].transform.localScale = new Vector3(playerMod.burstSize, playerMod.burstSize);
                         bullets[i].tag = "WaitingToSpawn";
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
@@ -256,6 +260,7 @@ public class Shooty : MonoBehaviour
                     {
                         bullets[i].currentWeapon = currentWeapon;
                         bullets[i].GetComponent<SpriteRenderer>().sprite = arrowBullet;
+                        bullets[i].transform.localScale = new Vector3(playerMod.arrowSize, playerMod.arrowSize);
                         bullets[i].tag = "WaitingToSpawn";
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
@@ -272,6 +277,7 @@ public class Shooty : MonoBehaviour
                         bullets[i].homingAngle = playerMod.homingAngle;
                         bullets[i].homingRotationSpeed = playerMod.homingRotationSpeed;
                         bullets[i].homingDistance = playerMod.homingDistance;
+                        bullets[i].transform.localScale = new Vector3(playerMod.homingSize, playerMod.homingSize);
                         bullets[i].tag = "WaitingToSpawn";
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
