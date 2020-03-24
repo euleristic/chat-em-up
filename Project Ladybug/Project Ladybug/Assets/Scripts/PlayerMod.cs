@@ -40,23 +40,33 @@ public class PlayerMod : MonoBehaviour
     public float orbMaxChargeDuration;
     public int orbDamageAddedPerSecond;
     public int orbBaselineDamage;
+    public float orbMinSize;
     public float orbFinalSize;
+    public float orbSpeed;
     [Header("Boomerang")]
     public float bommerangRange;
     public float boomerangRotationSpeed;
     public float boomerangAcceleration;
+    public float boomerangSize;
+    public float boomerangSpeed;
     [Header("Starburst")]
     public float burstAOEBase;
     public float burstAOEFactor;
     public float burstSpeedFactor;
+    public float burstSize;
+    public float burstSpeed;
     [Header("Arrow")]
     public float arrowAttackSpeed;
     public int arrowBulletsPerBurst;
     public float arrowDelta;
+    public float arrowSize;
+    public float arrowSpeed;
     [Header("Homing")]
     public float homingAngle;
     public float homingRotationSpeed;
     public float homingDistance;
+    public float homingSize;
+    public float homingSpeed;
     void Start()
     {
         currentWeapon = Weapon.Standard;
