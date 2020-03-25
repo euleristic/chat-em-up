@@ -39,7 +39,8 @@ public class Shooty : MonoBehaviour
     
     void Update()
     {
-        print(currentWeapon + " " + boomerangShot);
+        if (arrowBurstShot)
+            print(arrowsShot + " / " + playerMod.arrowBulletsPerBurst);
         if (currentWeapon != playerMod.currentWeapon)
         {
             ChangeWeapon(playerMod.currentWeapon);
@@ -59,7 +60,7 @@ public class Shooty : MonoBehaviour
         {
             ChangeWeapon(playerMod.currentWeapon);
         }
-        if (Input.GetButtonDown("Jump") && Time.time > lastshot + shoodspeed && currentWeapon != PlayerMod.Weapon.Orb)
+        if (Input.GetButtonDown("Jump") && Time.time > lastshot + shoodspeed && currentWeapon != PlayerMod.Weapon.Orb && currentWeapon != PlayerMod.Weapon.Arrow)
         {
             source.Play();
             if (playerMod.tripleShot)
@@ -80,8 +81,18 @@ public class Shooty : MonoBehaviour
         else if (Input.GetButton("Jump") && Time.time > lastshot + shoodspeed && currentWeapon == PlayerMod.Weapon.Orb && orbClock <= playerMod.orbMaxChargeDuration)
             orbClock += Time.deltaTime * playerMod.orbChargeSpeed;
 
-        if (currentWeapon == PlayerMod.Weapon.Arrow && Input.GetButtonDown("Jump") && !arrowBurstShot && Time.time > lastshot + shoodspeed)
+
+        if (Input.GetButtonDown("Jump"))
         {
+            print(currentWeapon == PlayerMod.Weapon.Arrow);
+            print(!arrowBurstShot);
+            print(Time.time + " > " + lastshot + " + " + shoodspeed);
+            print(Time.time > lastshot + shoodspeed);
+            print(currentWeapon == PlayerMod.Weapon.Arrow && Input.GetButtonDown("Jump") && (!arrowBurstShot) && Time.time > lastshot + shoodspeed);
+        }
+        if (currentWeapon == PlayerMod.Weapon.Arrow && Input.GetButtonDown("Jump") && (!arrowBurstShot) && Time.time > lastshot + shoodspeed)
+        {
+            print("yo dawg");
             arrowBurstShot = true;
             lastshot = Time.time;
         }
@@ -106,8 +117,8 @@ public class Shooty : MonoBehaviour
                 else
                     FireBullet(transform.rotation);
                 arrowClock = 0f;
+                arrowsShot++;
             }
-            arrowsShot++;
             if (arrowsShot >= playerMod.arrowBulletsPerBurst)
             {
                 arrowsShot = 0;

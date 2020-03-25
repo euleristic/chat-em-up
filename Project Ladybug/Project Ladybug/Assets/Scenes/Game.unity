@@ -20081,8 +20081,8 @@ MonoBehaviour:
   burstSize: 1
   burstSpeed: 1
   arrowAttackSpeed: 0.5
-  arrowBulletsPerBurst: 2
-  arrowDelta: 0.1
+  arrowBulletsPerBurst: 5
+  arrowDelta: 0.05
   arrowSize: 0.7
   arrowSpeed: 0.1
   homingAngle: 90
