@@ -19745,8 +19745,8 @@ MonoBehaviour:
   - {fileID: 1256810744}
   gravity: 0
   playerMod: {fileID: 1223961440}
-  maxHP: 100
-  hp: 100
+  maxHP: 3
+  hp: 3
 --- !u!212 &1223961434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19991,7 +19991,7 @@ MonoBehaviour:
   movementSpeed: 8.36
   turningSpeed: 6.15
   airResistance: 1.04
-  HPrestored: 6
+  HPrestored: 3
   allHP: 0
   standardProjectileSpeed: 0.25
   standardAttackRate: 0.15
@@ -19999,14 +19999,14 @@ MonoBehaviour:
   standardDamage: 1
   orbChargeSpeed: 1.96
   orbMaxChargeDuration: 0.84
-  orbDamageAddedPerSecond: 49
-  orbBaselineDamage: 102
+  orbDamageAddedPerSecond: 5
+  orbBaselineDamage: 1
   orbMinSize: 1
   orbFinalSize: 3.6
   orbSpeed: 1
-  bommerangRange: 0.17
+  bommerangRange: 0.15
   boomerangRotationSpeed: 90
-  boomerangAcceleration: 3
+  boomerangAcceleration: 5
   boomerangSize: 1
   boomerangSpeed: 1
   burstAOEBase: 1
