@@ -389,6 +389,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &16320320
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -756,6 +757,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &53385021
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1199,6 +1201,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &70675495
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1339,6 +1342,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &72606228
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1695,6 +1699,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &86560299
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1876,6 +1881,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &93640366
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2356,6 +2362,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &118901056
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2760,6 +2767,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &140322732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2900,6 +2908,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &148509614
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3917,6 +3926,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &224935230
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4057,6 +4067,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &225940586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4839,6 +4850,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &275921952
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4979,6 +4991,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &289748801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6790,6 +6803,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &426892026
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6930,6 +6944,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &435845767
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7331,6 +7346,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &456699861
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7831,6 +7847,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &494976618
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7971,6 +7988,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &507760666
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8839,6 +8857,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &555284497
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10606,6 +10625,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &630400870
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11422,6 +11442,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &664352035
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11783,6 +11804,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &673877192
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12084,6 +12106,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &687121667
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13415,6 +13438,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &769576382
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14158,6 +14182,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &861227904
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14322,6 +14347,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &876716148
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14652,6 +14678,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &905463409
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15097,6 +15124,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &950270708
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15237,6 +15265,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &956023867
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16708,6 +16737,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1050621713
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16848,6 +16878,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1052011461
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16988,6 +17019,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1059269560
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18784,6 +18816,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1158219533
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19745,8 +19778,8 @@ MonoBehaviour:
   - {fileID: 1256810744}
   gravity: 0
   playerMod: {fileID: 1223961440}
-  maxHP: 100
-  hp: 100
+  maxHP: 3
+  hp: 3
 --- !u!212 &1223961434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22072,6 +22105,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1361818136
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22460,6 +22494,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1382830952
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24062,6 +24097,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1508021692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24945,6 +24981,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1585224634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25585,6 +25622,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1620431084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25766,6 +25804,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1622994402
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26266,6 +26305,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1665674257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26501,6 +26541,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1668671707
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27503,6 +27544,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1717179482
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29516,6 +29558,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1834692643
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29846,6 +29889,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1855803880
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30292,6 +30336,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1869783345
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31475,6 +31520,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1929823276
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31615,6 +31661,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1930835850
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31888,6 +31935,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &1936713010
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33567,6 +33615,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &2044160894
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34362,6 +34411,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!212 &2090287940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34938,6 +34988,7 @@ MonoBehaviour:
   homingAngle: 0
   homingRotationSpeed: 0
   homingDistance: 0
+  burstExponentiation: 0
 --- !u!1001 &5989002932001713584
 PrefabInstance:
   m_ObjectHideFlags: 0

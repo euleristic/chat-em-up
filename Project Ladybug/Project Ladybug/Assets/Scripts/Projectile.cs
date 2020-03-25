@@ -29,6 +29,7 @@ public class Projectile : MonoBehaviour
     public float homingDistance;
 
     private float boomerangDecrementer;
+    public float burstExponentiation;
     void Start()
     {
         damage = 1;
@@ -36,6 +37,7 @@ public class Projectile : MonoBehaviour
         boomerangDecrementer = boomerangRange;
         clock = 0.0f;
         enemies = FindObjectsOfType<EnemyBehavior>();
+        burstExponentiation = 1f;
     }
 
     void FixedUpdate()
@@ -60,8 +62,8 @@ public class Projectile : MonoBehaviour
                     }
                     break;
                 case PlayerMod.Weapon.Starburst:
-                    transform.position += transform.up * speed * burstSpeedFactor;
-                    burstSpeedFactor *= burstSpeedFactor;
+                    transform.position += transform.up * Time.deltaTime * (speed + burstExponentiation);
+                    burstExponentiation *= burstSpeedFactor;
                     break;
                 case PlayerMod.Weapon.Homing:
                     if (enemyTarget == null)
@@ -94,11 +96,11 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (currentWeapon == PlayerMod.Weapon.Boomerang)
+        if (currentWeapon == PlayerMod.Weapon.Boomerang && other.CompareTag("AliveEnemy"))
         {
             transform.position = deadPos;
             tag = "WaitingToSpawn";
-            boomerangDecrementer = boomerangRange;
+            boomerangDecrementer = 1.0f;
         }
         if (currentWeapon == PlayerMod.Weapon.Starburst)
         {
@@ -110,6 +112,7 @@ public class Projectile : MonoBehaviour
                     enemy.transform.tag = "WaitingToSpawn";
                 }
             }
+            burstExponentiation = burstSpeedFactor;
         }
         if (currentWeapon == PlayerMod.Weapon.Homing)
         {
