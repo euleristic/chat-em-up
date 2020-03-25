@@ -6,10 +6,10 @@ public class EnemyBehavior : MonoBehaviour
 {
     public AudioClip dieSound;
 
-    [SerializeField] float speed;
+    public float speed;
     [SerializeField] GameObject Bullet;
-    [SerializeField] private int hp;
-    [SerializeField] private float shootProbability;
+    public int hp;
+    public float shootProbability;
     public Vector3 deadPos;
     public int enemyType;
     public Vector2 spawnRange;

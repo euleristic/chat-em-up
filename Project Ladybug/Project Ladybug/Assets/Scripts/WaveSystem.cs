@@ -31,7 +31,7 @@ public class WaveSystem : MonoBehaviour
     [SerializeField] private PlayerMod playerMod;
     [SerializeField] private EnemyMod enemyMod;
 
-    private GameObject[] enemiesFound;
+    private EnemyBehavior[] enemiesFound;
     private int enemyCount;
     private Projectile[] bullets;
     private Vector3 spawnPos;
@@ -85,7 +85,7 @@ public class WaveSystem : MonoBehaviour
                 {
                     foreach (var enemy in enemiesFound)
                     {
-                        enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                        enemy.transform.position = enemy.deadPos;
                         enemy.transform.tag = "WaitingToSpawn";
                         
                     }
@@ -98,7 +98,7 @@ public class WaveSystem : MonoBehaviour
                 {
                     foreach (var enemy in enemiesFound)
                     {
-                        enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                        enemy.transform.position = enemy.deadPos;
                         enemy.transform.tag = "WaitingToSpawn";
                     }
                     currentWave++;
@@ -110,7 +110,7 @@ public class WaveSystem : MonoBehaviour
                 {
                     foreach (var enemy in enemiesFound)
                     {
-                        enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                        enemy.transform.position = enemy.deadPos;
                         enemy.transform.tag = "WaitingToSpawn";
                     }
                     currentWave++;
@@ -122,7 +122,7 @@ public class WaveSystem : MonoBehaviour
                 {
                     foreach (var enemy in enemiesFound)
                     {
-                        enemy.transform.position = enemy.GetComponent<EnemyBehavior>().deadPos;
+                        enemy.transform.position = enemy.deadPos;
                         enemy.transform.tag = "WaitingToSpawn";
                     }
                     currentWave++;
@@ -145,8 +145,10 @@ public class WaveSystem : MonoBehaviour
                     {
                         spawnPos = new Vector3(Random.Range(-8f, -8f + spawnRange0.x), Random.Range(10f, 10f + spawnRange0.y), 1.8f);
                         enemies[i].transform.tag = "AliveEnemy";
-                        enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
+                        enemies[i].spawnRange = spawnRange0;
                         enemies[i].transform.position = spawnPos;
+                        enemies[i].speed = enemyMod.enemy0Speed;
+                        enemies[i].hp = enemyMod.enemy0HP;
                         count++;
                         SetEnemySound(firstGuyDeathSound, enemies[i]);
                     }
@@ -168,9 +170,11 @@ public class WaveSystem : MonoBehaviour
                     {
                         spawnPos = new Vector3(Random.Range(-8f, -8f + spawnRange0.x), Random.Range(10f, 10f + spawnRange0.y), 1.8f);
                         enemies[i].transform.tag = "AliveEnemy";
-                        enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
+                        enemies[i].spawnRange = spawnRange0;
                         enemies[i].transform.position = spawnPos;
-
+                        enemies[i].speed = enemyMod.Enemy1Speed;
+                        enemies[i].shootProbability = enemyMod.Enemy1ShootProbability;
+                        enemies[i].hp = enemyMod.Enemy1HP;
 
                         if (!answer)
                         {
@@ -212,8 +216,11 @@ public class WaveSystem : MonoBehaviour
                     {
                         spawnPos = new Vector3(Random.Range(-8f, -8f + spawnRange0.x), Random.Range(10f, 10f + spawnRange0.y), 1.8f);
                         enemies[i].transform.tag = "AliveEnemy";
-                        enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
+                        enemies[i].spawnRange = spawnRange0;
                         enemies[i].transform.position = spawnPos;
+                        enemies[i].speed = enemyMod.Enemy2Speed;
+                        enemies[i].shootProbability = enemyMod.Enemy2ShootProbability;
+                        enemies[i].hp = enemyMod.Enemy2HP;
 
                         if (answer)
                         {
@@ -258,8 +265,11 @@ public class WaveSystem : MonoBehaviour
                     {
                         spawnPos = new Vector3(Random.Range(-8f, -8f + spawnRange0.x), Random.Range(10f, 10f + spawnRange0.y), 1.8f);
                         enemies[i].transform.tag = "AliveEnemy";
-                        enemies[i].GetComponent<EnemyBehavior>().spawnRange = spawnRange0;
+                        enemies[i].spawnRange = spawnRange0;
                         enemies[i].transform.position = spawnPos;
+                        enemies[i].speed = enemyMod.Enemy3Speed;
+                        enemies[i].shootProbability = enemyMod.Enemy3ShootProbability;
+                        enemies[i].hp = enemyMod.Enemy3HP;
                         if (answer)
                         {
                             enemies[i].GetComponent<SpriteRenderer>().sprite = EnemyRay;
@@ -317,7 +327,7 @@ public class WaveSystem : MonoBehaviour
             default:
                 break;
         }
-        enemiesFound = GameObject.FindGameObjectsWithTag("AliveEnemy");
+        enemiesFound = FindObjectsOfType<EnemyBehavior>();
     }
 
     public void AnswerHit(string answer_in)

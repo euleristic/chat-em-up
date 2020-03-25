@@ -216,7 +216,10 @@ public class Shooty : MonoBehaviour
                         bullets[i].transform.localScale = new Vector3(playerMod.orbMinSize, playerMod.orbMinSize);
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
+                    {
                         bullets[i].tag = "Dead";
+                        bullets[i].transform.position = bullets[i].deadPos;
+                    }
                 }
                 break;
             case PlayerMod.Weapon.Boomerang:
