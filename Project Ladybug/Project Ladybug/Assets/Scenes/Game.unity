@@ -19825,8 +19825,8 @@ MonoBehaviour:
   hitFadeIn: 0.2
   hitFadeOut: 0.1
   snappiness: 0.4
-  rotationAmount: 35
-  rotationSpeed: 6.8
+  rotationAmount: 40
+  rotationSpeed: 7.8
   airRes: 1.03
   heartSprite: {fileID: 21300000, guid: 6548e972d6e8c144d927710a2fe75304, type: 3}
   hearts:
@@ -20084,14 +20084,14 @@ MonoBehaviour:
   airResistance: 1.04
   HPrestored: 4
   allHP: 0
-  standardProjectileSpeed: 0.25
-  standardAttackRate: 0.25
+  standardProjectileSpeed: 0.334
+  standardAttackRate: 0.15
   standardProjectileSize: 1.57
   standardDamage: 1
   orbMinChargeDuration: 0.5
   orbPassThrough: 1
   orbChargeSpeed: 0.5
-  orbMaxChargeDuration: 1
+  orbMaxChargeDuration: 0.67
   orbDamageAddedPerSecond: 5
   orbBaselineDamage: 1
   orbMinSize: 0.5
