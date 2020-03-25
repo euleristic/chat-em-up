@@ -39,8 +39,6 @@ public class Shooty : MonoBehaviour
     
     void Update()
     {
-        if (arrowBurstShot)
-            print(arrowsShot + " / " + playerMod.arrowBulletsPerBurst);
         if (currentWeapon != playerMod.currentWeapon)
         {
             ChangeWeapon(playerMod.currentWeapon);
@@ -82,17 +80,8 @@ public class Shooty : MonoBehaviour
             orbClock += Time.deltaTime * playerMod.orbChargeSpeed;
 
 
-        if (Input.GetButtonDown("Jump"))
-        {
-            print(currentWeapon == PlayerMod.Weapon.Arrow);
-            print(!arrowBurstShot);
-            print(Time.time + " > " + lastshot + " + " + shoodspeed);
-            print(Time.time > lastshot + shoodspeed);
-            print(currentWeapon == PlayerMod.Weapon.Arrow && Input.GetButtonDown("Jump") && (!arrowBurstShot) && Time.time > lastshot + shoodspeed);
-        }
         if (currentWeapon == PlayerMod.Weapon.Arrow && Input.GetButtonDown("Jump") && (!arrowBurstShot) && Time.time > lastshot + shoodspeed)
         {
-            print("yo dawg");
             arrowBurstShot = true;
             lastshot = Time.time;
         }

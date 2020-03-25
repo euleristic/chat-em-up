@@ -29,7 +29,7 @@ public class WaveSystem : MonoBehaviour
     [SerializeField] private Sprite EnemyRay;
     [SerializeField] private Sprite EnemySyringe;
     [SerializeField] private PlayerMod playerMod;
-
+    [SerializeField] private EnemyMod enemyMod;
 
     private GameObject[] enemiesFound;
     private int enemyCount;
@@ -130,8 +130,6 @@ public class WaveSystem : MonoBehaviour
                 }
                 break;
         }
-        
-
     }
 
     private void SpawnWave()
