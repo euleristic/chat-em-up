@@ -9174,13 +9174,13 @@ MonoBehaviour:
   enemyCountWave0: 50
   needToKill0: 30
   spawnRange0: {x: 16, y: 50}
-  enemyCountWave2: 20
+  enemyCountWave2: 25
   needToKill2: 15
   spawnRange2: {x: 16, y: 50}
-  enemyCountWave4: 20
+  enemyCountWave4: 30
   needToKill4: 15
   spawnRange4: {x: 16, y: 50}
-  enemyCountWave6: 20
+  enemyCountWave6: 40
   needToKill6: 15
   spawnRange6: {x: 16, y: 50}
   currentWave: 0
@@ -11650,7 +11650,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -16418,7 +16418,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -20053,7 +20053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 786ed1353255ecd41b910e1ab8a97858, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentWeapon: 5
+  currentWeapon: 0
   healthy: 0
   twinShot: 0
   tripleShot: 0
@@ -20064,11 +20064,11 @@ MonoBehaviour:
   maxHPadded: 1
   twinAngleOffSet: 45
   tripleAngleOffSet: 30
-  projectileSize: 3.1
-  bigProjectileSpeed: 0.57
-  damage: 3
-  attackSpeedReduction: 1.52
-  attackSpeed: 0.9
+  projectileSize: 3
+  bigProjectileSpeed: 2
+  damage: 2
+  attackSpeedReduction: 1
+  attackSpeed: 2
   fuse: 0.05
   shortProjectileSpeed: 0.67
   movementSpeed: 8.36
@@ -20080,7 +20080,7 @@ MonoBehaviour:
   standardAttackRate: 0.15
   standardProjectileSize: 1.57
   standardDamage: 1
-  orbChargeSpeed: 2
+  orbChargeSpeed: 0.5
   orbMaxChargeDuration: 1
   orbDamageAddedPerSecond: 5
   orbBaselineDamage: 1
@@ -20089,19 +20089,19 @@ MonoBehaviour:
   orbSpeed: 0.15
   bommerangRange: 1
   boomerangRotationSpeed: 1
-  boomerangAcceleration: 5
-  boomerangSize: 1
-  boomerangSpeed: 1
+  boomerangAcceleration: 3.334
+  boomerangSize: 0.9
+  boomerangSpeed: 0.8
   burstAOEBase: 1
   burstAOEFactor: 1
   burstSpeedFactor: 1.07
   burstSize: 1
   burstSpeed: 0.5
-  arrowAttackSpeed: 0.5
-  arrowBulletsPerBurst: 5
-  arrowDelta: 0.05
+  arrowAttackSpeed: 0.67
+  arrowBulletsPerBurst: 3
+  arrowDelta: 0.055
   arrowSize: 0.7
-  arrowSpeed: 0.1
+  arrowSpeed: 0.334
   homingAngle: 90
   homingRotationSpeed: 0.15
   homingDistance: 5
