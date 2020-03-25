@@ -23,6 +23,16 @@ public class MainMenu : MonoBehaviour
 
     }
 
+    public void LoadMenu2()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
+
+    }
+    public void LoadChattApp()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
+
+    }
     public void QuitGame() 
     {
         Debug.Log ("Quit");
