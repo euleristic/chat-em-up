@@ -11591,7 +11591,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -16343,7 +16343,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -19985,7 +19985,7 @@ MonoBehaviour:
   bigProjectileSpeed: 0.57
   damage: 3
   attackSpeedReduction: 1.52
-  attackSpeed: 0.3
+  attackSpeed: 0.9
   fuse: 0.52
   shortProjectileSpeed: 0.67
   movementSpeed: 8.36
