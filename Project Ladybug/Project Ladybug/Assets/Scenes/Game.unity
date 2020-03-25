@@ -20190,22 +20190,22 @@ MonoBehaviour:
   shortProjectileSpeed: 0.67
   movementSpeed: 8.36
   turningSpeed: 6.15
-  airResistance: 1.04
+  airResistance: 1.025
   HPrestored: 4
   allHP: 0
   standardProjectileSpeed: 0.334
   standardAttackRate: 0.15
   standardProjectileSize: 1.57
   standardDamage: 1
-  orbMinChargeDuration: 0.5
+  orbMinChargeDuration: 0.00875
   orbPassThrough: 1
-  orbChargeSpeed: 0.5
-  orbMaxChargeDuration: 0.67
-  orbDamageAddedPerSecond: 5
+  orbChargeSpeed: 0.225
+  orbMaxChargeDuration: 0.375
+  orbDamageAddedPerSecond: 8
   orbBaselineDamage: 1
-  orbMinSize: 0.5
-  orbFinalSize: 3.6
-  orbSpeed: 0.15
+  orbMinSize: 0.25
+  orbFinalSize: 5
+  orbSpeed: 0.125
   bommerangRange: 1
   boomerangRotationSpeed: 1
   boomerangAcceleration: 1.75
@@ -20221,11 +20221,11 @@ MonoBehaviour:
   arrowDelta: 0.055
   arrowSize: 0.7
   arrowSpeed: 0.334
-  homingAngle: 60
-  homingRotationSpeed: 0.003
-  homingDistance: 7.5
+  homingAngle: 150
+  homingRotationSpeed: 0.07
+  homingDistance: 3.5
   homingSize: 0.5
-  homingSpeed: 0.085
+  homingSpeed: 0.0825
 --- !u!1001 &1237431897
 PrefabInstance:
   m_ObjectHideFlags: 0
