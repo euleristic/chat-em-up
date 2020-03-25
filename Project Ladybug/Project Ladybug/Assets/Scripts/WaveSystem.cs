@@ -146,7 +146,7 @@ public class WaveSystem : MonoBehaviour
                 YesIcon.transform.localScale = unitScale * appleScale;
                 NoIcon.transform.localScale = unitScale * orbScale;
                 handler.visible = true;
-                break;            
+                break;
             case 0:
                 EnemyBehavior[] enemies = FindObjectsOfType<EnemyBehavior>();
                 int count = 0;

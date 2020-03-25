@@ -78,7 +78,10 @@ public class Projectile : MonoBehaviour
                         }
                     }
                     else
+                    {
                         transform.up = Vector3.Lerp(transform.up, enemyTarget.transform.position - transform.position, homingRotationSpeed);
+                        if (enemyTarget.CompareTag("WaitingToSpawn")) enemyTarget = null;
+                    }
                     transform.position += (transform.up * speed);
                     break;
                 default:
