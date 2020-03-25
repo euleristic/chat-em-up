@@ -9254,14 +9254,14 @@ MonoBehaviour:
   enemyCountWave0: 50
   needToKill0: 30
   spawnRange0: {x: 16, y: 50}
-  enemyCountWave2: 40
-  needToKill2: 35
+  enemyCountWave2: 30
+  needToKill2: 20
   spawnRange2: {x: 16, y: 50}
-  enemyCountWave4: 30
-  needToKill4: 25
+  enemyCountWave4: 25
+  needToKill4: 15
   spawnRange4: {x: 16, y: 50}
-  enemyCountWave6: 40
-  needToKill6: 30
+  enemyCountWave6: 35
+  needToKill6: 25
   spawnRange6: {x: 16, y: 50}
   currentWave: -1
   dishSprite: {fileID: 21300000, guid: a4ec158e8a49885499604a7fb3c2add0, type: 3}
@@ -9437,13 +9437,13 @@ MonoBehaviour:
   enemy0HP: 1
   Enemy1Speed: 2.2
   Enemy1ShootProbability: 0.005
-  Enemy1HP: 2
-  Enemy2Speed: 4.5
+  Enemy1HP: 1
+  Enemy2Speed: 3.334
   Enemy2ShootProbability: 0.01
-  Enemy2HP: 3
-  Enemy3Speed: 5.5
+  Enemy2HP: 2
+  Enemy3Speed: 4.75
   Enemy3ShootProbability: 0.1
-  Enemy3HP: 4
+  Enemy3HP: 3
 --- !u!1001 &560543828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20208,9 +20208,9 @@ MonoBehaviour:
   orbSpeed: 0.125
   bommerangRange: 1
   boomerangRotationSpeed: 1
-  boomerangAcceleration: 1.75
+  boomerangAcceleration: 1.25
   boomerangSize: 1.1
-  boomerangSpeed: 0.8
+  boomerangSpeed: 0.7
   burstAOEBase: 0
   burstAOEFactor: 0
   burstSpeedFactor: 1.07
