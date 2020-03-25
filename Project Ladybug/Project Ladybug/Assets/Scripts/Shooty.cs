@@ -181,7 +181,10 @@ public class Shooty : MonoBehaviour
                         bullets[i].damage = playerMod.standardDamage;
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
+                    {
                         bullets[i].tag = "Dead";
+                        bullets[i].transform.position = bullets[i].deadPos;
+                    }
                 }
                 shoodspeed = playerMod.standardAttackRate;
                 break;
@@ -218,7 +221,10 @@ public class Shooty : MonoBehaviour
                         bullets[i].boomerangRotationSpeed = playerMod.boomerangRotationSpeed;
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
+                    {
                         bullets[i].tag = "Dead";
+                        bullets[i].transform.position = bullets[i].deadPos;
+                    }
                 }
                 break;
             case PlayerMod.Weapon.Starburst:
@@ -236,7 +242,10 @@ public class Shooty : MonoBehaviour
                         bullets[i].tag = "WaitingToSpawn";
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
+                    {
                         bullets[i].tag = "Dead";
+                        bullets[i].transform.position = bullets[i].deadPos;
+                    }
                 }
                 break;
             case PlayerMod.Weapon.Arrow:
@@ -252,7 +261,10 @@ public class Shooty : MonoBehaviour
                         bullets[i].tag = "WaitingToSpawn";
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
+                    {
                         bullets[i].tag = "Dead";
+                        bullets[i].transform.position = bullets[i].deadPos;
+                    }
                 }
                 break;
             case PlayerMod.Weapon.Homing:
@@ -270,7 +282,10 @@ public class Shooty : MonoBehaviour
                         bullets[i].tag = "WaitingToSpawn";
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
+                    {
                         bullets[i].tag = "Dead";
+                        bullets[i].transform.position = bullets[i].deadPos;
+                    }
                 }
                 break;
             default:
