@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SceneScript : MonoBehaviour
 {
-
     void Update()
     {
         if (Input.GetKey(KeyCode.G) || Input.GetKey(KeyCode.R)) LoadGame();
-        if (Input.GetKey(KeyCode.Escape)) LoadMenu();
-        if (Input.GetKey(KeyCode.W)) WinState();
-        if (Input.GetKey(KeyCode.L)) LoseState();
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            if (SceneManager.GetActiveScene().name != "Menu") LoadMenu();
+            else Application.Quit();
+        }
     }
 
     static public void LoadGame()
@@ -21,7 +22,7 @@ public class SceneScript : MonoBehaviour
 
     static public void LoadMenu()
     {
-        SceneManager.LoadScene("MenuMockUp");
+        SceneManager.LoadScene("Menu");
     }
 
     static public void WinState()
