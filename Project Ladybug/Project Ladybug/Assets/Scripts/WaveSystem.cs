@@ -30,13 +30,16 @@ public class WaveSystem : MonoBehaviour
     [SerializeField] private Sprite EnemySyringe;
     [SerializeField] private PlayerMod playerMod;
     [SerializeField] private EnemyMod enemyMod;
-
+    [SerializeField] private SpriteRenderer YesIcon, NoIcon;
+    [SerializeField] private Sprite Apple, Twin, Triple, Big, ShortF, Wet, Rest, standardIcon, orbIcon, BoomerIcon, StarIcon, ArrowIcon, HomingIcon;
+    [SerializeField] private float appleScale, twinScale, tripleScale, bigScale, shortFScale, wetScale, restScale, standarsScale, orbScale, boomerScale, starScale, arrowScale, homingScale;
     private EnemyBehavior[] enemiesFound;
     private int enemyCount;
     private Projectile[] bullets;
     private Vector3 spawnPos;
     private Quaternion nullQuaternion;
     private bool answer;
+    private Vector3 unitScale;
 
     private EnemyBehavior[] enemyBehaviors;
 
@@ -53,7 +56,7 @@ public class WaveSystem : MonoBehaviour
     void Start()
     {
         EnemyBehavior.audioSource = GetComponent<AudioSource>();
-
+        unitScale = new Vector3(1f, 1f, 1f);
         audioSource = GetComponent<AudioSource>();
         nullQuaternion = new Quaternion(0, 0, 0, 0);
         SpawnWave();
@@ -136,6 +139,14 @@ public class WaveSystem : MonoBehaviour
     {
         switch (currentWave)
         {
+            case -1:
+                handler.GetMessage("Mom", "Are you playing that stupid game again!?");
+                YesIcon.sprite = Apple;
+                NoIcon.sprite = orbIcon;
+                YesIcon.transform.localScale = unitScale * appleScale;
+                NoIcon.transform.localScale = unitScale * orbScale;
+                handler.visible = true;
+                break;            
             case 0:
                 EnemyBehavior[] enemies = FindObjectsOfType<EnemyBehavior>();
                 int count = 0;
@@ -157,8 +168,11 @@ public class WaveSystem : MonoBehaviour
                 }
                 break;
             case 1:
-
                 handler.GetMessage("Mom", "Do the dishes");
+                YesIcon.sprite = BoomerIcon;
+                NoIcon.sprite = Wet;
+                YesIcon.transform.localScale = unitScale * boomerScale;
+                NoIcon.transform.localScale = unitScale * wetScale;
                 handler.visible = true;
                 break;
             case 2:
@@ -204,6 +218,10 @@ public class WaveSystem : MonoBehaviour
                 break;
             case 3:
                 handler.GetMessage("Mom", "Pick up brother");
+                YesIcon.sprite = Twin;
+                NoIcon.sprite = HomingIcon;
+                YesIcon.transform.localScale = unitScale * twinScale;
+                NoIcon.transform.localScale = unitScale * homingScale;
                 handler.visible = true;
                 break;
 
@@ -251,8 +269,11 @@ public class WaveSystem : MonoBehaviour
                 break;
 
             case 5:
-
                 handler.GetMessage("Mom", "Take the dog to the vet");
+                YesIcon.sprite = StarIcon;
+                NoIcon.sprite = Triple;
+                YesIcon.transform.localScale = unitScale * starScale;
+                NoIcon.transform.localScale = unitScale * tripleScale;
                 handler.visible = true;
                 break;
 
@@ -301,7 +322,12 @@ public class WaveSystem : MonoBehaviour
             case 7:
 
                 handler.GetMessage("Mom", "Attend your Uncle's funeral");
+                YesIcon.sprite = Rest;
+                NoIcon.sprite = ArrowIcon;
+                YesIcon.transform.localScale = unitScale * restScale;
+                NoIcon.transform.localScale = unitScale * arrowScale;
                 handler.visible = true;
+
                 break;
 
             case 8:
