@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChattingMenu.unity
     guid: 495c7b946d7772f41b1897c76a0f8427
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 3269df1279ca0e149afac7ab8e3c832b
   m_configObjects: {}
