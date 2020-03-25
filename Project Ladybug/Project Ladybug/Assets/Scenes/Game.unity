@@ -9441,8 +9441,8 @@ MonoBehaviour:
   Enemy2Speed: 3.334
   Enemy2ShootProbability: 0.01
   Enemy2HP: 2
-  Enemy3Speed: 4.75
-  Enemy3ShootProbability: 0.1
+  Enemy3Speed: 4
+  Enemy3ShootProbability: 0.02
   Enemy3HP: 3
 --- !u!1001 &560543828
 PrefabInstance:
