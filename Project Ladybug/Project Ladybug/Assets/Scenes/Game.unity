@@ -9149,6 +9149,7 @@ GameObject:
   - component: {fileID: 559054640}
   - component: {fileID: 559054639}
   - component: {fileID: 559054641}
+  - component: {fileID: 559054642}
   m_Layer: 0
   m_Name: WaveSystem
   m_TagString: Untagged
@@ -9194,6 +9195,7 @@ MonoBehaviour:
   EnemySyringe: {fileID: -7646541537595109293, guid: 04e22494b30dbd944af379226897543d,
     type: 3}
   playerMod: {fileID: 1223961440}
+  enemyMod: {fileID: 559054642}
   OOF: {fileID: 8300000, guid: c0b172bb7a06bd44b9d11b5c7eafd427, type: 3}
   firstGuyDeathSound: {fileID: 8300000, guid: 5a3887cb9a868ea428cef002cc570dd1, type: 3}
   dishyDeathSound: {fileID: 8300000, guid: 5fdaf91ce15ead44eb2ea9d4376c3646, type: 3}
@@ -9310,6 +9312,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &559054642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559054638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb170b10357eaff4a9e93ad651ebf41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thatEnemySpeed: 0
+  thatEnemyShootProbability: 0
+  thatEnenyHP: 0
 --- !u!1001 &560543828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11633,7 +11650,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -16401,7 +16418,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -20089,7 +20106,7 @@ MonoBehaviour:
   homingRotationSpeed: 0.15
   homingDistance: 5
   homingSize: 0.4
-  homingSpeed: 0.666
+  homingSpeed: 0.6
 --- !u!1001 &1237431897
 PrefabInstance:
   m_ObjectHideFlags: 0
