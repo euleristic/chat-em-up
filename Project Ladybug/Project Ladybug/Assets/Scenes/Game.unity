@@ -9230,6 +9230,7 @@ GameObject:
   - component: {fileID: 559054639}
   - component: {fileID: 559054641}
   - component: {fileID: 559054642}
+  - component: {fileID: 559054643}
   m_Layer: 0
   m_Name: WaveSystem
   m_TagString: Untagged
@@ -9444,6 +9445,18 @@ MonoBehaviour:
   Enemy3Speed: 4
   Enemy3ShootProbability: 0.02
   Enemy3HP: 3
+--- !u!114 &559054643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559054638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a235c670f4898b24391bfb9dfff9a76e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &560543828
 PrefabInstance:
   m_ObjectHideFlags: 0
