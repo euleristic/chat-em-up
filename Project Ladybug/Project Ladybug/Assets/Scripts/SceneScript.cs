@@ -33,4 +33,9 @@ public class SceneScript : MonoBehaviour
     {
         SceneManager.LoadScene("LostScene");
     }
+
+    static public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
 }
