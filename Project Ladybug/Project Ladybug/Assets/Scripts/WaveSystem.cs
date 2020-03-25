@@ -140,7 +140,7 @@ public class WaveSystem : MonoBehaviour
         switch (currentWave)
         {
             case -1:
-                handler.GetMessage("Mom", "Are you playing that stupid game again!?");
+                handler.GetMessage("Mom", "Are you playing that stupid game!?");
                 YesIcon.sprite = Apple;
                 NoIcon.sprite = orbIcon;
                 YesIcon.transform.localScale = unitScale * appleScale;
