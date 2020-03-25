@@ -23,6 +23,28 @@ public class MainMenu : MonoBehaviour
 
     }
 
+    public void LoadMenu2()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
+
+    }
+
+    public void LoadCreadits()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
+
+    }
+
+    public void LoadMenu3()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
+
+    }
+    public void LoadChattApp()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
+
+    }
     public void QuitGame() 
     {
         Debug.Log ("Quit");

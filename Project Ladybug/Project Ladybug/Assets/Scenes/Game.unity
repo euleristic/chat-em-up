@@ -516,9 +516,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -2013,10 +2013,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -2146,9 +2146,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -2495,9 +2495,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -2627,9 +2627,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -3138,9 +3138,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -3391,9 +3391,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -3523,9 +3523,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -3655,10 +3655,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -3788,9 +3788,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -4459,10 +4459,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -4708,9 +4708,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -5171,10 +5171,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -5399,10 +5399,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -5789,9 +5789,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -6132,9 +6132,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -6518,10 +6518,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -7085,9 +7085,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -7488,10 +7488,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -7621,9 +7621,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -8364,9 +8364,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -8686,10 +8686,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -9002,9 +9002,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -9170,8 +9170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Boss: {fileID: 414909756}
   handler: {fileID: 419376396}
-  enemyCountWave0: 20
-  needToKill0: 15
+  enemyCountWave0: 50
+  needToKill0: 30
   spawnRange0: {x: 16, y: 50}
   enemyCountWave2: 20
   needToKill2: 15
@@ -9182,7 +9182,7 @@ MonoBehaviour:
   enemyCountWave6: 20
   needToKill6: 15
   spawnRange6: {x: 16, y: 50}
-  currentWave: 400
+  currentWave: 0
   dishSprite: {fileID: 21300000, guid: a4ec158e8a49885499604a7fb3c2add0, type: 3}
   forkSprite: {fileID: 21300000, guid: 02b4f56c702f8cc479585bab225954e3, type: 3}
   knifeSprite: {fileID: 21300000, guid: 26aecc5048180ca4cb4dc47a684f13be, type: 3}
@@ -9562,9 +9562,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -10038,9 +10038,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -10170,10 +10170,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -10812,9 +10812,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -11087,10 +11087,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -11220,9 +11220,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -12472,10 +12472,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -12605,10 +12605,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -12820,10 +12820,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -13049,10 +13049,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -13223,9 +13223,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -13725,9 +13725,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -14831,9 +14831,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -14963,9 +14963,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -15464,10 +15464,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -15597,10 +15597,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -15825,10 +15825,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -16053,9 +16053,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -16171,10 +16171,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -16619,9 +16619,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -17433,10 +17433,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -17566,9 +17566,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -17698,10 +17698,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -18097,10 +18097,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -18230,9 +18230,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -18362,9 +18362,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -18590,9 +18590,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -18975,10 +18975,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -19275,10 +19275,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -19435,9 +19435,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -19661,10 +19661,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -19811,8 +19811,8 @@ MonoBehaviour:
   - {fileID: 1256810744}
   gravity: 0
   playerMod: {fileID: 1223961440}
-  maxHP: 3
-  hp: 3
+  maxHP: 50
+  hp: 50
 --- !u!212 &1223961434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20036,7 +20036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 786ed1353255ecd41b910e1ab8a97858, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentWeapon: 2
+  currentWeapon: 1
   healthy: 0
   twinShot: 0
   tripleShot: 0
@@ -20063,23 +20063,23 @@ MonoBehaviour:
   standardAttackRate: 0.15
   standardProjectileSize: 1.57
   standardDamage: 1
-  orbChargeSpeed: 1.96
-  orbMaxChargeDuration: 0.84
+  orbChargeSpeed: 2
+  orbMaxChargeDuration: 1
   orbDamageAddedPerSecond: 5
   orbBaselineDamage: 1
-  orbMinSize: 1
+  orbMinSize: 0.1
   orbFinalSize: 3.6
-  orbSpeed: 1
-  bommerangRange: 3
-  boomerangRotationSpeed: 90
-  boomerangAcceleration: 3
+  orbSpeed: 0.15
+  bommerangRange: 1
+  boomerangRotationSpeed: 1
+  boomerangAcceleration: 5
   boomerangSize: 1
   boomerangSpeed: 1
   burstAOEBase: 1
   burstAOEFactor: 1
-  burstSpeedFactor: 1.1
+  burstSpeedFactor: 1.07
   burstSize: 1
-  burstSpeed: 1
+  burstSpeed: 0.5
   arrowAttackSpeed: 0.5
   arrowBulletsPerBurst: 5
   arrowDelta: 0.05
@@ -20357,10 +20357,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -20490,10 +20490,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -20798,9 +20798,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -21026,9 +21026,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -21253,10 +21253,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -21582,10 +21582,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -21715,9 +21715,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -21949,10 +21949,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -22999,10 +22999,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -23426,10 +23426,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -23559,10 +23559,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -23692,9 +23692,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -24259,10 +24259,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -24392,10 +24392,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -24525,9 +24525,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -24657,10 +24657,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -25430,10 +25430,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -27046,9 +27046,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -27178,10 +27178,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -27438,9 +27438,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -27712,10 +27712,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -27946,9 +27946,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -28256,9 +28256,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -28429,10 +28429,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -28752,10 +28752,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -28885,9 +28885,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -29017,9 +29017,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -29149,10 +29149,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -30059,10 +30059,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -30233,9 +30233,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -30603,9 +30603,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -30735,9 +30735,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -30867,10 +30867,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -31190,9 +31190,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -31322,9 +31322,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -31834,10 +31834,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -32109,9 +32109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -32241,9 +32241,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -32564,10 +32564,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -32779,10 +32779,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -33117,10 +33117,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -33250,10 +33250,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -33383,10 +33383,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -33516,9 +33516,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -33926,9 +33926,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
@@ -34099,10 +34099,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -34312,10 +34312,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 7
+  speed: 2.7
   Bullet: {fileID: 3186898386918512911}
   hp: 0
-  shootProbability: 0.01
+  shootProbability: 0.02
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 1
   spawnRange: {x: 0, y: 0}
@@ -34628,9 +34628,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
-  speed: 5
+  speed: 2
   Bullet: {fileID: 0}
-  hp: 1
+  hp: 2
   shootProbability: 0
   deadPos: {x: 0, y: 0, z: 0}
   enemyType: 0
