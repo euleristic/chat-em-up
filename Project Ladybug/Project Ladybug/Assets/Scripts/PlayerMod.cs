@@ -36,6 +36,8 @@ public class PlayerMod : MonoBehaviour
     public float standardProjectileSize;
     public int standardDamage;
     [Header("Orb")]
+    public float orbMinChargeDuration;
+    public bool orbPassThrough;
     public float orbChargeSpeed;
     public float orbMaxChargeDuration;
     public int orbDamageAddedPerSecond;

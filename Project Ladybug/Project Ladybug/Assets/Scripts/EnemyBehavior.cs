@@ -55,18 +55,17 @@ public class EnemyBehavior : MonoBehaviour
     {
         if (other.transform.CompareTag("Bullet"))
         {
-            if (other.GetComponent<Projectile>() != null)
-            {
-                other.transform.position = other.GetComponent<Projectile>().deadPos;
-                other.tag = "WaitingToSpawn";
-            }
             hp -= other.GetComponent<Projectile>().damage;
-            print("took " + other.GetComponent<Projectile>().damage + " damage");
             if (hp <= 0)
             {
                 transform.position = deadPos;
                 transform.tag = "WaitingToSpawn";
                 PlayDeathSound();
+            }
+            if (other.GetComponent<Projectile>().currentWeapon != PlayerMod.Weapon.Boomerang && other.GetComponent<Projectile>().currentWeapon != PlayerMod.Weapon.Orb)
+            {
+                other.transform.position = other.GetComponent<Projectile>().deadPos;
+                other.tag = "WaitingToSpawn";
             }
         }
         else if (other.transform.CompareTag("Floor"))

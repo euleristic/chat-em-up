@@ -290,7 +290,7 @@ public class WaveSystem : MonoBehaviour
 
             case 7:
 
-                handler.GetMessage("Mom", "Attend your Uncle's funurel");
+                handler.GetMessage("Mom", "Attend your Uncle's funeral");
                 handler.visible = true;
                 break;
 

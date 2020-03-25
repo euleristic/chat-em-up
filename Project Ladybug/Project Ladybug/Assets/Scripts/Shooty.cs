@@ -115,7 +115,7 @@ public class Shooty : MonoBehaviour
             }
         }
 
-        if (currentWeapon == PlayerMod.Weapon.Orb && Input.GetButtonUp("Jump"))
+        if (currentWeapon == PlayerMod.Weapon.Orb && Input.GetButtonUp("Jump") && orbClock >= playerMod.orbMinChargeDuration)
         {
             source.Play();
             if (playerMod.tripleShot)
@@ -199,7 +199,6 @@ public class Shooty : MonoBehaviour
                         bullets[i].speed = playerMod.standardProjectileSpeed;
                         bullets[i].transform.localScale = new Vector3(playerMod.standardProjectileSize, playerMod.standardProjectileSize);
                         bullets[i].damage = playerMod.standardDamage;
-                        bullets[i].tag = "WaitingToSpawn";
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
                         bullets[i].tag = "Dead";
@@ -215,7 +214,6 @@ public class Shooty : MonoBehaviour
                         bullets[i].GetComponent<SpriteRenderer>().sprite = orbBullet;
                         bullets[i].speed = playerMod.orbSpeed;
                         bullets[i].transform.localScale = new Vector3(playerMod.orbMinSize, playerMod.orbMinSize);
-                        bullets[i].tag = "WaitingToSpawn";
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
                         bullets[i].tag = "Dead";
@@ -338,7 +336,6 @@ public class Shooty : MonoBehaviour
         if (other.CompareTag("Bullet") && currentWeapon == PlayerMod.Weapon.Boomerang)
         {
             boomerangShot = false;
-            print("hello");
         }
     }
 }

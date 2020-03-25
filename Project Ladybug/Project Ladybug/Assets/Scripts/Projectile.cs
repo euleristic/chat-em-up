@@ -43,7 +43,7 @@ public class Projectile : MonoBehaviour
     void FixedUpdate()
     {
 
-        if (!CompareTag("WaitingToSpawn"))
+        if (!CompareTag("WaitingToSpawn") && !CompareTag("Dead"))
         {
             if (shortFuse)
                 clock += Time.deltaTime;
@@ -124,7 +124,7 @@ public class Projectile : MonoBehaviour
         {
             GameObject.FindObjectOfType<TextMessageHandler>().takeDamage(other.tag);
             transform.position = deadPos;
-            tag = "WaitingToSpawn";
+            tag = "Dead";
         }
         if (other.transform.CompareTag("Wall") && transform.CompareTag("Bullet"))
         {
