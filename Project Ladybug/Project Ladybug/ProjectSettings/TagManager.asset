@@ -12,6 +12,7 @@ TagManager:
   - No
   - EnemyBullet
   - WaitingToSpawn
+  - Dead
   layers:
   - Default
   - TransparentFX

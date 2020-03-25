@@ -232,6 +232,9 @@ public class Shooty : MonoBehaviour
                         bullets[i].speed = playerMod.boomerangSpeed;
                         bullets[i].transform.localScale = new Vector3(playerMod.boomerangSize, playerMod.boomerangSize);
                         bullets[i].tag = "WaitingToSpawn";
+                        bullets[i].boomerangAcceleration = playerMod.boomerangAcceleration;
+                        bullets[i].boomerangRange = playerMod.bommerangRange;
+                        bullets[i].boomerangRotationSpeed = playerMod.boomerangRotationSpeed;
                     }
                     else if (bullets[i].CompareTag("Bullet") && bullets[i].speed > 0f)
                         bullets[i].tag = "Dead";
@@ -335,6 +338,7 @@ public class Shooty : MonoBehaviour
         if (other.CompareTag("Bullet") && currentWeapon == PlayerMod.Weapon.Boomerang)
         {
             boomerangShot = false;
+            print("hello");
         }
     }
 }
