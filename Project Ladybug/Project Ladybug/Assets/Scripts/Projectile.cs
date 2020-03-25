@@ -102,6 +102,7 @@ public class Projectile : MonoBehaviour
             tag = "WaitingToSpawn";
             boomerangDecrementer = 0;
         }
+
         if (currentWeapon == PlayerMod.Weapon.Starburst)
         {
             foreach (var enemy in enemies)
@@ -114,11 +115,9 @@ public class Projectile : MonoBehaviour
             }
             burstExponentiation = burstSpeedFactor;
         }
-        if (currentWeapon == PlayerMod.Weapon.Homing)
+        if (currentWeapon == PlayerMod.Weapon.Homing && !other.CompareTag("Player"))
         {
             enemyTarget = null;
-            transform.position = deadPos;
-            tag = "WaitingToSpawn";
         }
 
         if (other.transform.CompareTag("Yes") || other.transform.CompareTag("No"))

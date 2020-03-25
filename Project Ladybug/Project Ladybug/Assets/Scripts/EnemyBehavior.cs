@@ -61,6 +61,7 @@ public class EnemyBehavior : MonoBehaviour
                 other.tag = "WaitingToSpawn";
             }
             hp -= other.GetComponent<Projectile>().damage;
+            print("took " + other.GetComponent<Projectile>().damage + " damage");
             if (hp <= 0)
             {
                 transform.position = deadPos;
