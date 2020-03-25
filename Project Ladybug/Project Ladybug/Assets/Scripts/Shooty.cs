@@ -293,6 +293,14 @@ public class Shooty : MonoBehaviour
                 break;
 
         }
+        if (playerMod.bigShot)
+            for (int i = 0; i < bullets.Length; i++)
+            {
+                if (bullets[i].CompareTag("WaitingToSpawn") && bullets[i].speed > 0f)
+                {
+                    bullets[i].transform.localScale *= playerMod.projectileSize;
+                }
+            }
     }
 
     void MakeBigShot()
