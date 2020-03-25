@@ -47,6 +47,13 @@ public class Movement1 : MonoBehaviour
             maxHP += playerMod.maxHPadded;
             hp += playerMod.maxHPadded;
             healthy = true;
+            for (int i = 0; i < hearts.Length; i++)
+            {
+                if (i < hp)
+                    hearts[i].sprite = heartSprite;
+                else
+                    hearts[i].sprite = null;
+            }
         }
 
         if (!wet && playerMod.wet)
@@ -66,6 +73,13 @@ public class Movement1 : MonoBehaviour
             if (hp > maxHP)
                 hp = maxHP;
             rest = true;
+            for (int i = 0; i < hearts.Length; i++)
+            {
+                if (i < hp)
+                    hearts[i].sprite = heartSprite;
+                else
+                    hearts[i].sprite = null;
+            }
         }
 
         input.x = Input.GetAxis("Horizontal");
