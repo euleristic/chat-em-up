@@ -48,13 +48,15 @@ public class Projectile : MonoBehaviour
             switch (currentWeapon)
             {
                 case PlayerMod.Weapon.Boomerang:
-                    transform.position += (transform.up * speed + new Vector3(0f, boomerangDecrementer));
-                    transform.localRotation = Quaternion.Euler(0, 0, boomerangRotationSpeed * Time.time);
-                    boomerangDecrementer -= boomerangAcceleration;
-
-                    if (speed + boomerangDecrementer < 0)
+                    boomerangDecrementer -= boomerangAcceleration * Time.deltaTime;
+                    if (speed + boomerangDecrementer > 0.5)
                     {
-                        transform.position += transform.right * 1 / (transform.position.y - player.transform.position.y);
+                        transform.position += (transform.up * speed + new Vector3(0f, boomerangDecrementer));
+                        //transform.rotation = Quaternion.Euler(0, 0, boomerangRotationSpeed * Time.time);
+                    }
+                    else
+                    {
+                        transform.position += (transform.position - player.transform.position).normalized * (speed + boomerangDecrementer);
                     }
                     break;
                 case PlayerMod.Weapon.Starburst:
@@ -94,9 +96,9 @@ public class Projectile : MonoBehaviour
     {
         if (currentWeapon == PlayerMod.Weapon.Boomerang)
         {
-            if (!other.transform.CompareTag("Player")) return;
             transform.position = deadPos;
             tag = "WaitingToSpawn";
+            boomerangDecrementer = boomerangRange;
         }
         if (currentWeapon == PlayerMod.Weapon.Starburst)
         {

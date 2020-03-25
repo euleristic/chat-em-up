@@ -9144,7 +9144,7 @@ MonoBehaviour:
   enemyCountWave6: 20
   needToKill6: 15
   spawnRange6: {x: 16, y: 50}
-  currentWave: 0
+  currentWave: -1
   dishSprite: {fileID: 21300000, guid: a4ec158e8a49885499604a7fb3c2add0, type: 3}
   forkSprite: {fileID: 21300000, guid: 02b4f56c702f8cc479585bab225954e3, type: 3}
   knifeSprite: {fileID: 21300000, guid: 26aecc5048180ca4cb4dc47a684f13be, type: 3}
@@ -19997,16 +19997,16 @@ MonoBehaviour:
   standardAttackRate: 0.15
   standardProjectileSize: 1.57
   standardDamage: 1
-  orbChargeSpeed: 1
-  orbMaxChargeDuration: 2
-  orbDamageAddedPerSecond: 6
-  orbBaselineDamage: 1
-  orbMinSize: 0.1
-  orbFinalSize: 3
-  orbSpeed: 0.22
-  bommerangRange: 0.001
-  boomerangRotationSpeed: 1.2
-  boomerangAcceleration: 0.02
+  orbChargeSpeed: 1.96
+  orbMaxChargeDuration: 0.84
+  orbDamageAddedPerSecond: 49
+  orbBaselineDamage: 102
+  orbMinSize: 1
+  orbFinalSize: 3.6
+  orbSpeed: 1
+  bommerangRange: 0.17
+  boomerangRotationSpeed: 90
+  boomerangAcceleration: 3
   boomerangSize: 1
   boomerangSpeed: 1
   burstAOEBase: 1
@@ -32927,6 +32927,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: WaitingToSpawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: boomerangRange
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: boomerangRotationSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496345256484880324, guid: 6d9f44c1fe24327409de95b809444d30,
+        type: 3}
+      propertyPath: boomerangAcceleration
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9f44c1fe24327409de95b809444d30, type: 3}
