@@ -28,10 +28,13 @@ public class Projectile : MonoBehaviour
     public float homingRotationSpeed;
     public float homingDistance;
 
+    private bool boomerOut;
+
     [SerializeField] float boomerangDecrementer;
     public float burstExponentiation;
     void Start()
     {
+        boomerOut = true;
         damage = 1;
         deadPos = transform.position;
         boomerangDecrementer = 0f;
@@ -58,6 +61,7 @@ public class Projectile : MonoBehaviour
                     }
                     else
                     {
+                        boomerOut = false;
                         transform.position += (transform.position - player.transform.position).normalized * (speed + boomerangDecrementer);
                     }
                     break;
@@ -99,13 +103,14 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (currentWeapon == PlayerMod.Weapon.Boomerang && other.CompareTag("Player"))
+        if (CompareTag("WaitingToSpawn") || other.CompareTag("WaitingToSpawn")) return;
+        if (currentWeapon == PlayerMod.Weapon.Boomerang && other.CompareTag("Player") && !boomerOut)
         {
             transform.position = deadPos;
             tag = "WaitingToSpawn";
             boomerangDecrementer = 0;
+            boomerOut = true;
         }
-
         if (currentWeapon == PlayerMod.Weapon.Starburst)
         {
             foreach (var enemy in enemies)
@@ -129,7 +134,7 @@ public class Projectile : MonoBehaviour
             transform.position = deadPos;
             tag = "Dead";
         }
-        if (other.transform.CompareTag("Wall") && transform.CompareTag("Bullet"))
+        if (other.transform.CompareTag("Wall") && CompareTag("Bullet"))
         {
             transform.position = deadPos;
             tag = "WaitingToSpawn";

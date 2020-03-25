@@ -134,26 +134,6 @@ public class Shooty : MonoBehaviour
             lastshot = Time.time;
             orbClock = 0f;
         }
-
-        if (!boomerangShot && Input.GetButtonDown("Jump") && currentWeapon == PlayerMod.Weapon.Boomerang)
-        {
-            source.Play();
-            if (playerMod.tripleShot)
-            {
-                FireBullet(transform.rotation);
-                FireBullet(Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - playerMod.tripleAngleOffSet));
-                FireBullet(Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z + playerMod.tripleAngleOffSet));
-            }
-            else if (playerMod.twinShot)
-            {
-                FireBullet(Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - playerMod.twinAngleOffSet / 2));
-                FireBullet(Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z + playerMod.twinAngleOffSet / 2));
-            }
-            else
-                FireBullet(transform.rotation);
-            lastshot = Time.time;
-            boomerangShot = true;
-        }
     }
 
     void FireBullet(Quaternion rotation)
