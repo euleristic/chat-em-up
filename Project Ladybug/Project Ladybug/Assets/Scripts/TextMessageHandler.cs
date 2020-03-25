@@ -78,11 +78,13 @@ public class TextMessageHandler : MonoBehaviour
         if (YesHP <= 0)
         {
             GameObject.FindObjectOfType<WaveSystem>().AnswerHit("Yes");
+            Yes.SetActive(false);
             waitingToHide = true;
         }
         else if (NoHP <= 0)
         {
             GameObject.FindObjectOfType<WaveSystem>().AnswerHit("No");
+            No.SetActive(false);
             waitingToHide = true;
         }
     }

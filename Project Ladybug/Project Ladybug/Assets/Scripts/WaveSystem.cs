@@ -81,7 +81,7 @@ public class WaveSystem : MonoBehaviour
         switch (currentWave)
         {
             case 0:
-                if (!handler.visible && enemyCount == enemyCountWave0 - needToKill0)
+                if (!handler.visible && enemyCount <= enemyCountWave0 - needToKill0)
                 {
                     foreach (var enemy in enemiesFound)
                     {
@@ -94,7 +94,7 @@ public class WaveSystem : MonoBehaviour
                 }
                 break;
             case 2:
-                if (!handler.visible && enemyCount == enemyCountWave2 - needToKill2)
+                if (!handler.visible && enemyCount <= enemyCountWave2 - needToKill2)
                 {
                     foreach (var enemy in enemiesFound)
                     {
@@ -106,7 +106,7 @@ public class WaveSystem : MonoBehaviour
                 }
                 break;
             case 4:
-                if (!handler.visible && enemyCount == enemyCountWave4 - needToKill4)
+                if (!handler.visible && enemyCount <= enemyCountWave4 - needToKill4)
                 {
                     foreach (var enemy in enemiesFound)
                     {
@@ -118,7 +118,7 @@ public class WaveSystem : MonoBehaviour
                 }
                 break;
             case 6:
-                if (!handler.visible && enemyCount == enemyCountWave6 - needToKill6)
+                if (!handler.visible && enemyCount <= enemyCountWave6 - needToKill6)
                 {
                     foreach (var enemy in enemiesFound)
                     {
