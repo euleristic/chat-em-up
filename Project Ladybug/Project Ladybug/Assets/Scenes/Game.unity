@@ -9163,7 +9163,7 @@ MonoBehaviour:
   enemyCountWave6: 20
   needToKill6: 15
   spawnRange6: {x: 16, y: 50}
-  currentWave: -1
+  currentWave: 0
   dishSprite: {fileID: 21300000, guid: a4ec158e8a49885499604a7fb3c2add0, type: 3}
   forkSprite: {fileID: 21300000, guid: 02b4f56c702f8cc479585bab225954e3, type: 3}
   knifeSprite: {fileID: 21300000, guid: 26aecc5048180ca4cb4dc47a684f13be, type: 3}
@@ -20024,7 +20024,7 @@ MonoBehaviour:
   movementSpeed: 8.36
   turningSpeed: 6.15
   airResistance: 1.04
-  HPrestored: 6
+  HPrestored: 3
   allHP: 0
   standardProjectileSpeed: 0.25
   standardAttackRate: 0.15
@@ -20032,14 +20032,14 @@ MonoBehaviour:
   standardDamage: 1
   orbChargeSpeed: 1.96
   orbMaxChargeDuration: 0.84
-  orbDamageAddedPerSecond: 49
-  orbBaselineDamage: 102
+  orbDamageAddedPerSecond: 5
+  orbBaselineDamage: 1
   orbMinSize: 1
   orbFinalSize: 3.6
   orbSpeed: 1
-  bommerangRange: 0.17
+  bommerangRange: 0.15
   boomerangRotationSpeed: 90
-  boomerangAcceleration: 3
+  boomerangAcceleration: 5
   boomerangSize: 1
   boomerangSpeed: 1
   burstAOEBase: 1
