@@ -28,13 +28,13 @@ public class Projectile : MonoBehaviour
     public float homingRotationSpeed;
     public float homingDistance;
 
-    private float boomerangDecrementer;
+    [SerializeField] float boomerangDecrementer;
     public float burstExponentiation;
     void Start()
     {
         damage = 1;
         deadPos = transform.position;
-        boomerangDecrementer = boomerangRange;
+        boomerangDecrementer = 0f;
         clock = 0.0f;
         enemies = FindObjectsOfType<EnemyBehavior>();
         burstExponentiation = 1f;
@@ -96,11 +96,11 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (currentWeapon == PlayerMod.Weapon.Boomerang && other.CompareTag("AliveEnemy"))
+        if (currentWeapon == PlayerMod.Weapon.Boomerang && other.CompareTag("Player"))
         {
             transform.position = deadPos;
             tag = "WaitingToSpawn";
-            boomerangDecrementer = 1.0f;
+            boomerangDecrementer = 0;
         }
         if (currentWeapon == PlayerMod.Weapon.Starburst)
         {
