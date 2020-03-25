@@ -9254,14 +9254,14 @@ MonoBehaviour:
   enemyCountWave0: 50
   needToKill0: 30
   spawnRange0: {x: 16, y: 50}
-  enemyCountWave2: 25
-  needToKill2: 15
+  enemyCountWave2: 40
+  needToKill2: 35
   spawnRange2: {x: 16, y: 50}
   enemyCountWave4: 30
-  needToKill4: 15
+  needToKill4: 25
   spawnRange4: {x: 16, y: 50}
   enemyCountWave6: 40
-  needToKill6: 15
+  needToKill6: 30
   spawnRange6: {x: 16, y: 50}
   currentWave: -1
   dishSprite: {fileID: 21300000, guid: a4ec158e8a49885499604a7fb3c2add0, type: 3}
@@ -9433,17 +9433,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb170b10357eaff4a9e93ad651ebf41e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy0Speed: 0
-  enemy0HP: 0
-  Enemy1Speed: 0
-  Enemy1ShootProbability: 0
-  Enemy1HP: 0
-  Enemy2Speed: 0
-  Enemy2ShootProbability: 0
-  Enemy2HP: 0
-  Enemy3Speed: 0
-  Enemy3ShootProbability: 0
-  Enemy3HP: 0
+  enemy0Speed: 3
+  enemy0HP: 1
+  Enemy1Speed: 2.2
+  Enemy1ShootProbability: 0.005
+  Enemy1HP: 2
+  Enemy2Speed: 4.5
+  Enemy2ShootProbability: 0.01
+  Enemy2HP: 3
+  Enemy3Speed: 5.5
+  Enemy3ShootProbability: 0.1
+  Enemy3HP: 4
 --- !u!1001 &560543828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19899,7 +19899,7 @@ MonoBehaviour:
   arrowBullet: {fileID: 21300000, guid: 02e9906a14a8baf40be487beb96ee7c6, type: 3}
   homingBullet: {fileID: 7811314103989777844, guid: 7d2d7ed782429eb4a89d64c193991c88,
     type: 3}
-  shoodspeed: 0.28
+  shoodspeed: 0.45
 --- !u!65 &1223961432
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19927,15 +19927,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6.54
   thrusterLow: 0.1
-  thrusterHigh: 0.3
+  thrusterHigh: 0.2
   thrusterLerp: 0.33
   thruster: {fileID: 1708199502}
   sr: {fileID: 1156003621}
   hitFadeIn: 0.2
   hitFadeOut: 0.1
-  snappiness: 0.35
-  rotationAmount: 30
-  rotationSpeed: 4.8
+  snappiness: 0.4
+  rotationAmount: 40
+  rotationSpeed: 7.8
   airRes: 1.03
   heartSprite: {fileID: 21300000, guid: 6548e972d6e8c144d927710a2fe75304, type: 3}
   hearts:
@@ -19945,8 +19945,8 @@ MonoBehaviour:
   - {fileID: 1256810744}
   gravity: 0
   playerMod: {fileID: 1223961440}
-  maxHP: 50
-  hp: 50
+  maxHP: 3
+  hp: 3
 --- !u!212 &1223961434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20172,7 +20172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentWeapon: 0
   healthy: 0
-  twinShot: 1
+  twinShot: 0
   tripleShot: 0
   bigShot: 0
   shortFuse: 0
@@ -20191,28 +20191,28 @@ MonoBehaviour:
   movementSpeed: 8.36
   turningSpeed: 6.15
   airResistance: 1.04
-  HPrestored: 3
+  HPrestored: 4
   allHP: 0
-  standardProjectileSpeed: 0.25
+  standardProjectileSpeed: 0.334
   standardAttackRate: 0.15
   standardProjectileSize: 1.57
   standardDamage: 1
-  orbMinChargeDuration: 0
-  orbPassThrough: 0
+  orbMinChargeDuration: 0.5
+  orbPassThrough: 1
   orbChargeSpeed: 0.5
-  orbMaxChargeDuration: 1
+  orbMaxChargeDuration: 0.67
   orbDamageAddedPerSecond: 5
   orbBaselineDamage: 1
-  orbMinSize: 0.1
+  orbMinSize: 0.5
   orbFinalSize: 3.6
   orbSpeed: 0.15
   bommerangRange: 1
   boomerangRotationSpeed: 1
-  boomerangAcceleration: 3.334
-  boomerangSize: 0.9
+  boomerangAcceleration: 1.75
+  boomerangSize: 1.1
   boomerangSpeed: 0.8
-  burstAOEBase: 1
-  burstAOEFactor: 1
+  burstAOEBase: 0
+  burstAOEFactor: 0
   burstSpeedFactor: 1.07
   burstSize: 1
   burstSpeed: 0.5
@@ -20221,11 +20221,11 @@ MonoBehaviour:
   arrowDelta: 0.055
   arrowSize: 0.7
   arrowSpeed: 0.334
-  homingAngle: 90
-  homingRotationSpeed: 0.15
-  homingDistance: 5
-  homingSize: 0.4
-  homingSpeed: 0.6
+  homingAngle: 60
+  homingRotationSpeed: 0.003
+  homingDistance: 7.5
+  homingSize: 0.5
+  homingSpeed: 0.085
 --- !u!1001 &1237431897
 PrefabInstance:
   m_ObjectHideFlags: 0
