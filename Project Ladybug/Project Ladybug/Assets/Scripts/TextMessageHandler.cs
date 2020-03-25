@@ -6,6 +6,8 @@ using TMPro;
 
 public class TextMessageHandler : MonoBehaviour
 {
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip plingeling;
     [SerializeField] private UnityEvent _messageIn;
     [SerializeField] private UnityEvent _messageOut;
     [SerializeField] private GameObject Yes;
@@ -30,6 +32,7 @@ public class TextMessageHandler : MonoBehaviour
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         scale = Yes.transform.localScale.x;
         SetVisible(false);
         _animator = GetComponent<Animator>();
@@ -45,7 +48,7 @@ public class TextMessageHandler : MonoBehaviour
     {
         _senderTextBox.text = sender;
         _messageTextBox.text = message;
-
+        audioSource.PlayOneShot(plingeling, 1f);
         _messageIn.Invoke();
     }
 
